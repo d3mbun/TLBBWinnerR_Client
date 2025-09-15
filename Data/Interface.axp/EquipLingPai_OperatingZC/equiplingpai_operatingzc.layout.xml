@@ -1,0 +1,261 @@
+<?xml version="1.0" ?>
+<GUILayout>
+  <Window Type="TLBB_MainFrame1" Name="EquipLingPai_OperatingZC_Frame">
+    <Property Name="UnifiedSize" Value="{{0.000000,479.000000},{0.000000,382.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.500000,-247.000000},{0.500000,-190.000000}}"/>
+    <Event Name="Hidden" Function="EquipLingPai_OperatingZC_OnHiden();"/>
+	<Window Type="TLBB_ButtonHelp" Name="EquipLingPai_OperatingZC_Help">
+		<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+		<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+		<Property Name="Text" Value="TLBB_ButtonHelp" />
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnCloseClicked();"/>
+	</Window>
+    <Window Type="TLBB_ButtonClose" Name="EquipLingPai_OperatingZC_Close">
+      <Property Name="UnifiedSize" Value="{{0.000000,14.000000},{0.000000,14.000000}}"/>
+	<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnCloseClicked();"/>
+    </Window>
+    <Window Type="TLBB_DragTitle" Name="EquipLingPai_OperatingZC_DragTitle">
+		<Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+		<Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}}" />
+      <Property Name="Text" Value="#{BHZB_140521_49}"/>
+      <Property Name="Font" Value="YouYuan11.25"/>
+      <Property Name="DragTarget" Value="EquipLingPai_OperatingZC_Frame"/>
+    </Window>
+    <Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingZC_Page1">
+      <Property Name="UnifiedSize" Value="{{0.000000,117.000000},{0.000000,22.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{0.000000,8.000000},{0.000000,31.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_211}"/>
+      <Property Name="CheckMode" Value="1"/>
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnPageButtonClicked(1)"/>
+    </Window>
+    <Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingZC_Page2">
+      <Property Name="UnifiedSize" Value="{{0.000000,115.000000},{0.000000,22.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.000000,124.000000},{0.000000,31.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_212}"/>
+      <Property Name="CheckMode" Value="1"/>
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnPageButtonClicked(2)"/>
+    </Window>
+    <Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingZC_Page3">
+      <Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,22.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.000000,238.000000},{0.000000,31.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_213}"/>
+      <Property Name="CheckMode" Value="1"/>
+    </Window>
+    <Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingZC_Page4">
+		<Property Name="UnifiedSize" Value="{{0.000000,125.000000},{0.000000,22.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.000000,341.000000},{0.000000,31.000000}}"/>
+      <Property Name="Text" Value="#{JSBZ_141226_01}"/>
+      <Property Name="CheckMode" Value="1"/>
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnPageButtonClicked(4)"/>
+    </Window>
+    <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Client">
+      <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-85.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{0.000000,7.000000},{0.000000,52.000000}}"/>
+      <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingZC_Explain1">
+        <Property Name="VertFormatting" Value="VertCentred"/>
+        <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{1.000000,-203.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+        <Property Name="Text" Value="#{BHZB_140521_215}"/>
+        <Property Name="RiseOnClick" Value="False"/>
+        <Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+      </Window>
+      <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Input">
+        <Property Name="UnifiedSize" Value="{{0.800000,60.000000},{0.000000,34.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.100000,-28.000000},{1.000000,-190.000000}}"/>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_InputText">
+          <Property Name="UnifiedSize" Value="{{0.000000,170.000000},{0.000000,18.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-25.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_51}"/>
+        </Window>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingZC_InputIcon">
+          <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,225.000000},{1.000000,-34.000000}}"/>
+          <Property Name="Empty" Value="False"/>
+          <Property Name="DraggingEnabled" Value="True"/>
+          <Property Name="DragAcceptName" Value="W12"/>
+          <Event Name="RBClicked" Function="EquipLingPai_OperatingZC_OnActionItemRClicked()" />
+        </Window>
+      </Window>
+      <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_ZhanShiQu">
+        <Property Name="UnifiedSize" Value="{{0.800000,59.000000},{0.000000,80.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.100000,-29.000000},{1.000000,-140.000000}}"/>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_ZhanShiQuText">
+          <Property Name="VertFormatting" Value="TopAligned"/>
+          <Property Name="UnifiedSize" Value="{{0.000000,180.000000},{0.000000,16.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,15.000000},{1.000000,-80.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_217}"/>
+          <Property Name="RiseOnClick" Value="False"/>
+          <Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+        </Window>
+        <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Kuang1">
+          <Property Name="UnifiedSize" Value="{{1.000000,-368.000000},{0.000000,62.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-63.000000}}"/>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingZC_FirstGem">
+            <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-58.000000}}"/>
+          <Property Name="Empty" Value="False"/>
+          <Property Name="DraggingEnabled" Value="False"/>
+          <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnActionItemLClicked(1)" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="EquipLingPai_OperatingZC_FirstTuCeng">
+            <Property Name="UnifiedSize" Value="{{0.000000,32.000000},{0.000000,32.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,15.000000},{1.000000,-57.000000}}"/>
+          <Property Name="MouseRButtonHollow" Value="True"/>
+          <Property Name="MouseMoveHollow" Value="True"/>
+          <Property Name="MouseLButtonHollow" Value="True"/>
+          <Property Name="MouseHollow" Value="True"/>
+          <Property Name="Image" Value="set:CommonFrame25 image:EquipLingPai_XiangQian"/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_FirstGrade">
+          <Property Name="VertFormatting" Value="TopAligned"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,16.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,-1.000000},{1.000000,-18.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_57}"/>
+          <Property Name="RiseOnClick" Value="False"/>
+            <Property Name="HorzFormatting" Value="HorzCentred"/>
+          </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Kuang2">
+          <Property Name="UnifiedSize" Value="{{1.000000,-366.000000},{0.000000,62.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,80.000000},{1.000000,-63.000000}}"/>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingZC_SecondGem">
+            <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-58.000000}}"/>
+          <Property Name="Empty" Value="False"/>
+          <Property Name="DraggingEnabled" Value="True"/>
+          <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnActionItemLClicked(2)" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="EquipLingPai_OperatingZC_SecondTuCeng">
+            <Property Name="UnifiedSize" Value="{{0.000000,32.000000},{0.000000,32.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,15.000000},{1.000000,-57.000000}}"/>
+          <Property Name="MouseRButtonHollow" Value="True"/>
+          <Property Name="MouseMoveHollow" Value="True"/>
+          <Property Name="MouseLButtonHollow" Value="True"/>
+          <Property Name="MouseHollow" Value="True"/>
+          <Property Name="Image" Value="set:CommonFrame25 image:EquipLingPai_XiangQian"/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_SecondGrade">
+          <Property Name="VertFormatting" Value="TopAligned"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,16.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,-1.000000},{1.000000,-18.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_57}"/>
+          <Property Name="RiseOnClick" Value="False"/>
+            <Property Name="HorzFormatting" Value="HorzCentred"/>
+          </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Kuang3">
+          <Property Name="UnifiedSize" Value="{{1.000000,-366.000000},{0.000000,62.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,146.000000},{1.000000,-63.000000}}"/>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingZC_ThirdGem">
+            <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-58.000000}}"/>
+          <Property Name="Empty" Value="False"/>
+          <Property Name="DraggingEnabled" Value="True"/>
+          <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnActionItemLClicked(3)" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="EquipLingPai_OperatingZC_ThirdTuCeng">
+            <Property Name="UnifiedSize" Value="{{0.000000,32.000000},{0.000000,32.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,15.000000},{1.000000,-57.000000}}"/>
+          <Property Name="MouseRButtonHollow" Value="True"/>
+          <Property Name="MouseMoveHollow" Value="True"/>
+          <Property Name="MouseLButtonHollow" Value="True"/>
+          <Property Name="MouseHollow" Value="True"/>
+          <Property Name="Image" Value="set:CommonFrame25 image:EquipLingPai_XiangQian"/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_ThirdGrade">
+          <Property Name="VertFormatting" Value="TopAligned"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,16.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,-1.000000},{1.000000,-18.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_57}"/>
+          <Property Name="RiseOnClick" Value="False"/>
+            <Property Name="HorzFormatting" Value="HorzCentred"/>
+          </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Kuang4">
+          <Property Name="UnifiedSize" Value="{{1.000000,-366.000000},{0.000000,62.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,212.000000},{1.000000,-63.000000}}"/>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingZC_FourthGem">
+            <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{1.000000,-58.000000}}"/>
+          <Property Name="Empty" Value="False"/>
+          <Property Name="DraggingEnabled" Value="True"/>
+          <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnActionItemLClicked(4)" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="EquipLingPai_OperatingZC_FourthTuCeng">
+            <Property Name="UnifiedSize" Value="{{0.000000,32.000000},{0.000000,32.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,15.000000},{1.000000,-57.000000}}"/>
+          <Property Name="MouseRButtonHollow" Value="True"/>
+          <Property Name="MouseMoveHollow" Value="True"/>
+          <Property Name="MouseLButtonHollow" Value="True"/>
+          <Property Name="MouseHollow" Value="True"/>
+          <Property Name="Image" Value="set:CommonFrame25 image:EquipLingPai_XiangQian"/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingZC_FourthGrade">
+          <Property Name="VertFormatting" Value="TopAligned"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,16.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,-1.000000},{1.000000,-18.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_57}"/>
+          <Property Name="RiseOnClick" Value="False"/>
+            <Property Name="HorzFormatting" Value="HorzCentred"/>
+          </Window>
+        </Window>
+      </Window>
+      <Window Type="DefaultWindow" Name="EquipLingPai_OperatingZC_Money">
+        <Property Name="UnifiedPosition" Value="{{0.050000,0.000000},{1.000000,-70.000000}" />
+        <Property Name="UnifiedSize" Value="{{0.900000,0.000000},{0.000000,60.000000}" />
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingZC_Want">
+          <Property Name="UnifiedSize" Value="{{1,0.000000},{0.000000,20.000000}" />
+          <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}" />
+          <Property Name="Text" Value="#{BHZB_140521_202}" />
+          <Window Type="TLBB_JiaoZi" Name="EquipLingPai_OperatingZCWantNum">
+            <Property Name="UnifiedPosition" Value="{{0.0,80.000000},{0.000000,2.000000}" />
+            <Property Name="UnifiedSize" Value="{{1.0,-86.000000},{1.000000,-4.000000}" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+          </Window>
+        </Window>
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingZC_Have">
+          <Property Name="UnifiedSize" Value="{{1,0.000000},{0.000000,20.000000}" />
+          <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,20.000000}" />
+          <Property Name="Text" Value="#{BHZB_140521_203}" />
+          <Window Type="TLBB_JiaoZi" Name="EquipLingPai_OperatingZCHaveNum">
+            <Property Name="UnifiedPosition" Value="{{0.0,80.000000},{0.000000,2.000000}" />
+            <Property Name="UnifiedSize" Value="{{1.0,-86.000000},{1.000000,-4.000000}" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+          </Window>
+        </Window>
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingZC_HaveGold">
+          <Property Name="UnifiedSize" Value="{{1,0.000000},{0.000000,20.000000}" />
+          <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,40.000000}" />
+          <Property Name="Text" Value="#{BHZB_140521_204}" />
+          <Window Type="TLBB_Money" Name="EquipLingPai_OperatingZC_HaveGoldNum">
+            <Property Name="UnifiedPosition" Value="{{0.0,80.000000},{0.000000,2.000000}" />
+            <Property Name="UnifiedSize" Value="{{1.0,-86.000000},{1.000000,-4.000000}" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+          </Window>
+        </Window>
+      </Window>
+
+    </Window>
+    <Window Type="TLBB_Frame_Lace5" Name="EquipLingPai_OperatingZC_Blank">
+      <Property Name="UnifiedSize" Value="{{1.000000,-101.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{1.000000,-40.000000}}"/>
+    </Window>
+    <Window Type="TLBB_ButtonCommon" Name="EquipLingPai_OperatingZC_OK">
+      <Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{1.000000,-90.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_67}"/>
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnOkClicked();"/>
+    </Window>
+    <Window Type="TLBB_ButtonCommon" Name="EquipLingPai_OperatingZC_Cancel">
+      <Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{1.000000,-50.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_68}"/>
+      <Event Name="Clicked" Function="EquipLingPai_OperatingZC_OnCancelClicked();"/>
+    </Window>
+  </Window>
+</GUILayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame1" Name="EquipLingPai_OperatingJS_Frame">
+		<Property Name="UnifiedSize" Value="{{0.000000,583.000000},{0.000000,382.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.500000,-163.000000},{0.500000,-191.000000}}"/>
+		<Event Name="Hidden" Function="EquipLingPai_OperatingJS_OnHiden();"/>
+	<Window Type="TLBB_ButtonHelp" Name="EquipLingPai_OperatingJS_Help">
+		<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+		<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+		<Property Name="Text" Value="TLBB_ButtonHelp" />
+      <Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnCloseClicked();"/>
+	</Window>
+		<Window Type="TLBB_ButtonClose" Name="EquipLingPai_OperatingJS_Close">
+			<Property Name="UnifiedSize" Value="{{0.000000,14.000000},{0.000000,14.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnCloseClicked();"/>
+		</Window>
+		<Window Type="TLBB_DragTitle" Name="EquipLingPai_OperatingJS_DragTitle">
+			<Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+			<Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}}" />
+			<Property Name="Text" Value="#{JSBZ_141226_03}"/>
+			<Property Name="Font" Value="YouYuan11.25"/>
+			<Property Name="DragTarget" Value="EquipLingPai_OperatingJS_Frame"/>
+		</Window>
+		<Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingJS_Page1">
+			<Property Name="UnifiedSize" Value="{{0.000000,125.000000},{0.000000,22.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,8.000000},{0.000000,31.000000}}"/>
+			<Property Name="Text" Value="#{BHZB_140521_211}"/>
+			<Property Name="CheckMode" Value="1"/>
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnPageButtonClicked(1)"/>
+		</Window>
+		<Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingJS_Page2">
+			<Property Name="UnifiedSize" Value="{{0.000000,125.000000},{0.000000,22.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,131.000000},{0.000000,31.000000}}"/>
+			<Property Name="Text" Value="#{BHZB_140521_212}"/>
+			<Property Name="CheckMode" Value="1"/>
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnPageButtonClicked(2)"/>
+		</Window>
+		<Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingJS_Page3">
+			<Property Name="UnifiedSize" Value="{{0.000000,125.000000},{0.000000,22.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,254.000000},{0.000000,31.000000}}"/>
+			<Property Name="Text" Value="#{BHZB_140521_213}"/>
+			<Property Name="CheckMode" Value="1"/>
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnPageButtonClicked(3)"/>
+		</Window>
+		<Window Type="TLBB_ButtonFenYe2" Name="EquipLingPai_OperatingJS_Page4">
+			<Property Name="UnifiedSize" Value="{{0.000000,125.000000},{0.000000,22.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,378.000000},{0.000000,31.000000}}"/>
+			<Property Name="Text" Value="#{JSBZ_141226_01}"/>
+			<Property Name="CheckMode" Value="1"/>
+		</Window>
+		<Window Type="DefaultWindow" Name="EquipLingPai_OperatingJS_Client">
+			<Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-85.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,7.000000},{0.000000,52.000000}}"/>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingJS_Explain1">
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.480000,0.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+				<Property Name="Text" Value="#{JSBZ_141226_04}"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+			</Window>
+			<Window Type="DefaultWindow" Name="EquipLingPai_OperatingJS_Input">
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,40.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.510000,0.000000}}"/>
+				<Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingJS_InputText">
+					<Property Name="UnifiedSize" Value="{{0.600000,0.000000},{0.000000,18.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.100000,0.000000},{0.500000,-9.000000}}"/>
+					<Property Name="Text" Value="#{JSBZ_141226_05}"/>
+				</Window>
+				<Window Type="TLBB_ActionButton" Name="EquipLingPai_OperatingJS_InputIcon">
+					<Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.800000,-17.000000},{0.500000,-17.000000}}"/>
+					<Property Name="Empty" Value="False"/>
+					<Property Name="DraggingEnabled" Value="True"/>
+					<Property Name="DragAcceptName" Value="W16"/>
+					<Event Name="RBClicked" Function="EquipLingPai_OperatingJS_OnActionItemRClicked()"/>
+				</Window>
+			</Window>
+			<Window Type="DefaultWindow" Name="EquipLingPai_OperatingJS_Output">
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,30.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.660000,0.000000}}"/>
+				<Window Type="TLBB_SimpleText" Name="EquipLingPai_OperatingJS_OutputText">
+					<Property Name="UnifiedSize" Value="{{0.550000,0.000000},{0.000000,18.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.100000,0.000000},{0.500000,-9.000000}}"/>
+					<Property Name="Text" Value="#{JSBZ_141226_06}"/>
+				</Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingJS_OutputNumber">
+					<Property Name="UnifiedSize" Value="{{0.200000,0.000000},{0.000000,22.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.700000,0.000000},{0.500000,-11.000000}}"/>
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="Text" Value="#{}"/>
+				</Window>
+			</Window>
+			<Window Type="DefaultWindow" Name="EquipLingPai_OperatingJS_Money">
+				<Property Name="UnifiedPosition" Value="{{0.050000,0.000000},{1.000000,-70.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.900000,0.000000},{0.000000,60.000000}}"/>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingJS_Want">
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+          <Property Name="Text" Value="#{JSBZ_141226_07}" />
+					<Window Type="TLBB_JiaoZi" Name="EquipLingPai_OperatingJSWantNum">
+						<Property Name="UnifiedPosition" Value="{{0.000000,80.000000},{0.000000,2.000000}}"/>
+						<Property Name="UnifiedSize" Value="{{1.000000,-86.000000},{1.000000,-4.000000}}"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+					</Window>
+				</Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingJS_Have">
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="Text" Value="#{JSBZ_141226_08}"/>
+					<Window Type="TLBB_JiaoZi" Name="EquipLingPai_OperatingJSHaveNum">
+						<Property Name="UnifiedPosition" Value="{{0.000000,80.000000},{0.000000,2.000000}}"/>
+						<Property Name="UnifiedSize" Value="{{1.000000,-86.000000},{1.000000,-4.000000}}"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+					</Window>
+				</Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_OperatingJS_HaveGold">
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,40.000000}}"/>
+          <Property Name="Text" Value="#{JSBZ_141226_09}" />
+					<Window Type="TLBB_Money" Name="EquipLingPai_OperatingJS_HaveGoldNum">
+						<Property Name="UnifiedPosition" Value="{{0.000000,80.000000},{0.000000,2.000000}}"/>
+						<Property Name="UnifiedSize" Value="{{1.000000,-86.000000},{1.000000,-4.000000}}"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+					</Window>
+				</Window>
+			</Window>
+		</Window>
+		<Window Type="TLBB_Frame_Lace5" Name="EquipLingPai_OperatingJS_Blank">
+			<Property Name="UnifiedSize" Value="{{1.000000,-101.000000},{0.000000,20.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{1.000000,-40.000000}}"/>
+		</Window>
+		<Window Type="TLBB_ButtonCommon" Name="EquipLingPai_OperatingJS_OK">
+			<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{1.000000,-90.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{JSBZ_141226_10}"/>
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnOkClicked();"/>
+		</Window>
+		<Window Type="TLBB_ButtonCommon" Name="EquipLingPai_OperatingJS_Cancel">
+			<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+			<Property Name="UnifiedPosition" Value="{{1.000000,-50.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{JSBZ_141226_11}"/>
+			<Event Name="Clicked" Function="EquipLingPai_OperatingJS_OnCancelClicked();"/>
+		</Window>
+	</Window>
+</GUILayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="FunctionBarRight_Frame">
+		<Property Name="UnifiedSize" Value="{{0,44},{0.0,348}}" />
+		<Property Name="UnifiedXPosition" Value="{1.0,-44}" />
+		<Property Name="UnifiedYPosition" Value="{0,216}" />
+		<Window Type="DefaultWindow" Name="FunctionBarRight_Function_Frame">
+			<Property Name="Position" Value="x:0.0 y:0.0" />
+			<Property Name="Size" Value="w:1.0 h:1.0" />
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action1">
+				<Property Name="Position" Value="x:0.136363636 y:0.051724" />
+				<Property Name="Size" Value="w:0.72727272 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M10" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(11);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(11);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action2">
+				<Property Name="Position" Value="x:0.1363636 y:0.152299" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M11" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(12);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(12);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action3">
+				<Property Name="Position" Value="x:0.1363636 y:0.252874" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M12" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(13);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(13);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action4">
+				<Property Name="Position" Value="x:0.1363636 y:0.353448" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M13" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(14);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(14);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action5">
+				<Property Name="Position" Value="x:0.1363636 y:0.454023" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M14" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(15);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(15);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action6">
+				<Property Name="Position" Value="x:0.1363636 y:0.554598" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M15" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(16);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(16);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action7">
+				<Property Name="Position" Value="x:0.1363636 y:0.655172" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M16" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(17);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(17);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action8">
+				<Property Name="Position" Value="x:0.1363636 y:0.755747" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M17" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(18);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(18);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action9">
+				<Property Name="Position" Value="x:0.1363636 y:0.856322" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M18" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(19);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(19);" />
+			</Window>
+			
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_Button_Action10">
+				<Property Name="Position" Value="x:0.1363636 y:0.956897" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M19" />
+				<Event Name="Clicked" Function="FunctionBarRight_Clicked(20);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_Clicked(20);" />
+			</Window>
+		</Window>
+  </Window>
+</GUILayout>

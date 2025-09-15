@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<Imageset Name="MiniMap_Icon" Imagefile="Common/tga_MiniMap_Icon.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="HuangLongFu_Normal" XPos="0" YPos="19" Width="76" Height="11" />
+	<Image Name="HuangLongFu_Hover" XPos="51" YPos="19" Width="76" Height="11" />
+	<Image Name="ChangBaiShan_Normal" XPos="81" YPos="19" Width="83" Height="11" />
+	<Image Name="ChangBaiShan_Hover" XPos="164" YPos="19" Width="83" Height="11" />
+	
+	<Image Name="WuDangShan_Normal" XPos="0" YPos="29" Width="59" Height="11" />
+	<Image Name="WuDangShan_Hover" XPos="51" YPos="29" Width="59" Height="11" />
+	<Image Name="YanZiWu_Normal" XPos="123" YPos="29" Width="41" Height="11" />
+	<Image Name="YanZiWu_Hover" XPos="164" YPos="29" Width="41" Height="11" />
+	
+	<Image Name="LingBoDong_Normal" XPos="0" YPos="39" Width="63" Height="10" />
+	<Image Name="LingBoDong_Hover" XPos="51" YPos="39" Width="63" Height="10" />
+	<Image Name="WuLiangShan_Normal" XPos="98" YPos="39" Width="66" Height="10" />
+	<Image Name="WuLiangShan_Hover" XPos="164" YPos="39" Width="66" Height="10" />
+	
+
+	<Image Name="XingXiuHai_Normal" XPos="0" YPos="49" Width="55" Height="9" />
+	<Image Name="XingXiuHai_Hover" XPos="51" YPos="49" Width="55" Height="9" />
+	<Image Name="EMeiShan_Normal" XPos="110" YPos="49" Width="54" Height="10" />
+	<Image Name="EMeiShan_Hover" XPos="164" YPos="49" Width="54" Height="10" />
+
+	<Image Name="ShaoLinSi_Normal" XPos="0" YPos="58" Width="59" Height="10" />
+	<Image Name="ShaoLinSi_Hover" XPos="51" YPos="58" Width="59" Height="10" />
+	<Image Name="YiPinTang_Normal" XPos="81" YPos="58" Width="83" Height="10" />
+	<Image Name="YipinTang_Hover" XPos="164" YPos="58" Width="83" Height="10" />
+	
+	<Image Name="JuXianZhuang_Normal" XPos="0" YPos="69" Width="79" Height="9" />
+	<Image Name="JuXianZhuang_Hover" XPos="51" YPos="69" Width="79" Height="9" />
+	<Image Name="GuangMingDing_Normal" XPos="88" YPos="68" Width="76" Height="9" />
+	<Image Name="GuangMingDing_Hover" XPos="164" YPos="68" Width="76" Height="9" />
+
+
+
+	<Image Name="Sign1_Normal" XPos="6" YPos="114" Width="22" Height="20" />
+	<Image Name="Sign1_Hover" XPos="45" YPos="114" Width="22" Height="20" />
+	
+	<Image Name="Sign2_Normal" XPos="1" YPos="134" Width="12" Height="11" />
+	<Image Name="Sign2_Hover" XPos="45" YPos="135" Width="12" Height="11" />
+	
+	<Image Name="Sign3_Normal" XPos="67" YPos="133" Width="14" Height="14" />
+	<Image Name="Sign3_Hover" XPos="111" YPos="133" Width="14" Height="14" />
+	
+	<Image Name="Sign4_Normal" XPos="149" YPos="115" Width="42" Height="46" />
+	<Image Name="Sign4_Hover" XPos="196" YPos="115" Width="42" Height="46" />
+	
+	<Image Name="Sign5_Normal" XPos="3" YPos="153" Width="52" Height="26" />
+	<Image Name="Sign5_Hover" XPos="67" YPos="153" Width="52" Height="26" />
+	
+	<Image Name="Sign6_Normal" XPos="143" YPos="161" Width="49" Height="23" />
+	<Image Name="Sign6_Hover" XPos="194" YPos="161" Width="49" Height="23" />
+	
+	<Image Name="Sign7_Normal" XPos="6" YPos="189" Width="46" Height="29" />
+	<Image Name="Sign7_Hover" XPos="73" YPos="189" Width="46" Height="29" />
+	
+	<Image Name="Sign8_Normal" XPos="120" YPos="186" Width="68" Height="30" />
+	<Image Name="Sign8_Hover" XPos="189" YPos="185" Width="68" Height="30" />
+	
+	<Image Name="Sign9_Normal" XPos="3" YPos="222" Width="53" Height="30" />
+	<Image Name="Sign9_Hover" XPos="72" YPos="222" Width="53" Height="30" />
+	
+	<Image Name="Sign10_Normal" XPos="152" YPos="226" Width="28" Height="21" />
+	<Image Name="Sign10_Hover" XPos="208" YPos="227" Width="28" Height="21" />
+
+	<Image Name="Sign13_Normal" XPos="6" YPos="23" Width="46" Height="28" />
+	<Image Name="Sign13_Hover" XPos="6" YPos="65" Width="46" Height="28" />
+	
+	<Image Name="Sign14_Normal" XPos="117" YPos="23" Width="45" Height="28" />
+	<Image Name="Sign14_Hover" XPos="119" YPos="68" Width="45" Height="28" />
+	 <Image Name="Sign52_Normal" XPos="111" YPos="133" Width="14" Height="14" />
+	<Image Name="Sign52_Hover" XPos="111" YPos="133" Width="14" Height="14" />
+</Imageset>

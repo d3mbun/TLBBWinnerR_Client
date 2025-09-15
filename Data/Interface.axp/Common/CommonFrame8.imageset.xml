@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+	<Imageset Name="CommonFrame8" Imagefile="Common/tga_CommonFrame8.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="false">
+		<Image Name="TragetFrame" XPos="0" YPos="0" Width="238" Height="68" />
+    <Image Name="TragetLevel" XPos="0" YPos="68" Width="51" Height="18" />
+    <Image Name="PlayerFrame" XPos="0" YPos="86" Width="239" Height="71" />
+    <Image Name="BugUpdate_Nor" XPos="0" YPos="234" Width="21" Height="21" />
+    <Image Name="BugUpdate_Hov" XPos="22" YPos="234" Width="21" Height="21" />
+    <Image Name="BugUpdate_Push" XPos="44" YPos="234" Width="21" Height="21" />
+    <Image Name="BugUpdate_Dis" XPos="66" YPos="234" Width="21" Height="21" />
+    <Image Name="Sns_GetChest" XPos="0" YPos="160" Width="25" Height="25" />
+    <Image Name="Sns_PersonalStatus" XPos="25" YPos="160" Width="25" Height="25" />
+    <Image Name="Sns_CommunityDynamic" XPos="50" YPos="160" Width="25" Height="25" />
+    <Image Name="Sns_SpecialAchievement" XPos="75" YPos="160" Width="25" Height="25" />
+    <Image Name="Sns_SpecialShow" XPos="100" YPos="160" Width="25" Height="25" />
+    <Image Name="Sns_GameAchievement" XPos="125" YPos="160" Width="25" Height="25" />
+    <Image Name="SnsView_Nor" XPos="160" YPos="160" Width="20" Height="20" />
+    <Image Name="SnsView_Hov" XPos="180" YPos="160" Width="20" Height="20" />
+    <Image Name="SnsView_Push" XPos="200" YPos="160" Width="20" Height="20" />
+    <Image Name="SnsView_Dis" XPos="220" YPos="160" Width="20" Height="20" />
+    <Image Name="SnsClose_Nor" XPos="0" YPos="185" Width="50" Height="25" />
+    <Image Name="SnsClose_Hov" XPos="50" YPos="185" Width="50" Height="25" />
+    <Image Name="SnsClose_Push" XPos="100" YPos="185" Width="50" Height="25" />
+    <Image Name="SnsClose_Dis" XPos="150" YPos="185" Width="50" Height="25" />
+    <Image Name="SnsOpen_Nor" XPos="200" YPos="185" Width="50" Height="25" />
+    <Image Name="SnsOpen_Hov" XPos="100" YPos="210" Width="50" Height="25" />
+    <Image Name="SnsOpen_Push" XPos="150" YPos="210" Width="50" Height="25" />
+    <Image Name="SnsOpen_Dis" XPos="200" YPos="210" Width="50" Height="25" />
+    
+	</Imageset>

@@ -1,0 +1,18 @@
+INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	INT	INT	STRING	
+INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	INT	INT	STRING	
+###phien ban doc quyen giai ma mua boi nguyenvinh nam 2020  https://www.facebook.com/vinh.ys6688 VKB 1 MTM 3 GKD 4 LUJ 46 PZE 8 VWN 只看数字 年 月 日 时 分 秒 
+0	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+1	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+2	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+3	移动	移动	移动	移动	移动	移动	移动	移动	移动	0	-1		
+4	移动	移动	移动	移动	移动	移动	移动	移动	移动	0	-1		
+5	站立	站立	站立	站立	站立	站立	站立	站立	站立	1	-1		
+6	站立	站立	站立	站立	站立	站立	站立	站立	站立	1	-1		
+7	站立	站立	站立	站立	站立	站立	站立	站立	站立	1	-1		
+14	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+15	移动	移动	移动	移动	移动	移动	移动	移动	移动	0	-1		
+16	移动	移动	移动	移动	移动	移动	移动	移动	移动	0	-1		
+23	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+24	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+25	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		
+125	站立	站立	站立	站立	站立	站立	站立	站立	站立	0	-1		

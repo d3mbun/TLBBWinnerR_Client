@@ -1,0 +1,513 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="PlayerImpact_Frame">
+        <Property Name="UnifiedPosition" Value="{{1.0,-418},{0.0,20}}" />
+        <Property Name="AbsoluteSize" Value="w:216 h:184" />
+        <Property Name="MouseHollow" Value="True" />
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image1">
+            <Property Name="AbsolutePosition" Value="x:184.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image1_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image2">
+            <Property Name="AbsolutePosition" Value="x:148.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image2_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image3">
+            <Property Name="AbsolutePosition" Value="x:112.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image3_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image4">
+            <Property Name="AbsolutePosition" Value="x:76.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image4_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image5">
+            <Property Name="AbsolutePosition" Value="x:40.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image5_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image6">
+            <Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image6_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image7">
+            <Property Name="AbsolutePosition" Value="x:184.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image7_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image8">
+            <Property Name="AbsolutePosition" Value="x:148.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image8_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image9">
+            <Property Name="AbsolutePosition" Value="x:112.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image9_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image10">
+            <Property Name="AbsolutePosition" Value="x:76.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image10_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image11">
+            <Property Name="AbsolutePosition" Value="x:40.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image11_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image12">
+            <Property Name="AbsolutePosition" Value="x:4.000000 y:48.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image12_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image13">
+            <Property Name="AbsolutePosition" Value="x:184.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image13_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image14">
+            <Property Name="AbsolutePosition" Value="x:148.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image14_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image15">
+            <Property Name="AbsolutePosition" Value="x:112.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image15_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image16">
+            <Property Name="AbsolutePosition" Value="x:76.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image16_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image17">
+            <Property Name="AbsolutePosition" Value="x:40.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image17_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image18">
+            <Property Name="AbsolutePosition" Value="x:4.000000 y:94.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image18_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image19">
+            <Property Name="AbsolutePosition" Value="x:184.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image19_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image20">
+            <Property Name="AbsolutePosition" Value="x:148.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image20_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image21">
+            <Property Name="AbsolutePosition" Value="x:112.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image21_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image22">
+            <Property Name="AbsolutePosition" Value="x:76.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image22_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image23">
+            <Property Name="AbsolutePosition" Value="x:40.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image23_Click();" />
+        </Window>
+        <Window Type="TLBB_StaticImageNULL" Name="PlayerImpact_Image24">
+            <Property Name="AbsolutePosition" Value="x:4.000000 y:140.000000" />
+            <Property Name="AbsoluteSize" Value="w:28.000000 h:28.000000" />
+            <Property Name="MouseHollow" Value="True" />
+            <Event Name="MouseRClick" Function="PlayerImpactFrame_Image24_Click();" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text1">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="91:98" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text2">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text3">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_107}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text4">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_108}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text5">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_109}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text6">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_110}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text7">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_111}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text8">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_112}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text9">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_113}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text10">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_104}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text11">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_105}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text12">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text13">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text14">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text15">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text16">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text17">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text18">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text19">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text20">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text21">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text22">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text23">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+        <Window Type="TLBB_StopWatch" Name="PlayerImpact_Text24">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="MouseHollow" Value="True" />
+            <Property Name="Text" Value="#{INTERFACE_XML_106}" />
+        </Window>
+		
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText1">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText2">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText3">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText4">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText5">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText6">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:32.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText7">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText8">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText9">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText10">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText11">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText12">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:78.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText13">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText14">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText15">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText16">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText17">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText18">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:124.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText19">
+            <Property Name="AbsolutePosition" Value="x:180.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText20">
+            <Property Name="AbsolutePosition" Value="x:144.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText21">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText22">
+            <Property Name="AbsolutePosition" Value="x:72.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText23">
+            <Property Name="AbsolutePosition" Value="x:36.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="PlayerImpact_NewText24">
+            <Property Name="AbsolutePosition" Value="x:0.000000 y:170.000000" />
+            <Property Name="AbsoluteSize" Value="w:36.000000 h:14.000000" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+    </Window>
+</GUILayout>

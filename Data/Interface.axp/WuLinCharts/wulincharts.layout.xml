@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame1" Name="WuLinCharts_Frame">
+		<Property Name="UnifiedPosition" Value="{{0.400000,0.000000},{0.150000,0.000000}}"/>
+		<Property Name="AbsoluteSize" Value="w:306.000000 h:325.000000"/>
+		<Window Type="TLBB_DragTitle" Name="WuLinCharts_DragTitle">
+            <Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}" />
+			<Property Name="DragTarget" Value="WuLinCharts_Frame"/>
+			<Property Name="Font" Value="YouYuan11.25"/>
+			<Property Name="HorzFormatting" Value="HorzCentred"/>
+			<Property Name="VertFormatting" Value="VertCentred"/>
+            <Property Name="Text" Value="#gFF0FA0Hợp thành Hồn Băng Châu" />
+		</Window>
+		<Window Type="TLBB_ButtonClose" Name="WuLinCharts_Close">
+            <Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Event Name="Clicked" Function="WuLinCharts_Close();"/>
+		</Window>
+		<Window Type="TLBB_ButtonHelp" Name="WuLinCharts_Help">
+            <Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+		</Window>
+		<Window Type="DefaultWindow" Name="WuLinCharts_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:7.000000 y:36.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-13.000000},{1.000000,-55.000000}" />
+			<Property Name="RiseOnClick" Value="False"/>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="WuLinCharts_Info">
+				<Property Name="Position" Value="x:0.000000 y:0.000000"/>
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,93.000000}}"/>
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+				<Property Name="RiseOnClick" Value="False"/>
+                <Property Name="Text" Value="#cfff263 Thăng cấp hợp thành Hồn Băng Châu cùng loại#r#G (Nguyên liệu hợp thành cần 5 viên)" />
+				<Property Name="TextColor" Value="FFFFF263"/>
+			</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="WuLinCharts_SuccessValue">
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,96.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Property Name="TextColor" Value="FFFFF263"/>
+			</Window>
+			<Window Type="TLBB_ActionButton" Name="WuLinCharts_Space1">
+				<Property Name="UnifiedPosition" Value="{{0.000000,60.000000},{0.000000,131.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000"/>
+				<Property Name="DragAcceptName" Value="G67"/>
+				<Property Name="DraggingEnabled" Value="True"/>
+				<Event Name="Clicked" Function="WuLinCharts_CancelGoods(1);"/>
+			</Window>
+			<Window Type="TLBB_ActionButton" Name="WuLinCharts_Space2">
+				<Property Name="UnifiedPosition" Value="{{0.000000,98.000000},{0.000000,131.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000"/>
+				<Property Name="DragAcceptName" Value="G68"/>
+				<Property Name="DraggingEnabled" Value="True"/>
+				<Event Name="Clicked" Function="WuLinCharts_CancelGoods(2);"/>
+			</Window>
+			<Window Type="TLBB_ActionButton" Name="WuLinCharts_Space3">
+				<Property Name="UnifiedPosition" Value="{{0.000000,136.000000},{0.000000,131.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000"/>
+				<Property Name="DragAcceptName" Value="G69"/>
+				<Property Name="DraggingEnabled" Value="True"/>
+				<Event Name="Clicked" Function="WuLinCharts_CancelGoods(3);"/>
+			</Window>
+			<Window Type="TLBB_ActionButton" Name="WuLinCharts_Space4">
+				<Property Name="UnifiedPosition" Value="{{0.000000,174.000000},{0.000000,131.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000"/>
+				<Property Name="DragAcceptName" Value="G70"/>
+				<Property Name="DraggingEnabled" Value="True"/>
+				<Event Name="Clicked" Function="WuLinCharts_CancelGoods(4);"/>
+			</Window>
+			<Window Type="TLBB_ActionButton" Name="WuLinCharts_Space5">
+				<Property Name="UnifiedPosition" Value="{{0.000000,212.000000},{0.000000,131.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000"/>
+				<Property Name="DragAcceptName" Value="G71"/>
+				<Property Name="DraggingEnabled" Value="True"/>
+				<Event Name="Clicked" Function="WuLinCharts_CancelGoods(5);"/>
+			</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="WuLinCharts_Static3">
+				<Property Name="UnifiedPosition" Value="{{0.050000,0.000000},{1.000000,-94.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.900000,0.000000},{0.000000,22.000000}}"/>
+				<Property Name="Text" Value="#{INTERFACE_XML_789}"/>
+				<Property Name="TextColor" Value="FFFFF263"/>
+				<Property Name="HorzFormatting" Value="LeftAligned"/>
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Window Type="TLBB_Money" Name="WuLinCharts_NeedMoney">
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="HorzFormatting" Value="RightAligned"/>
+					<Property Name="MoneyNumber" Value="0"/>
+					<Property Name="GoldIcon" Value="set:Button6 image:Lace_JiaoziJin"/>
+					<Property Name="SilverIcon" Value="set:Button6 image:Lace_JiaoziYin"/>
+					<Property Name="CopperIcon" Value="set:Button6 image:Lace_JiaoziTong"/>
+				</Window>
+			</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="WuLinCharts_SelfJiaozi_Text">
+				<Property Name="UnifiedPosition" Value="{{0.050000,0.000000},{1.000000,-72.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.900000,0.000000},{0.000000,22.000000}}"/>
+				<Property Name="HorzFormatting" Value="LeftAligned"/>
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="Text" Value="#{INTERFACE_XML_1248}"/>
+				<Property Name="TextColor" Value="FFFFF263"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Window Type="TLBB_Money" Name="WuLinCharts_SelfJiaozi">
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="HorzFormatting" Value="RightAligned"/>
+					<Property Name="MoneyNumber" Value="0"/>
+					<Property Name="GoldIcon" Value="set:Button6 image:Lace_JiaoziJin"/>
+					<Property Name="SilverIcon" Value="set:Button6 image:Lace_JiaoziYin"/>
+					<Property Name="CopperIcon" Value="set:Button6 image:Lace_JiaoziTong"/>
+				</Window>
+			</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="WuLinCharts_SelfMoney_Text">
+				<Property Name="UnifiedPosition" Value="{{0.050000,0.000000},{1.000000,-50.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.900000,0.000000},{0.000000,22.000000}}"/>
+				<Property Name="HorzFormatting" Value="LeftAligned"/>
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="Text" Value="#{INTERFACE_XML_834}"/>
+				<Property Name="TextColor" Value="FFFFF263"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Window Type="TLBB_Money" Name="WuLinCharts_SelfMoney">
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,0.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,20.000000}}"/>
+					<Property Name="HorzFormatting" Value="RightAligned"/>
+					<Property Name="MoneyNumber" Value="0"/>
+				</Window>
+			</Window>
+			<Window Type="TLBB_Frame_Lace5" Name="WuLinCharts_Blank">
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{1.000000,-20.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,165.000000},{0.000000,20.000000}}"/>
+			</Window>
+			<Window Type="TLBB_ButtonCommon" Name="WuLinCharts_OK">
+				<Property Name="UnifiedPosition" Value="{{1.000000,-129.000000},{1.000000,-20.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:69.000000 h:20.000000"/>
+				<Property Name="Text" Value="#{INTERFACE_XML_1181}"/>
+				<Event Name="Clicked" Function="WuLinCharts_OK_Clicked();"/>
+			</Window>
+			<Window Type="TLBB_ButtonCommon" Name="WuLinCharts_Cancel">
+				<Property Name="UnifiedPosition" Value="{{1.000000,-63.000000},{1.000000,-20.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:60.000000 h:20.000000"/>
+				<Property Name="Text" Value="#{INTERFACE_XML_539}"/>
+				<Event Name="Clicked" Function="WuLinCharts_Cancel_Clicked();"/>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>

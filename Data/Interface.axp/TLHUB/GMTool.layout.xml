@@ -1,0 +1,326 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame0" Name="GMTool_Frame">
+		<Property Name="UnifiedSize" Value="{{0.000000,510.000000},{0.000000,400.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.50000,-255.000000},{0.50000,-200.000000}}"/>
+		<Event Name="Hidden" Function="GMTool_OnHidden();"/>
+		<Window Type="TLBB_DragTitle" Name="GMTool_DragTitle">
+			<Property Name="AbsolutePosition" Value="x:30.000000 y:11.000000"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,-80.000000},{0.000000,20.000000}" />
+			<Property Name="DragTarget" Value="GMTool_Frame"/>
+			<Window Type="TLBB_SimpleText" Name="GMTool_Text">
+				<Property Name="RelativePosition" Value="x:0.000000 y:0.000000"/>
+				<Property Name="RelativeSize" Value="w:1.000000 h:1.000000"/>
+				<Property Name="Font" Value="YouYuan11.25"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Property Name="Text" Value="#GGM Tool (GM Available)"/>
+			</Window>
+		</Window>
+		<Window Type="TLBB_ButtonHelp" Name="GMTool_Help">
+			<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonHelp" />
+			<Event Name="Clicked" Function="GMTool_Help();" />
+		</Window>
+		<Window Type="TLBB_ButtonClose" Name="GMTool_Close">
+			<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonClose" />
+			<Event Name="Clicked" Function="GMTool_OnHidden();" />
+		</Window>
+        <Window Type="DefaultWindow" Name="GMTool_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:10.000000 y:35.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-60.000000}" />
+			
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_InputIDText">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,10.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,250.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputID_Copy">
+                <Property Name="UnifiedPosition" Value="{{0.000000,270.000000},{0.000000,10.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,210.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="0" />
+				<Property Name="ValidationString" Value="" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_InputIDDec">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,40.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,250.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="" />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputIDDec_Copy">
+                <Property Name="UnifiedPosition" Value="{{0.000000,270.000000},{0.000000,40.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,210.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="0" />
+				<Property Name="ValidationString" Value="" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_ItemID">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,80.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Item ID: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputItemID">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,80.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_CheckItem_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,80.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Check ID" />
+                <Event Name="Clicked" Function="GMTool_CheckItem();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_ItemName">
+                <Property Name="UnifiedPosition" Value="{{0.000000,270.000000},{0.000000,80.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,210.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_ItemIDNum">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,110.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Item Num: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputItemNum">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,110.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="3" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_CreateItem_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,110.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Create" />
+                <Event Name="Clicked" Function="GMTool_CreateItem();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_Gold">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,150.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Gold: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputGold">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,150.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_CheckGold_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,150.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Check" />
+                <Event Name="Clicked" Function="GMTool_CheckGold();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_ViewGold">
+                <Property Name="UnifiedPosition" Value="{{0.000000,270.000000},{0.000000,150.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,140.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddGold_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,420.000000},{0.000000,150.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddGold();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_GoldJZ">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,180.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input GoldJZ: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputGoldJZ">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,180.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_CheckGoldJZ_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,180.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Check" />
+                <Event Name="Clicked" Function="GMTool_CheckGoldJZ();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_ViewGoldJZ">
+                <Property Name="UnifiedPosition" Value="{{0.000000,270.000000},{0.000000,180.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,140.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddGoldJZ_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,420.000000},{0.000000,180.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddGoldJZ();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_Yuanbao">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,210.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Yuanbao: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputYuanbao">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,210.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddYuanbao_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,210.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddYuanbao();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_YuanbaoJZ">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,240.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input NBK: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputYuanbaoJZ">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,240.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddYuanbaoJZ_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,240.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddYuanbaoJZ();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_Zengdian">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,270.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Zengdian: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputZengdian">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,270.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddZengdian_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,270.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddZengdian();" />
+            </Window>
+			
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMTool_MenpaiPoint">
+                <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{0.000000,300.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,25.000000}" />
+                <Property Name="Text" Value="Input Mp.Point: " />
+				<Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+			
+			<Window Type="TLBB_EditBoxNormal" Name="GMTool_InputMenpaiPoint">
+                <Property Name="UnifiedPosition" Value="{{0.000000,120.000000},{0.000000,300.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,70.000000},{0.000000,25.000000}" />
+                <Property Name="MaxTextLength" Value="8" />
+				<Property Name="ValidationString" Value="[0-9]*" />
+                <Property Name="Text" Value="" />
+            </Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="GMTool_AddMenpaiPoint_Btn">
+                <Property Name="UnifiedPosition" Value="{{0.000000,200.000000},{0.000000,300.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,25.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="Add" />
+                <Event Name="Clicked" Function="GMTool_AddMenpaiPoint();" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

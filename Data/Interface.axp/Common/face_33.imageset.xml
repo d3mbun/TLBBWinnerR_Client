@@ -1,0 +1,61 @@
+<Imageset Name="Face_33" Imagefile="Common/tga_33.dds" AutoScaled="true">
+
+  <Image Name="255.gif_00" XPos="0" YPos="0" Width="48" Height="48" />
+
+  <Image Name="255.gif_01" XPos="52" YPos="0" Width="48" Height="48" />
+
+  <Image Name="255.gif_02" XPos="104" YPos="0" Width="48" Height="48" />
+
+  <Image Name="255.gif_03" XPos="156" YPos="0" Width="48" Height="48" />
+
+  <Image Name="255.gif_04" XPos="208" YPos="0" Width="48" Height="48" />
+
+
+
+  <Image Name="255.gif_05" XPos="0" YPos="52" Width="48" Height="48" />
+
+  <Image Name="255.gif_06" XPos="52" YPos="52" Width="48" Height="48" />
+
+  <Image Name="255.gif_07" XPos="104" YPos="52" Width="48" Height="48" />
+
+  <Image Name="255.gif_08" XPos="156" YPos="52" Width="48" Height="48" />
+
+  <Image Name="255.gif_09" XPos="208" YPos="52" Width="48" Height="48" />
+
+
+
+  <Image Name="255.gif_10" XPos="0" YPos="104" Width="48" Height="48" />
+
+  <Image Name="255.gif_11" XPos="52" YPos="104" Width="48" Height="48" />
+
+  <Image Name="255.gif_12" XPos="104" YPos="104" Width="48" Height="48" />
+
+  <Image Name="255.gif_13" XPos="156" YPos="104" Width="48" Height="48" />
+
+  <Image Name="255.gif_14" XPos="208" YPos="104" Width="48" Height="48" />
+
+
+
+  <Image Name="255.gif_15" XPos="0" YPos="156" Width="48" Height="48" />
+
+  <Image Name="255.gif_16" XPos="52" YPos="156" Width="48" Height="48" />
+
+  <Image Name="255.gif_17" XPos="104" YPos="156" Width="48" Height="48" />
+
+  <Image Name="255.gif_18" XPos="156" YPos="156" Width="48" Height="48" />
+
+  <Image Name="255.gif_19" XPos="208" YPos="156" Width="48" Height="48" />
+
+
+
+  <Image Name="255.gif_20" XPos="0" YPos="208" Width="48" Height="48" />
+
+  <Image Name="255.gif_21" XPos="52" YPos="208" Width="48" Height="48" />
+
+  <Image Name="255.gif_22" XPos="104" YPos="208" Width="48" Height="48" />
+
+  <Image Name="255.gif_23" XPos="156" YPos="208" Width="48" Height="48" />
+
+  <Image Name="255.gif_24" XPos="208" YPos="208" Width="48" Height="48" />
+
+</Imageset>

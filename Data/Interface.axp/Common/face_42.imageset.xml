@@ -1,0 +1,37 @@
+<Imageset Name="Face_42" Imagefile="Common/tga_42.dds" AutoScaled="true">
+
+  <Image Name="267.gif_00" XPos="0" YPos="0" Width="48" Height="48" />
+
+  <Image Name="267.gif_01" XPos="52" YPos="0" Width="48" Height="48" />
+
+  <Image Name="267.gif_02" XPos="104" YPos="0" Width="48" Height="48" />
+
+  <Image Name="267.gif_03" XPos="156" YPos="0" Width="48" Height="48" />
+
+  <Image Name="267.gif_04" XPos="208" YPos="0" Width="48" Height="48" />
+
+
+
+  <Image Name="267.gif_05" XPos="0" YPos="52" Width="48" Height="48" />
+
+  <Image Name="267.gif_06" XPos="52" YPos="52" Width="48" Height="48" />
+
+  <Image Name="267.gif_07" XPos="104" YPos="52" Width="48" Height="48" />
+
+  <Image Name="267.gif_08" XPos="156" YPos="52" Width="48" Height="48" />
+
+  <Image Name="267.gif_09" XPos="208" YPos="52" Width="48" Height="48" />
+
+
+
+  <Image Name="267.gif_10" XPos="0" YPos="104" Width="48" Height="48" />
+
+  <Image Name="267.gif_11" XPos="52" YPos="104" Width="48" Height="48" />
+
+  <Image Name="267.gif_12" XPos="104" YPos="104" Width="48" Height="48" />
+
+  <Image Name="267.gif_13" XPos="156" YPos="104" Width="48" Height="48" />
+
+  <Image Name="267.gif_14" XPos="208" YPos="104" Width="48" Height="48" />
+
+</Imageset>

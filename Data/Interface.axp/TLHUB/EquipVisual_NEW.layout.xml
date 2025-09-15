@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame1" Name="EquipVisual_NEW_Frame">
+		<Property Name="UnifiedSize" Value="{{0.000000,600.000000},{0.000000,450.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.50000,-300.000000},{0.50000,-225.000000}}"/>
+		<Event Name="Hidden" Function="EquipVisual_NEW_OnHidden();"/>
+		<Window Type="TLBB_DragTitle" Name="EquipVisual_NEW_DragTitle">
+			<Property Name="AbsolutePosition" Value="x:30.000000 y:11.000000"/>
+            <Property Name="UnifiedSize" Value="{{1.000000,-80.000000},{0.000000,20.000000}" />
+			<Property Name="DragTarget" Value="EquipVisual_NEW_Frame"/>
+			<Window Type="TLBB_SimpleText" Name="EquipVisual_NEW_Text">
+				<Property Name="RelativePosition" Value="x:0.000000 y:0.000000"/>
+				<Property Name="RelativeSize" Value="w:1.000000 h:1.000000"/>
+				<Property Name="Font" Value="YouYuan11.25"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="VertFormatting" Value="VertCentred"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Property Name="Text" Value="#YThần Khí Thay Đổi Ngoại Hình"/>
+			</Window>
+		</Window>
+		<Window Type="TLBB_ButtonHelp" Name="EquipVisual_NEW_Help">
+			<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonHelp" />
+			<Event Name="Clicked" Function="EquipVisual_NEW_Help();" />
+		</Window>
+		<Window Type="TLBB_ButtonClose" Name="EquipVisual_NEW_Close">
+			<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonClose" />
+			<Event Name="Clicked" Function="EquipVisual_NEW_OnHidden();" />
+		</Window>
+        <Window Type="DefaultWindow" Name="EquipVisual_NEW_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:7.000000 y:36.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-55.000000}" />
+
+            <Window Type="TLBB_StaticImageNULL" Name="EquipVisual_NEW_Frame3">
+                <Property Name="UnifiedPosition" Value="{{0.5,0.000000},{0.000000,0.000000}" />
+				<Property Name="UnifiedSize" Value="{{0.500000,0.000000},{1.000000,0.000000}" />
+                <Property Name="BackgroundEnabled" Value="false" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_FramePlayerOther" Name="EquipVisual_NEW_FakeObject_Back">
+                    <Property Name="Position" Value="x:0.00 y:0.00" />
+                    <Property Name="Size" Value="w:1 h:1" />
+                    <Window Type="TLBB_MeshWindow" Name="EquipVisual_NEW_FakeObject">
+                        <Property Name="Position" Value="x:0.02 y:0.02" />
+                        <Property Name="Size" Value="w:0.96 h:0.96" />
+                        <Property Name="MouseHollow" Value="True" />
+                        <Property Name="ShowControl" Value="EquipChange_Frame" />
+                        <!-- <Property Name="BackgroundName" Value="SelfEquip/jpg_SelfEquipBackground.dds" /> -->
+                    </Window>
+                </Window>
+				
+				<Window Type="TLBB_ButtonTurnLeft" Name="EquipVisual_NEW_Model_TurnLeft">
+					<Property Name="AlwaysOnTop" Value="true" />
+					<Property Name="UnifiedPosition" Value="{{0.1000,-12.500000},{0.90000,-12.500000}}"/>
+					<Property Name="AbsoluteSize" Value="w:25.000000 h:25.000000" />
+					<Event Name="MouseButtonDown" Function="EquipVisual_NEW_Modle_TurnLeft(1);" />
+					<Event Name="MouseButtonUp" Function="EquipVisual_NEW_Modle_TurnLeft(0);" />
+					<Event Name="CaptureLost" Function="EquipVisual_NEW_Modle_TurnLeft(0);" />
+				</Window>
+				<Window Type="TLBB_ButtonTurnRight" Name="EquipVisual_NEW_Model_TurnRight">
+					<Property Name="AlwaysOnTop" Value="true" />
+					<Property Name="UnifiedPosition" Value="{{0.9000,-12.500000},{0.90000,-12.500000}}"/>
+					<Property Name="AbsoluteSize" Value="w:25.000000 h:25.000000" />
+					<Event Name="MouseButtonDown" Function="EquipVisual_NEW_Modle_TurnRight(1);" />
+					<Event Name="MouseButtonUp" Function="EquipVisual_NEW_Modle_TurnRight(0);" />
+					<Event Name="CaptureLost" Function="EquipVisual_NEW_Modle_TurnRight(0);" />
+				</Window>
+            </Window>
+
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipVisual_NEW_Info">
+				<Property Name="AbsolutePosition" Value="x:0.000000 y:0.000000" />
+				<Property Name="UnifiedSize" Value="{{0.500000,-2.000000},{0.000000,68.000000}" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="Text" Value="Thần khí khi đã đạt cấp độ Thượng Cổ, có thể tiến hành thay đổi ngoại hình. Sau khi thay đổi ngoại hình, mọi thuộc tính của thần khí vẫn giữ nguyên." />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+
+			<Window Type="TLBB_SimpleText" Name="EquipVisual_NEW_Info2">
+				<Property Name="UnifiedPosition" Value="{{0.0200,0.0000},{0.00000,80.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.4,0.000000},{0.000000,24.000000}}" />
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="Đặt vào thần khí cần đổi ngoại hình:" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+
+            <Window Type="TLBB_ActionButton" Name="EquipVisual_NEW_Object">
+				<Property Name="UnifiedPosition" Value="{{0.45000,-25.000000},{0.00000,80.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36 h:36" />
+                <Property Name="DragAcceptName" Value="G73" />
+                <Property Name="DraggingEnabled" Value="True" />
+                <Event Name="RBClicked" Function="EquipVisual_NEW_Clear(1);" />
+            </Window>
+
+			<Window Type="TLBB_SimpleText" Name="EquipVisual_NEW_Info3">
+				<Property Name="UnifiedPosition" Value="{{0.0200,0.0000},{0.00000,130.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.4,0.000000},{0.000000,24.000000}}" />
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="Đặt vào Phù Phép Ngoại Hình:" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+			
+            <Window Type="TLBB_ActionButton" Name="EquipVisual_NEW_ObjectMaterial">
+				<Property Name="UnifiedPosition" Value="{{0.45000,-25.000000},{0.00000,130.000000}}"/>
+				<Property Name="AbsoluteSize" Value="w:36 h:36" />
+                <Property Name="DragAcceptName" Value="G73" />
+                <Property Name="DraggingEnabled" Value="True" />
+                <Event Name="RBClicked" Function="EquipVisual_NEW_Clear(2);" />
+            </Window>
+
+			<Window Type="TLBB_SimpleText" Name="EquipVisual_NEW_Info4">
+				<Property Name="UnifiedPosition" Value="{{0.0200,0.0000},{0.00000,170.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.4,0.000000},{0.000000,24.000000}}" />
+				<Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="Lựa chọn ngoài hình:" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+
+			<Window Type="TLBB_ListBoxCommon" Name="EquipVisual_NEW_ListModel">
+				<Property Name="UnifiedPosition" Value="{{0.0200,0.0000},{0.00000,192.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.45,0.000000},{0.000000,96.000000}}" />
+				<Event Name="ItemSelectionChanged" Function="EquipVisual_NEW_Selected();" />
+			</Window>
+			
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipVisual_NEW_Money_Text">
+                <Property Name="UnifiedPosition" Value="{{0.0100,0.000000},{1.000000,-94.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.48,0.000000},{0.000000,22.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="Text" Value="#{INTERFACE_XML_789}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="EquipVisual_NEW_DemandMoney">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="MoneyNumber" Value="0" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="AlignFix" Value="True" />
+                    <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+                    <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+                    <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipVisual_NEW_Jiaozi_Text">
+                <Property Name="UnifiedPosition" Value="{{0.0100,0.000000},{1.000000,-72.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.48,0.000000},{0.000000,22.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="Text" Value="#{BDJB_051210_1}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="EquipVisual_NEW_SelfJiaozi">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="MoneyNumber" Value="0" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="AlignFix" Value="True" />
+                    <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+                    <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+                    <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipVisual_NEW_SelfMoney_Text">
+                <Property Name="UnifiedPosition" Value="{{0.0100,0.000000},{1.000000,-50.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.48,0.000000},{0.000000,22.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="Text" Value="#{INTERFACE_XML_834}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="EquipVisual_NEW_SelfMoney">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MoneyNumber" Value="0" />
+                </Window>
+            </Window>
+			
+            <Window Type="TLBB_Frame_Lace5" Name="EquipVisual_NEW_Blank">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{1.000000,-20.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.500000,-151.000000},{0.000000,20.000000}" />
+            </Window>
+            <Window Type="TLBB_ButtonCommon" Name="EquipVisual_NEW_OK">
+                <Property Name="UnifiedPosition" Value="{{0.500000,-151.000000},{1.000000,-20.000000}" />
+                <Property Name="AbsoluteSize" Value="w:90.000000 h:20.000000" />
+                <Property Name="Text" Value="Đồng Ý" />
+                <Event Name="Clicked" Function="EquipVisual_NEW_Buttons_Clicked();" />
+            </Window>
+            <Window Type="TLBB_ButtonCommon" Name="EquipVisual_NEW_Cancel">
+                <Property Name="UnifiedPosition" Value="{{0.500000,-61.000000},{1.000000,-20.000000}" />
+                <Property Name="AbsoluteSize" Value="w:60.000000 h:20.000000" />
+                <Property Name="Text" Value="#{INTERFACE_XML_539}" />
+                <Event Name="Clicked" Function="EquipVisual_NEW_OnHidden();" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<Imageset Name="MiniMap_Icon2" Imagefile="Common/tga_MiniMap_Icon2.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+	<Image Name="NanZhao_Normal" XPos="0" YPos="8" Width="58" Height="11" />
+	<Image Name="Nanzhao_Hover" XPos="55" YPos="8" Width="58" Height="11" />
+	<Image Name="MiaoJiang_Normal" XPos="99" YPos="8" Width="69" Height="11" />
+	<Image Name="MiaoJiang_Hover" XPos="168" YPos="8" Width="69" Height="11" />
+	
+	<Image Name="LiaoXi_Normal" XPos="0" YPos="20" Width="56" Height="10" />
+	<Image Name="Liaoxi_Hover" XPos="55" YPos="20" Width="56" Height="10" />
+	<Image Name="CaoYuan_Normal" XPos="93" YPos="21" Width="75" Height="11" />
+	<Image Name="CaoYuan_Hover" XPos="168" YPos="21" Width="75" Height="11" />
+	
+	<Image Name="YanBei_Normal" XPos="0" YPos="32" Width="53" Height="11" />
+	<Image Name="YanBei_Hover" XPos="55" YPos="32" Width="53" Height="11" />
+	<Image Name="YanNan_Normal" XPos="113" YPos="34" Width="55" Height="10" />
+	<Image Name="YanNan_Hover" XPos="168" YPos="34" Width="55" Height="10" />
+	
+	<Image Name="DunHuang_Normal" XPos="0" YPos="44" Width="63" Height="10" />
+	<Image Name="DunHuang_Hover" XPos="55" YPos="44" Width="63" Height="10" />
+	<Image Name="SongShan_Normal" XPos="113" YPos="45" Width="55" Height="10" />
+	<Image Name="SongShan_Hover" XPos="168" YPos="45" Width="55" Height="10" />
+	
+	<Image Name="JianGe_Normal" XPos="0" YPos="54" Width="49" Height="13" />
+	<Image Name="JianGe_Hover" XPos="55" YPos="54" Width="49" Height="13" />
+	<Image Name="TianShan_Normal" XPos="111" YPos="57" Width="57" Height="10" />
+	<Image Name="TianShan_Hover" XPos="168" YPos="57" Width="57" Height="10" />
+
+	<Image Name="LongQuan_Normal" XPos="0" YPos="68" Width="67" Height="10" />
+	<Image Name="LongQuan_Hover" XPos="55" YPos="68" Width="67" Height="10" />
+	<Image Name="TaiHu_Normal" XPos="126" YPos="68" Width="42" Height="11" />
+	<Image Name="TaiHu_Hover" XPos="168" YPos="68" Width="42" Height="11" />
+	
+
+	<Image Name="XiHu_Normal" XPos="129" YPos="81" Width="39" Height="10" />
+	<Image Name="XiHu_Hover" XPos="168" YPos="81" Width="39" Height="10" />
+	<Image Name="JingHu_Normal" XPos="0" YPos="80" Width="43" Height="10" />
+	<Image Name="JingHu_Hover" XPos="55" YPos="80" Width="43" Height="10" />
+	
+	<Image Name="ShiLin_Normal" XPos="109" YPos="93" Width="59" Height="11" />
+	<Image Name="ShiLin_Hover" XPos="168" YPos="93" Width="59" Height="11" />
+	
+	<Image Name="MeiLing_Normal" XPos="0" YPos="92" Width="45" Height="10" />
+	<Image Name="MeiLing_Hover" XPos="55" YPos="92" Width="45" Height="10" />
+	<Image Name="Wuyi_Normal" XPos="139" YPos="105" Width="29" Height="10" />
+	<Image Name="Wuyi_Hover" XPos="168" YPos="105" Width="29" Height="10" />
+	
+	<Image Name="NanHai_Normal" XPos="0" YPos="102" Width="45" Height="12" />
+	<Image Name="NanHai_Hover" XPos="55" YPos="102" Width="45" Height="12" />
+	<Image Name="YuXi_Normal" XPos="114" YPos="117" Width="54" Height="11" />
+	<Image Name="YuXi_Hover" XPos="168" YPos="117" Width="54" Height="11" />
+	
+	<Image Name="CangShan_Normal" XPos="0" YPos="116" Width="72" Height="11" />
+	<Image Name="CangShan_Hover" XPos="55" YPos="116" Width="72" Height="11" />
+	<Image Name="QiongZhou_Normal" XPos="99" YPos="129" Width="69" Height="11" />
+	<Image Name="QiongZhou_Hover" XPos="168" YPos="129" Width="69" Height="11" />
+	
+	<Image Name="ErHai_Normal" XPos="130" YPos="141" Width="38" Height="10" />
+	<Image Name="ErHai_Hover" XPos="168" YPos="141" Width="38" Height="10" />
+	
+	<Image Name="SuZhou_Normal" XPos="0" YPos="128" Width="55" Height="13" />
+	<Image Name="SuZhou_Hover" XPos="55" YPos="128" Width="55" Height="13" />
+	<Image Name="DaLi_Normal" XPos="0" YPos="143" Width="40" Height="13" />
+	<Image Name="DaLi_Hover" XPos="55" YPos="143" Width="40" Height="13" />
+	<Image Name="LuoYang_Normal" XPos="0" YPos="158" Width="75" Height="13" />
+	<Image Name="LuoYang_Hover" XPos="55" YPos="158" Width="75" Height="13" />
+	
+	<Image Name="SignBattleground_Normal" XPos="133" YPos="228" Width="22" Height="20" />
+	<Image Name="SignBattleground_Hover" XPos="196" YPos="228" Width="22" Height="20" />
+	<Image Name="SignDoubt_Normal" XPos="167" YPos="224" Width="18" Height="29" />
+	<Image Name="SignDoubt_Hover" XPos="229" YPos="224" Width="18" Height="29" />
+	
+	<Image Name="NewSign1_Hover" XPos="14" YPos="11" Width="32" Height="21" />
+	<Image Name="NewSign1_Normal" XPos="14" YPos="45" Width="32" Height="21" />
+
+	<Image Name="NewSign2_Hover" XPos="13" YPos="76" Width="37" Height="31" />
+	<Image Name="NewSign2_Normal" XPos="14" YPos="118" Width="37" Height="31" />
+
+	<Image Name="NewSign3_Hover" XPos="7" YPos="165" Width="47" Height="34" />
+	<Image Name="NewSign3_Normal" XPos="7" YPos="210" Width="47" Height="34" />
+
+	<Image Name="NewSign4_Hover" XPos="127" YPos="9" Width="27" Height="15" />
+	<Image Name="NewSign4_Normal" XPos="127" YPos="31" Width="27" Height="15" />
+
+	<Image Name="NewSign5_Hover" XPos="127" YPos="53" Width="31" Height="19" />
+	<Image Name="NewSign5_Normal" XPos="128" YPos="78" Width="31" Height="19" />
+
+	<Image Name="NewSign6_Hover" XPos="134" YPos="107" Width="19" Height="21" />
+	<Image Name="NewSign6_Normal" XPos="134" YPos="138" Width="19" Height="21" />
+
+	<Image Name="NewSign7_Hover" XPos="133" YPos="168" Width="20" Height="11" />
+	<Image Name="NewSign7_Normal" XPos="134" YPos="187" Width="20" Height="11" />
+
+	<Image Name="NewSign8_Hover" XPos="219" YPos="180" Width="33" Height="30" />
+	<Image Name="NewSign8_Normal" XPos="219" YPos="180" Width="33" Height="30" />
+
+	<Image Name="NewSign9_Hover" XPos="14" YPos="11" Width="32" Height="21" />
+	<Image Name="NewSign9_Normal" XPos="14" YPos="45" Width="32" Height="21" />
+
+	<Image Name="NewSign10_Hover" XPos="14" YPos="11" Width="32" Height="21" />
+	<Image Name="NewSign10_Normal" XPos="14" YPos="45" Width="32" Height="21" />
+	
+  <Image Name="Sign53_Hover" XPos="132" YPos="186" Width="22" Height="14" />
+  <Image Name="Sign53_Normal" XPos="132" YPos="186" Width="22" Height="14" />
+	
+</Imageset>

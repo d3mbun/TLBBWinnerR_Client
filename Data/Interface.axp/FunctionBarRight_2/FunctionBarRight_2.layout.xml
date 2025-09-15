@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="FunctionBarRight_2_Frame">
+		<Property Name="UnifiedSize" Value="{{0,44},{0.0,348}}" />
+		<Property Name="UnifiedXPosition" Value="{1.0,-82}" />
+		<Property Name="UnifiedYPosition" Value="{0.0,216}" />
+		<Window Type="DefaultWindow" Name="FunctionBarRight_2_Function_Frame">
+			<Property Name="Position" Value="x:0.0 y:0.0" />
+			<Property Name="Size" Value="w:1.0 h:1.0" />
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action1">
+				<Property Name="Position" Value="x:0.136363636 y:0.051724" />
+				<Property Name="Size" Value="w:0.72727272 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M20" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(21);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(21);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action2">
+				<Property Name="Position" Value="x:0.1363636 y:0.152299" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M21" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(22);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(22);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action3">
+				<Property Name="Position" Value="x:0.1363636 y:0.252874" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M22" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(23);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(23);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action4">
+				<Property Name="Position" Value="x:0.1363636 y:0.353448" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M23" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(24);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(24);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action5">
+				<Property Name="Position" Value="x:0.1363636 y:0.454023" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M24" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(25);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(25);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action6">
+				<Property Name="Position" Value="x:0.1363636 y:0.554598" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M25" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(26);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(26);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action7">
+				<Property Name="Position" Value="x:0.1363636 y:0.655172" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M26" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(27);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(27);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action8">
+				<Property Name="Position" Value="x:0.1363636 y:0.755747" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M27" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(28);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(28);" />
+			</Window>
+
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action9">
+				<Property Name="Position" Value="x:0.1363636 y:0.856322" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M28" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(29);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(29);" />
+			</Window>
+			
+			<Window Type="TLBB_ActionButtonNULL" Name="FunctionBarRight_2_Button_Action10">
+				<Property Name="Position" Value="x:0.1363636 y:0.956897" />
+				<Property Name="Size" Value="w:0.727272727 h:0.091954022988" />
+				<Property Name="Empty" Value="True" />
+				<Property Name="DraggingEnabled" Value="True" />
+				<Property Name="DragAcceptName" Value="M29" />
+				<Property Name="UseDefaultTooltip" Value="true" />
+				<Event Name="Clicked" Function="FunctionBarRight_2_Clicked(30);" />
+				<Event Name="RBClicked" Function="FunctionBarRight_2_Clicked(30);" />
+			</Window>
+		</Window>
+  </Window>
+</GUILayout>

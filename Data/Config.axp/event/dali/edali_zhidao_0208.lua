@@ -1,0 +1,22 @@
+--MisDescBegin
+x210208_g_ScriptId = 210208
+x210208_g_Position_X=160.0895
+x210208_g_Position_Z=156.9309
+x210208_g_SceneID=2
+x210208_g_AccomplishNPC_Name="Tri®u Thiên Sß"
+x210208_g_MissionId = 448
+x210208_g_MissionIdPre = 447
+x210208_g_Name	="Tri®u Thiên Sß"
+x210208_g_MissionKind = 13
+x210208_g_MissionLevel = 2
+x210208_g_IfMissionElite = 0
+x210208_g_MissionName="Lá thß tiªn cØ thÑ 2"
+x210208_g_MissionInfo="#{event_dali_0011}"
+x210208_g_MissionTarget="V« #GNgû Hoa Ðàn thành ÐÕi Lý#W tìm#R Tri®u Thiên Sß #W#{_INFOAIM160,157,2,Tri®u Thiên Sß}. #b#G (Dùng chuµt trái nh¤p vào t÷a ðµ, có th¬ giúp các hÕ tìm ðßþc NPC) #l"
+x210208_g_MissionComplete="  · #RTi«n Long#W h÷c ðßþc không ít thÑ phäi không, ta ðÕi di®n cho TÑ ÐÕi Thi®n Nhân, giúp các hÕ viªt #Y1 thß gi¾i thi®u #W"
+x210208_g_MoneyBonus=48
+x210208_g_SignPost = {x = 160, z = 156, tip = "Tri®u Thiên Sß"}
+x210208_g_ItemBonus={{id=40002108,num=1}}
+x210208_g_IsMissionOkFail = 1		--±äÁ¿µÄµÚ0Î»
+x210208_g_Custom	= { {id="Ðã tìm th¤y Tri®u Thiên Sß",num=1} }
+--MisDescEnd

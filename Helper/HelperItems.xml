@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<HelperItemSet>
+	<Item name="Đăng nhập trò chơi lẫn đăng ký tài khoản" anchor="yxzcdl" url="yxzcdl.html">
+		<Item name="Đăng ký tài khoản" anchor="yxzcdl" url="yxzcdl.html"/>
+		<Item name="Đăng nhập trò chơi" anchor="yxzcdl" url="yxzcdl.html"/>
+	</Item>
+	<Item name="Thông tin thường dùng" anchor="cyxx" url="24.html">
+		<Item name="Thiết lập trò chơi" anchor="yxpz" url="yxpz.html"/>
+		<Item name="Thông tin trang chủ" anchor="gfxx" url="gfxx.html"/>
+        <Item name="An toàn trò chơi" anchor="yxaq" url="yxaq.html"/>
+		<Item name="Vấn đề nghi vấn FAQ" anchor="ynwt" url="ynwt.html"/>
+	    <Item name="Thu phí" anchor="sfcz" url="sfcz.html"/>
+		<Item name="Rương Bảo Hiểm Ngân Hàng" anchor="wjsd" url="wjsd.html"/>
+		<Item name="Tính Năng nhắc nhở thời gian mệt mỏi" anchor="fcm" url="fcm.html" />
+	</Item>
+
+	<Item name="Giới thiệu trò chơi" anchor="yxjs" url="yxbj.html"> 
+	    <Item name="Bối cảnh trò chơi" anchor="yxbj" url="yxbj.html"/>
+		<Item name="Bản đồ trò chơi" anchor="yxdt" url="yxdt.html"/>
+        <Item name="Môn phái trò chơi" anchor="yxmp" url="yxmp.html"/>
+	</Item>
+	
+	<Item name="Chỉ dẫn người mới" anchor="xszy" url="xszy.html">
+		<Item name="Tạo nhân vật mới" anchor="czxjs" url="xszy.html"/>
+		<Item name="Thị trấn người mới chơi" anchor="xscs" url="xszy.html"/>
+        <Item name="Nhân vật hành tẩu" anchor="rwxz" url="xszy.html"/>
+		<Item name="Nói chuyện" anchor="liaotian" url="xszy.html"/>
+        <Item name="Xem bản đồ nhỏ" anchor="xszy" url="xszy.html"/>
+		<Item name="Xem bản đồ tình cảnh" anchor="ckcjdt" url="xszy.html"/>
+        <Item name="Xem bản đồ thế giới" anchor="cksjdt" url="xszy.html"/>
+		<Item name="Thông tin người chơi khác" anchor="qtwjxx" url="xszy.html"/>
+        <Item name="Đánh quái vật" anchor="xszy" url="xszy.html"/>
+		<Item name="Chữ đỏ trên bản đồ thị trấn" anchor="csdths" url="xszy.html"/>
+        <Item name="Thêm Huyết và Khí" anchor="bqx" url="bqx.html"/>
+		<Item name="Tổn thất sau khi nhân vật chết" anchor="xszy" url="xszy.html"/>
+        <Item name="Các màu điểm tròn trên bản đồ chiến đấu" anchor="xszy" url="xszy.html"/>
+		<Item name="Làm sao chụp hình trò chơi" anchor="rhjt" url="xszy.html"/>
+        <Item name="Trang bị đạo cụ" anchor="xszy" url="xszy.html"/>
+		<Item name="Thêm bạn hữu" anchor="jhy" url="xszy.html"/>
+        <Item name="Đi theo" anchor="gs" url="xszy.html"/>
+		<Item name="Lập nhóm" anchor="zd" url="xszy.html"/>
+        <Item name="Mua bán đồ vật" anchor="mmdx" url="xszy.html"/>
+		<Item name="Sử dụng kỹ năng đời sống" anchor="xszy" url="xszy.html"/>
+        <Item name="Gia nhập môn phái" anchor="jmp" url="xszy.html"/>
+	</Item>
+        
+    <Item name="Giới thiệu thao tác" anchor="czjs" url="jbcz.html">
+		<Item name="Giao diện trò chơi" anchor="yxjm" url="yxjm.html"/>
+		<Item name="Thao tác cơ bản" anchor="jbcz" url="jbcz.html"/>
+        <Item name="Phím nhanh" anchor="kjj" url="kjj.html"/>
+		<Item name="Cột phím nhanh" anchor="kjl" url="kjl.html"/>
+       	<Item name="Bản đồ nhỏ" anchor="48" url="48.html"/>
+    </Item>
+
+    <Item name="Thuộc tính nhân vật" anchor="rwsx" url="jbsx.html">
+		<Item name="Thuộc tính cơ bản" anchor="jbsx" url="jbsx.html"/>
+		<Item name="Thuộc tính xã hội" anchor="shsx" url="shsx.html"/>
+        <Item name="Thuộc tính xã hội" anchor="jnsx" url="jnsx.html"/>
+	</Item>
+        
+    <Item name="Giới thiệu đạo cụ" anchor="djjs" url="wqzb.html">
+		<Item name="Trang bị vũ khí" anchor="wqzb" url="wqzb.html"/>
+		<Item name="Tiêu hao vật phẩm" anchor="xhdj" url="xhdj.html"/>
+        <Item name="Đạo cụ kỹ năng " anchor="jndj" url="jndj.html"/>
+		<Item name="Đạo cụ nhiệm vụ" anchor="rwdj" url="rwdj.html"/>
+	</Item>
+	
+	<Item name="Giới thiệu Ám Khí" anchor="aqjs" url="aqjs.html">
+		<Item name="Thăng Cấp Ám Khí" anchor="aqsj" url="aqsj.html"/>
+        <Item name="Phẩm Giá Ám Khí" anchor="aqpj" url="aqpj.html"/>
+        <Item name="Tẩy Lại Ám Khí" anchor="aqcx" url="aqcx.html"/>
+	</Item>
+        
+	<Item name="Giới Thiệu Tu Luyện" anchor="xljs" url="xljs.html">
+		<Item name="Giới Thiệu Bối Cảnh Tu Luyện" anchor="xlbj" url="xlbj.html"/>
+                <Item name="Giới Thiệu Công Lực" anchor="gljs" url="gljs.html"/>
+                <Item name="Giới Thiệu Đẳng Cấp Tu Luyện" anchor="xldj" url="xldj.html"/>
+                <Item name="Giới Thiệu Cảnh Giới Tu Luyện" anchor="xljj" url="xljj.html"/>
+                <Item name="Giới Thiệu Danh Hiệu Tu Luyện" anchor="xlch" url="xlch.html"/>
+                <Item name="Nguyên Tố Ảnh Hưởng Tu Luyện" anchor="xlys" url="xlys.html"/>
+	</Item>
+
+    <Item name="Kỹ năng võ công" anchor="wgzs" url="wgzs.html">
+        <Item name="Khái quát kỹ năng võ công" anchor="wgzs" url="wgzs.html"/>
+		<Item name="Võ công Thiếu Lâm" anchor="wgsl" url="wgsl.html"/>
+		<Item name="Võ công Cái Bang" anchor="wggb" url="wggb.html"/>
+        <Item name="Võ công Nga Mi" anchor="wgem" url="wgem.html"/>
+		<Item name="Võ công Võ Đang" anchor="wgwd" url="wgwd.html"/>
+        <Item name="Võ công Tinh Túc" anchor="wgxu" url="wgxu.html"/>
+		<Item name="Võ công Thiên Long" anchor="wgtl" url="wgtl.html"/>
+        <Item name="Võ công Thiên Sơn" anchor="wgts" url="wgts.html"/>
+		<Item name="Võ công Tiêu Dao" anchor="wgxy" url="wgxy.html"/>
+        <Item name="Võ công Minh Giáo" anchor="wgmj" url="wgmj.html"/>
+    </Item>
+        
+    <Item name="Kỹ năng đời sống" anchor="shxt" url="shzs.html">
+        <Item name="Khái quát kỹ năng đời sống" anchor="shzs" url="shzs.html"/>
+		<Item name="Kỹ năng đời sống cơ bản" anchor="jbsh" url="jbsh.html"/>
+		<Item name="Kỹ năng đời sống môn phái" anchor="mpsh" url="mpsh.html"/>
+        <Item name="Phân bố nguyên vật liệu" anchor="yclfb" url="yclfb.html"/>
+	</Item>
+        
+    <Item name="Hệ thống kinh tế" anchor="jjxt" url="jy.html">
+		<Item name="Giao dịch" anchor="jy" url="jy.html"/>
+		<Item name="Bày quầy" anchor="bt" url="bt.html"/>
+        <Item name="Tào Vận" anchor="cy" url="cy.html"/>
+		<Item name="Người chơi tự tạo cửa tiệm" anchor="zjsd" url="zjsd.html"/>
+	    <Item name="Kinh tế bang phái" anchor="bpjj" url="bpjj.html"/>
+	    <Item name="Giao Tử" anchor="jz" url="jz.html"/>
+      <Item name="KNB Cố Định" anchor="bdyb" url="bdyb.html"/>
+    </Item>
+
+    <Item name="Hệ thống chiến đấu" anchor="wgzs" url="wgzs.html">
+	    <Item name="Đánh quái" anchor="zddg" url="zddg.html"/>
+		<Item name="PK" anchor="pk" url="pk.html"/>
+        <Item name="Khiêu chiến" anchor="tz" url="tz.html"/>
+    </Item>
+        
+    <Item name="Hệ thống nhiệm vụ" anchor="rwzs" url="rwzs.html">
+        <Item name="Khái quát hệ thống nhiệm vụ" anchor="rwzs" url="rwzs.html"/>
+		<Item name="Nhiệm vụ người mới" anchor="xs" url="xs.html"/>
+        <Item name="Nhiệm vụ tình tiết" anchor="rwjq" url="rwjq.html"/>
+		<Item name="Nhiệm vụ tình cảnh" anchor="rwcj" url="rwcj.html"/>
+	    <Item name="Nhiệm vụ sư môn" anchor="rwsm" url="rwsm.html"/>
+		<Item name="Nhiệm vụ Tào vận" anchor="cy" url="cy.html"/>
+        <Item name="Nhật ký nhiệm vụ" anchor="rwrz" url="rwrz.html"/>
+    </Item>
+         
+    <Item name="Hệ thống Bang hội" anchor="bhzs" url="bhzs.html">
+        <Item name="Khái quát hệ thống Bang hội" anchor="bhzs" url="bhzs.html"/>
+        <Item name="Quản lý bang hội" anchor="bhzw" url="bhzw.html"/>
+		<Item name="Kỹ năng bang hội" anchor="bhjn" url="bhjn.html"/>
+        <Item name="Kinh tế bang hội" anchor="bhjj" url="bhjj.html"/>
+        <Item name="Nhiệm vụ bang hội" anchor="bhrw" url="bhrw.html"/>
+        <Item name="Chiến tranh bang hội" anchor="bpcs" url="sfcz.html"/>
+    </Item>
+         
+    <Item name="Quan hệ con người" anchor="rjgx" url="hy.html">
+		<Item name="Bạn hữu" anchor="hy" url="hy.html"/>
+        <Item name="Chiến hữu" anchor="dy" url="dy.html"/>
+		<Item name="Đồng bang phái" anchor="tbp" url="tbp.html"/>
+	    <Item name="Đồng môn phái" anchor="tmp" url="tmp.html"/>
+		<Item name="Kết bái" anchor="jb" url="jb.html"/>
+        <Item name="Sư đồ" anchor="st" url="st.html"/>
+        <Item name="Vợ chồng" anchor="fq" url="fq.html"/>
+	    <Item name="Danh sách đen" anchor="hmd" url="hmd.html"/>
+		<Item name="Độ hữu hảo" anchor="yhd" url="yhd.html"/>
+		<Item name="Kênh Giao Lưu Chinh Hữu" anchor="zypt" url="zypt.html"/>
+    <Item name="Quan Hệ Tín Nhiệm Bạn Hữu" anchor="xrhb" url="xrhb.html"/>
+    </Item>
+         
+    <Item name="Hệ thống chat" anchor="ltxt" url="ltzs.html">
+        <Item name="Khái quát hệ thống chat" anchor="ltzs" url="ltzs.html"/>
+		<Item name="Biểu tượng tâm trạng" anchor="bqfh" url="bqfh.html"/>
+        <Item name="Định nghĩa ngôn ngữ chat" anchor="dyltyy" url="dyltyy.html"/>
+		<Item name="Hiệu quả chữ chat" anchor="ltwztx" url="ltwztx.html"/>
+    </Item>
+         
+    <Item name="Hệ thống trân thú" anchor="cwxt" url="cwzs.html">
+        <Item name="Khái quát hệ thống trân thú" anchor="cwzs" url="cwzs.html"/>
+		<Item name="Nuôi dưỡng trân thú" anchor="cwyc" url="cwyc.html"/>
+        <Item name="trân thú chiến đấu" anchor="cwzd" url="cwzd.html"/>
+    </Item>
+         
+    <Item name="Hệ thống thú cưỡi" anchor="zqxt" url="zqzs.html">
+        <Item name="Khái quát hệ thống thú cưỡi" anchor="zqzs" url="zqzs.html"/>
+        <Item name="Chủng loại thú cưỡi" anchor="zqzl" url="zqzl.html"/>
+    </Item>
+         
+    <Item name="Đặc sắc của game" anchor="yxts" url="gbfx.html">
+		<Item name="Đổi màu tóc kiểu tóc" anchor="gbfx" url="gbfx.html"/>
+        <Item name="Biến thân" anchor="bs" url="bs.html"/>
+		<Item name="Bảng xếp hạng" anchor="phb" url="phb.html"/>
+		<Item name="Hộp Quay May Mắn" anchor="xylp" url="xylp.html"/>
+    </Item>
+         
+    <Item name="Tọa độ NPC" anchor="npc" url="csnpc.html">
+		<Item name="Tọa độ NPC trong thành thị" anchor="csnpc" url="csnpc.html"/>
+        <Item name="Tọa độ NPC trong môn phái" anchor="mpnpc" url="mpnpc.html"/>
+    </Item>
+
+ <Item name="Giao diện giúp đỡ UI" anchor="24" url="24.html">
+		<Item name="Giao diện kỹ năng chiến đấu" anchor="wgzs" url="wgzs.html"/>
+        <Item name="Học kỹ năng sư môn" anchor="44" url="44.html"/>
+        <Item name="Giao diện chọn danh hiệu" anchor="27" url="27.html"/>
+        <Item name="Giao diện sửa mật mã" anchor="53" url="53.html"/>
+		<Item name="Giao diện chat" anchor="33" url="33.html"/>
+		<Item name="Thông tin người chơi" anchor="27" url="27.html"/>	
+        <Item name="Giao diện kỹ năng thông dụng" anchor="42" url="42.html"/>	
+        <Item name="Giao diện giao dịch vật phẩm" anchor="30" url="30.html"/>		
+        <Item name="Tìm thông tin bạn hữu" anchor="25" url="25.html"/>
+        <Item name="Thiết lập trò chơi" anchor="54" url="54.html"/>
+	    <Item name="Tiếp nhận thông tin bạn hữu" anchor="25" url="25.html"/>	
+	    <Item name="Gửi thông tin bạn hữu" anchor="25" url="25.html"/>	
+	    <Item name="Gửi tiền, rút tiền" anchor="52" url="52.html"/>	
+	    <Item name="Gửi gắm tâm tình" anchor="27" url="27.html"/>	
+	    <Item name="Giao diện giúp đỡ đăng nhập" anchor="24" url="24.html"/>	
+	    <Item name="Cột phím nhanh" anchor="31" url="31.html"/>	
+	    <Item name="Giao diện thả vật cưng" anchor="19" url="19.html"/>	
+	    <Item name="Giao diện giao nhiệm vụ" anchor="37" url="37.html"/>	
+	    <Item name="Giao diện hệ thống" anchor="51" url="51.html"/>	
+	    <Item name="Thông tin khác" anchor="35" url="35.html"/>	
+	    <Item name="Giao diện thuộc tính vật cưng" anchor="17" url="17.html"/>	
+	    <Item name="Danh sách vật cưng" anchor="16" url="16.html"/>	
+	    <Item name="Hỏi sau khi chết" anchor="45" url="45.html"/>	
+	    <Item name="Cưỡi thú" anchor="60" url="60.html"/>	
+	    <Item name="Dữ liệu người chơi" anchor="27" url="27.html"/>	
+	    <Item name="Thuộc tính người chơi" anchor="46" url="46.html"/>	
+	    <Item name="Thiết lập mật mã" anchor="53" url="53.html"/>	
+	    <Item name="Giao diện tháo chia vật phẩm" anchor="11" url="11.html"/>	
+	    <Item name="Giao diện bỏ mật mã" anchor="53" url="53.html"/>	
+	    <Item name="Bản đồ nhỏ" anchor="48" url="48.html"/>	
+	    <Item name="Đối thoại" anchor="24" url="24.html"/>	
+	    <Item name="Giao diện kỹ năng đời sống" anchor="39" url="39.html"/>	
+	    <Item name="Nhặt bao" anchor="40" url="40.html"/>	
+	    <Item name="Thuộc tính, avatar vật cưng" anchor="17" url="17.html"/>	
+	    <Item name="Thuộc tính, avatar nhân vật chính" anchor="29" url="29.html"/>	
+	    <Item name="Thuộc tính, avatar nhân vật đã chọn" anchor="27" url="27.html"/>	
+	    <Item name="Cửa tiệm thị trấn" anchor="14" url="14.html"/>	
+	    <Item name="Giao diện ngân hàng" anchor="52" url="52.html"/>	
+	    <Item name="Giao diện giao dịch tào vận" anchor="21" url="21.html"/>	
+	    <Item name="Phương hướng phát triển thành thị" anchor="4" url="4.html"/>	
+	    <Item name="Danh sách đăng ký lãnh địa bang hội" anchor="6" url="6.html"/>	
+	    <Item name="Tên lãnh địa" anchor="4" url="4.html"/>	
+	    <Item name="Thông tin chi tiết bang hội" anchor="4" url="4.html"/>	
+	    <Item name="Danh sách bang hội" anchor="4" url="4.html"/>	
+	    <Item name="Quản lý bang hội" anchor="5" url="5.html"/>	
+	    <Item name="Danh sách chức vụ" anchor="5" url="5.html"/>	
+	    <Item name="Kỹ năng đời sống bang hội" anchor="3" url="3.html"/>	
+	    <Item name="Xây dựng con đường thương nghiệp bang hội" anchor="2" url="2.html"/>	
+	    <Item name="Tạo bang hội" anchor="4" url="4.html"/>	
+	    <Item name="Giao diện bạn hữu" anchor="25" url="25.html"/>	
+	    <Item name="Nội chính bang hội" anchor="4" url="4.html"/>	
+	    <Item name="Học kỹ năng đời sống" anchor="39" url="39.html"/>	
+	    <Item name="Giao diện hợp thành" anchor="9" url="9.html"/>	
+	    <Item name="Avatar chiến hữu" anchor="57" url="57.html"/>	
+	    <Item name="Giao diện cột thông báo vật cưng tìm bạn" anchor="19" url="19.html"/>	
+	    <Item name="Giao diện vật cưng sinh sản" anchor="15" url="15.html"/>	
+	    <Item name="Thăng cấp ngộ tính vật cưng" anchor="18" url="18.html"/>	
+	    <Item name="Giao diện học kỹ năng thông thường của vật cưng" anchor="20" url="20.html"/>	
+	    <Item name="Ô BUFF" anchor="29" url="29.html"/>	
+	    <Item name="Giao diện đăng ký cửa tiệm người chơi" anchor="59" url="59.html"/>	
+	    <Item name="Thông tin cửa tiệm người chơi" anchor="59" url="59.html"/>	
+		<Item name="Giao diện mua bán vật phẩm cửa tiệm người chơi" anchor="59" url="59.html"/>	
+	    <Item name="Giao diện quản lý cửa tiệm" anchor="59" url="59.html"/>	
+	    <Item name="Vấn đáp trí lực" anchor="49" url="49.html"/>	
+	    <Item name="Ngiên cứu thành thị" anchor="2" url="2.html"/>	
+	    <Item name="Đăng ký thù sát" anchor="34" url="34.html"/>	
+	    <Item name="Giao diện danh sách đen" anchor="33" url="33.html"/>	
+	    <Item name="Thiết lập con đường thương nghiệp bang hội" anchor="2" url="2.html"/>	
+	    <Item name="Mua sỉ" anchor="14" url="14.html"/>	
+	    <Item name="Tháo bảo thạch" anchor="8" url="8.html"/>	
+	    <Item name="Giao diện mua bày sạp hàng" anchor="10" url="10.html"/>	
+	    <Item name="Nơi nhắn sạp hàng bên bán" anchor="10" url="10.html"/>	
+	    <Item name="Giao diện bày sạp hàng" anchor="10" url="10.html"/>	
+	    <Item name="Làm lỗ trang bị" anchor="55" url="55.html"/>	
+	    <Item name="Dữ liệu mục tiêu bị chọn" anchor="12" url="12.html"/>	
+	    <Item name="Xem giao diện trang bị" anchor="47" url="47.html"/>	
+	    <Item name="Giao diện Nhóm (đội trưởng)" anchor="22" url="22.html"/>	
+	    <Item name="Khung đối thoại thông tin Nhóm" anchor="57" url="57.html"/>	
+	    <Item name="Chỉ dẫn giang hồ" anchor="28" url="28.html"/>	
+	    <Item name="Danh sách chọn đăng nhập mạng" anchor="24" url="24.html"/>	
+	    <Item name="Giao diện lưu ghi nhiệm vụ" anchor="37" url="37.html"/>	
+	    <Item name="Treo ngừng vật phẩm" anchor="24" url="24.html"/>	
+	    <Item name="Động tác nghỉ ngơi" anchor="33" url="33.html"/>	
+	    <Item name="Nhập tên kết bái" anchor="26" url="26.html"/>	
+	    <Item name="Giao diện hỏi khiêu chiến" anchor="43" url="43.html"/>	
+	    <Item name="Kênh tự định nghĩa" anchor="33" url="33.html"/>	
+	    <Item name="Tìm kiếm bạn hữu" anchor="25" url="25.html"/>	
+	    <Item name="Giao diện thêm khóa vật phẩm" anchor="53" url="53.html"/>	
+	    <Item name="Giao diện tiêu hủy vật phẩm nhiệm vụ" anchor="36" url="36.html"/>	
+	    <Item name="Giao diện hợp thành vật cưng" anchor="24" url="24.html"/>	
+	    <Item name="Giao diện nhập tên nhân vật quyết đấu" anchor="34" url="34.html"/>	
+	    <Item name="Nạp tiền" anchor="13" url="13.html"/>	
+	    <Item name="Tìm kiếm cửa tiệm người chơi" anchor="38" url="38.html"/>	
+		<Item name="Giao diện danh sách cửa tiệm người chơi" anchor="59" url="59.html"/>	
+	    <Item name="Chuyển nhượng cửa tiệm người chơi" anchor="59" url="59.html"/>	
+	    <Item name="Giao diện chọn màu tóc" anchor="23" url="23.html"/>	
+	    <Item name="Giao diện chọn kiểu tóc" anchor="23" url="23.html"/>	
+	    <Item name="Sửa trang bị" anchor="56" url="56.html"/>	
+	    <Item name="Giao diện cửa tiệm NPC" anchor="14" url="14.html"/>	
+	    <Item name="Giao diện chuyển vật phẩm vào đạo cụ" anchor="24" url="24.html"/>	
+	    <Item name="Giao diện hợp thành vật phẩm" anchor="24" url="24.html"/>	
+	    <Item name="Giao diện tay nải" anchor="1" url="1.html"/>	
+	    <Item name="Cái khác" anchor="24" url="24.html"/>	
+	    <Item name="Giải mã tâm trạng" anchor="7" url="7.html"/>	
+	    <Item name="Giao diện màu" anchor="32" url="32.html"/>	
+	    <Item name="Xem giao diện vật cưng" anchor="17" url="17.html"/>	
+	    <Item name="Hình bối cảnh" anchor="24" url="24.html"/>	
+	    <Item name="Thiết lập tần số" anchor="50" url="50.html"/>	
+	    <Item name="Thiết lập âm thanh" anchor="41" url="41.html"/>	
+        <Item name="Giải Thích Hiển Thị Chữ Số" anchor="61" url="61.html"/>	
+		<Item name="Chi Tiết Thẻ Tài Phú" anchor="62" url="62.html"/>	
+		<Item name="Tính Năng Đánh Giá Sư Đồ" anchor="63" url="63.html"/>	
+		<Item name="Tính Năng Khóa Toàn Bộ" anchor="64" url="64.html"/>	
+		<Item name="Gửi Bán" anchor="65" url="65.html"/>	
+		<Item name="Giới Thiệu Mua và Bán Nguyên Liệu" anchor="68" url="68.html"/>	
+		<Item name="Giới Thiệu Tính Năng Điêu Trác Bảo Thạch" anchor="69" url="69.html"/>	
+		<Item name="Giới Thiệu Cường Hóa Trang Bị" anchor="70" url="70.html"/>	
+		<Item name="Giới Thiệu Cầu Mây" anchor="71" url="71.html"/>	
+		<Item name="Giới Thiệu Điểm Quan Hệ" anchor="72" url="72.html"/>
+                <Item name="Danh Sách Người Chơi Gần" anchor="74" url="74.html"/>	
+        <Item name="Bảo Hộ Thương Điếm Người Chơi" anchor="sdbh" url="sdbh.html"/>					
+        <Item name="Giới Thiệu Hệ Thống Cầu" anchor="xxq" url="xxq.html"/>						
+</Item>
+
+<Item name="Giới Thiệu Võ Hồn" anchor="whjs" url="whjs.html">
+		<Item name="Thăng Cấp Võ Hồn" anchor="whsj" url="whsj.html"/>
+        <Item name="Đẳng Cấp Hợp Thành Võ Hồn" anchor="whhcdj" url="whhcdj.html"/>
+		<Item name="Thuộc Tính Phát Triển Võ Hồn" anchor="whkzsx" url="whkzsx.html"/>
+		<Item name="Tính Năng Võ Hồn" anchor="whjn" url="whjn.html"/>
+		<Item name="Tương Tính Võ Hồn" anchor="whsx" url="whsx.html"/>
+		<Item name="Thọ Mệnh Võ Hồn" anchor="whsx" url="whsm.html"/>
+
+ </Item>
+	
+</HelperItemSet>

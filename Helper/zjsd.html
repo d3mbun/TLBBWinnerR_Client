@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hỗ trợ trò chơi Thiên Long bát bộ</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style4 {color:#f5edb8; font-size: 10px; font-family: Arial, Helvetica, sans-serif;}
+.STYLE8 {
+	font-size: 12;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE9 {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.STYLE16 {color: #ffffff}
+.STYLE18 {font-size: 16px; font-weight: bold; color: #FFFFFF; }
+.STYLE19 {font-size: 12px; font-family: Arial, Helvetica, sans-serif;}
+.STYLE22 {font-size: 12px; color: #ffffff; font-family: Arial, Helvetica, sans-serif;}
+.STYLE23 {font-size: 12px; font-family: Arial, Helvetica, sans-serif;}
+-->
+</style>
+</head>
+
+<body>
+<p class="STYLE18">Cửa hàng người chơi</p>
+<p><span class="STYLE9"><img src="arrow.gif" width="19" height="18" align="absmiddle"><span class="STYLE16">Chỉ số thương mại nhiệm vụ người mới chơi<br>
+  </span></span><span class="STYLE19">Chỉ số thương mại là chỉ số tính toán các cửa hàng lời lãi nhiều ít, được tính dựa trên số tiệm mà người chơi mở.<br>
+  Mục đích chủ yếu của chỉ số này là khống chế tổng số cửa tiệm được mở, số cửa tiệm càng nhiều, chi phí duy trì cửa tiệm của mỗi người mở tiệm càng cao.<br>
+  Trạng thái ban đầu của chỉ số thương mại là 50%, mở mỗi cửa tiệm tăng 0.2%, khi số tiệm đạt tới 250 căn, chỉ số thương mại sẽ gấp đôi giá trị ban đầu 100%. Bộ phận số lẻ của chỉ số thương mại không hiển thị (làm tròn), chỉ tính giá trị này khi tính toán.<br>
+  Khi tổng số cửa tiệm ≥ 200, mở mỗi cửa tiệm sẽ tăng chỉ số thương mại là 0.3%;<br>
+  Khi tổng số cửa tiệm ≥ 250, mở mỗi cửa tiệm sẽ tăng chỉ số thương mại là 0.4%.<br>
+  Tổng số tối đa cửa tiệm là 512.<br>
+  Đóng mỗi cửa tiệm, chỉ số sẽ giảm tương ứng.</span></p>
+<p><span class="STYLE19"><img src="arrow.gif" width="19" height="18" align="absmiddle"><span class="STYLE16">Thành phần mỗi tiệm</span><br>
+  Một cửa tiệm chia thành 10 gian quầy.<br>
+  Mỗi quầy có thể đặt 20 rương vật phẩm.<br>
+  Nếu là tiệm trân thú, mỗi gian quầy hàng có thể đặt 15 hàng trân thú.<br>
+  Khi người chơi mới lập tiệm, chỉ có 1 gian quầy, có thể mở rộng quầy hàng trong phần chức năng quản lý cửa tiệm (dĩ nhiên cũng có thể xóa quầy hàng)</span></strong></p>
+<p><span class="STYLE9"><img src="arrow.gif" width="19" height="18" align="absmiddle"><span class="STYLE16">Điều kiện dỡ bỏ quầy</span><br>
+  </span><span class="STYLE19">1.	Chủ cửa tiệm;<br>
+  2.	Chỉ có thể dỡ bỏ quầy hàng cuối cùng;<br>
+  3.	Khi chỉ còn một quầy hàng cuối cùng không thể dỡ bỏ; (cần bảo giữ quầy hàng cuối cùng)<br>
+  Sau khi dỡ bỏ, đồ vật trong quầy hàng sẽ biến mất;</span></p>
+<p class="STYLE19">Quy định đóng cửa lẫn duy trì cửa tiệm (duy trì đối với tiền vốn, tiền lời).<br>
+  Cửa tiệm có hai ngân hàng gửi tiền, một là ngân hàng tiền vốn, một là ngân hàng tiền lời<br>
+  Ngoài số ngân lượng nộp cho hệ thống, người chơi còn phải nhập vào một khoản ngân lượng nhất định, khoản này có thể lĩnh rút. Ngân lượng  của tiệm không cho phép rút ra, chỉ cho phép nhập vào, mỗi lần nhập vào cần giao nộp thuế đầu tư 3%. Tiền lời gọi là ngân lượng lời, có thể nhập vào có thể rút ra, khi nhập vào cũng phải  nộp thuế đầu tư 3%.</p>
+<p><span class="STYLE9"><img src="arrow.gif" width="19" height="18" align="absmiddle"><span class="STYLE16">Điều kiện mở tiệm</span><br>
+  </span><span class="STYLE19">1.	Đẳng cấp người chơi < cấp 30, không thể mở 
+tiệm.<br>
+  2.	Khi số ngân lượng của người chơi không đủ chi phí khai trương cửa tiệm, việc khai trương thất bại.<br>
+  3.	Nếu người chơi đã có 2 cửa tiệm, thông tin thất bại hiển thị nổi bật: “Các hạ đã chưởng quản 2 tiệm hàng, mở tiệm mới thất bại.”</span></p>
+<p><span class="STYLE8"><span class="STYLE19"><img src="arrow.gif" width="19" height="18" align="absmiddle"></span><span class="STYLE22">Mở tiệm cần biết</span><br>
+  </span><span class="STYLE23"><span class="STYLE19">Đẳng cấp mở tiệm ≥ cấp 30<br>
+  Phí dùng mở tiệm: 30 tiền vàng *chỉ số thương mại *2 (phí mở tiệm + tiền vốn đưa vào) *103% (thuế đầu tư)<br>
+  Mặc định tiệm mới mở có 01 quầy hàng.<br>
+  Ngoài số ngân lượng nộp cho hệ thống, người chơi còn phải nhập vào một khoản ngân lượng nhất định, khoản này có thể lĩnh rút. Ngân lượng của tiệm không cho phép rút ra, chỉ cho phép nhập vào, mỗi lần nhập vào cần giao nộp thuế đầu tư 0.03%. Tiền lời gọi là ngân lượng lời, có thể nhập vào có thể rút ra, khi nhập vào cũng phải nộp thuế đầu tư 0.03%.</span></span></p>
+<p class="STYLE19">Bất kể có khai trương hay không, mỗi tiệm hàng đều bị thu thuế vào 0h hàng ngày, bằng 5 đồng vàng * hệ số kinh doanh.<br>
+  Với các tiệm hàng đã khai trương, mỗi giờ đồng hồ thu lệ phí kinh doanh 20 đồng bạc * hệ số kinh doanh * số quầy bán.<br>
+  Thuế giao dịch: căn cứ số quầy bán, mỗi khoản giao dịch phải nộp mức thuế khác nhau.<br>
+  10 cửa tiệm thu 2%.<br>
+  9 tiệm thu 4%.<br>
+  8 tiệm thu 4%.<br>
+  7 tiệm thu 5%.<br>
+  6 tiệm thu 5%.<br>
+  5 tiệm thu 6%.<br>
+  4 tiệm thu 6%.<br>
+  3 tiệm thu 7%.<br>
+  2 tiệm thu 7%.<br>
+  1 tiệm thu 8%.<br>
+  Tiền lời của tiệm được ưu tiên xét tới tiền vốn có đạt trị số cơ bản hay không, nếu không đủ, tiền lời sẽ ưu tiên bổ sung vào vốn, trường hợp  vốn đầy đủ mới nhập vào phần lời.<br>
+  Bất kể tiệm hàng có khai trương hay không, vẫn tính theo số lượng quầy hàng của tiệm.<br>
+  Trị số cơ bản của vốn tiệm bằng: 30 đồng vàng * hệ số kinh doanh * số quầy đã mở<br>
+  Khi tiền vốn tiệm của các hạ xuống thấp hơn 50%  vốn, hệ thống sẽ phát thông tin (kể cả tin offline) nhắc nhở các hạ phải bổ sung vốn.<br>
+  Khi vốn của các hạ không đủ chi trả cho số ngân lượng mà hệ thống trưng thu, hệ thống sẽ tuyên bố tiệm hàng bị phá sản, đồng thời gửi tin nhắn (gồm cả tin offline) cho các hạ.<br>
+Toàn bộ vật phẩm trong tiệm hàng bị tuyên bố phá sản sẽ bị hệ thống tịch thu.</p>
+<p class="STYLE8"><br>
+</p>
+</body>
+</html>

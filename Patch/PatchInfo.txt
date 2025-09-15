@@ -1,0 +1,8 @@
+[Version]
+Latest=1.00.00
+NewLaunch=1.0.0
+
+[Patch_0]
+VersionFrom=1.00.00
+VersionTo=1.00.01
+URL_1=http://tlbbwinner.com/launch/01.zip

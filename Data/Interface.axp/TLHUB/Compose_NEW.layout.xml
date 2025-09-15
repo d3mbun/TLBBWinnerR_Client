@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="TLBB_MainFrame1" Name="Compose_NEW_Frame">
+        <Property Name="UnifiedPosition" Value="{{0.4,0},{0.15,0}}" />
+        <Property Name="AbsoluteSize" Value="w:256 h:370" />
+        <Event Name="Hidden" Function="Compose_NEW_Close();" />
+        <Window Type="TLBB_DragTitle" Name="Compose_NEW_DragTitle">
+            <Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}" />
+            <Property Name="DragTarget" Value="Compose_NEW_Frame" />
+            <Property Name="Font" Value="YouYuan11.25" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Text" Value="" />
+        </Window>
+        <Window Type="TLBB_ButtonClose" Name="Compose_NEW_Close">
+            <Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+            <Event Name="Clicked" Function="Compose_NEW_Close();" />
+        </Window>
+        <Window Type="TLBB_ButtonHelp" Name="Compose_NEW_Help">
+            <Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+            <Event Name="Clicked" Function="" />
+        </Window>
+        <Window Type="DefaultWindow" Name="Compose_NEW_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:7.000000 y:36.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-13.000000},{1.000000,-55.000000}" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="Compose_NEW_Info">
+                <Property Name="Position" Value="x:0.0 y:0.0" />
+                <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,80.000000}}"/>
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="Text" Value="" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="Compose_NEW_SuccessValue">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.100000,50.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,22.000000}" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+            <Window Type="TLBB_SimpleText" Name="Compose_NEW_Static1">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.100000,75.000000}}"/>
+                <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="Text" Value="" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Compose_NEW_Space1">
+                <Property Name="UnifiedPosition" Value="{{0.1,0.000000},{0.100000,95.000000}" />
+                <Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000" />
+                <Property Name="DragAcceptName" Value="G7" />
+                <Property Name="DraggingEnabled" Value="True" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Compose_NEW_Space2">
+                <Property Name="UnifiedPosition" Value="{{0.1,38.000000},{0.100000,95.000000}" />
+                <Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000" />
+                <Property Name="DragAcceptName" Value="G8" />
+                <Property Name="DraggingEnabled" Value="True" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Compose_NEW_Space3">
+                <Property Name="UnifiedPosition" Value="{{0.1,76.000000},{0.100000,95.000000}" />
+                <Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000" />
+                <Property Name="DragAcceptName" Value="G9" />
+                <Property Name="DraggingEnabled" Value="True" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Compose_NEW_Space4">
+                <Property Name="UnifiedPosition" Value="{{0.1,114.000000},{0.100000,95.000000}" />
+                <Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000" />
+                <Property Name="DragAcceptName" Value="G10" />
+                <Property Name="DraggingEnabled" Value="True" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Compose_NEW_Space5">
+                <Property Name="UnifiedPosition" Value="{{0.1,152.000000},{0.100000,95.000000}" />
+                <Property Name="AbsoluteSize" Value="w:36.000000 h:36.000000" />
+                <Property Name="DragAcceptName" Value="G11" />
+                <Property Name="DraggingEnabled" Value="True" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Compose_NEW_Special">
+                <Property Name="UnifiedPosition" Value="{{0.000000,20.000000},{0.900000,-103.600006}}"/>
+                <Property Name="UnifiedSize" Value="{{0.000000,209.000000},{0.000000,45.000000}" />
+                <Window Type="TLBB_SimpleText" Name="Compose_NEW_Static2">
+                    <Property Name="UnifiedPosition" Value="{{0.000000,12.000000},{0.000000,8.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.000000,-100.000000},{0.000000,20.000000}" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="Text" Value="Hợp Thành Phù" />
+                    <Property Name="TextColor" Value="FFFFF263" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="VertFormatting" Value="VertCentred" />
+                </Window>
+                <Window Type="TLBB_ActionButton" Name="Compose_NEW_Special_Button">
+                    <Property Name="AbsolutePosition" Value="x:135.000000 y:0.000000" />
+                    <Property Name="AbsoluteSize" Value="w:36.000000 h:35.000000" />
+                    <Property Name="DragAcceptName" Value="G12" />
+                    <Property Name="DraggingEnabled" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="Compose_NEW_Static3">
+                <Property Name="UnifiedPosition" Value="{{0.05,0.000000},{1.000000,-89.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.9,0.000000},{0.000000,22.000000}" />
+                <Property Name="Text" Value="#{INTERFACE_XML_789}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="Compose_NEW_NeedMoney">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MoneyNumber" Value="0" />
+                    <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+                    <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+                    <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="Compose_NEW_SelfJiaozi_Text">
+                <Property Name="UnifiedPosition" Value="{{0.05,0.000000},{1.000000,-67.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.9,0.000000},{0.000000,22.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="Text" Value="#{BDJB_051210_1}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="Compose_NEW_SelfJiaozi">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MoneyNumber" Value="0" />
+                    <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+                    <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+                    <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="Compose_NEW_SelfMoney_Text">
+                <Property Name="UnifiedPosition" Value="{{0.05,0.000000},{1.000000,-45.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.9,0.000000},{0.000000,22.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="Text" Value="#{INTERFACE_XML_834}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_Money" Name="Compose_NEW_SelfMoney">
+                    <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+                    <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="MoneyNumber" Value="0" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_Frame_Lace5" Name="Compose_NEW_Blank">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{1.000000,-20.000000}" />
+                <Property Name="UnifiedSize" Value="{{1.000000,-120.000000},{0.000000,20.000000}" />
+            </Window>
+            <Window Type="TLBB_ButtonCommon" Name="Compose_NEW_OK">
+                <Property Name="UnifiedPosition" Value="{{1.000000,-150.000000},{1.000000,-20.000000}" />
+                <Property Name="AbsoluteSize" Value="w:90.000000 h:20.000000" />
+                <Property Name="Text" Value="#{INTERFACE_XML_314}" />
+                <Event Name="Clicked" Function="Compose_NEW_OK_Clicked();" />
+            </Window>
+            <Window Type="TLBB_ButtonCommon" Name="Compose_NEW_Cancel">
+                <Property Name="UnifiedPosition" Value="{{1.000000,-60.000000},{1.000000,-20.000000}" />
+                <Property Name="AbsoluteSize" Value="w:60.000000 h:20.000000" />
+                <Property Name="Text" Value="#{INTERFACE_XML_539}" />
+                <Event Name="Clicked" Function="Compose_NEW_Close();" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

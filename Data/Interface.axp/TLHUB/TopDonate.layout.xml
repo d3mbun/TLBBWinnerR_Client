@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame0" Name="TopDonate_Frame">
+		<Property Name="UnifiedSize" Value="{{0.000000,600.000000},{0.000000,400.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.50000,-300.000000},{0.50000,-200.000000}}"/>
+		<Event Name="Hidden" Function="TopDonate_OnHidden();"/>
+		<Window Type="TLBB_DragTitle" Name="TopDonate_DragTitle">
+            <Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}" />
+            <Property Name="Font" Value="YouYuan11.25" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="DragTarget" Value="TopDonate_Frame" />
+			<Property Name="Text" Value="#YNhất Đại Phú Gia"/>
+		</Window>
+		<Window Type="TLBB_ButtonHelp" Name="TopDonate_Help">
+			<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonHelp" />
+			<Event Name="Clicked" Function="TopDonate_Help();" />
+		</Window>
+		<Window Type="TLBB_ButtonClose" Name="TopDonate_Close">
+			<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+			<Property Name="Text" Value="TLBB_ButtonClose" />
+			<Event Name="Clicked" Function="TopDonate_OnHidden();" />
+		</Window>
+        <Window Type="DefaultWindow" Name="TopDonate_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:10.000000 y:35.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-60.000000}" />
+
+            <Window Type="TLBB_SimpleMulitiTextFrame" Name="TopDonate_Info">
+				<Property Name="AbsolutePosition" Value="x:3.000000 y:6.000000" />
+				<Property Name="UnifiedSize" Value="{{1.000000,-12.000000},{0.000000,60.000000}" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="Text" Value="Bảng Xếp Hạng Nạp Thẻ" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+
+            <Window Type="TLBB_MultiColumnList" Name="TopDonate_List">
+				<Property Name="AbsolutePosition" Value="x:3.000000 y:70.000000" />
+                <Property Name="UnifiedSize" Value="{{1.000000,-12.000000},{0.000000,240.000000}" />
+                <Property Name="ForceHorzScrollbar" Value="False" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="SortSettingEnabled" Value="False" />
+                <Property Name="SelectionMode" Value="RowSingle" />
+                <Property Name="ColumnHeader" Value="text:TOP width:0.07 id:0" />
+                <Property Name="ColumnHeader" Value="text:Mã NV width:0.13 id:1" />
+                <Property Name="ColumnHeader" Value="text:Tên Nhân Vật width:0.20 id:2" />
+                <Property Name="ColumnHeader" Value="text:Môn Phái width:0.14 id:3" />
+                <Property Name="ColumnHeader" Value="text:Tài Phú - VND width:0.20 id:4" />
+                <Property Name="ColumnHeader" Value="text:Thời Gian width:0.26 id:5" />
+                <Property Name="ColumnsSizable" Value="False" />
+                <Property Name="ColumnsAdjust" Value="True" />
+                <Property Name="ColumnsMovable" Value="False" />
+            </Window>
+			
+            <!-- <Window Type="TLBB_ButtonCommon" Name="TopDonate_Back" > -->
+				<!-- <Property Name="UnifiedSize" Value="{{0.000000,64.000000},{0.000000,24.000000}}"/> -->
+				<!-- <Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{1.000000,-25.0000}}"/> -->
+				<!-- <Property Name="Text" Value="Trước" /> -->
+				<!-- <Event Name="Clicked" Function="" /> -->
+            <!-- </Window> -->
+			
+			<Window Type="TLBB_ButtonCommon" Name="TopDonate_Update" >
+				<Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,24.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.500000,-50.000000},{1.000000,-25.0000}}"/>
+				<Property Name="Text" Value="Cập Nhật" />
+				<Event Name="Clicked" Function="TopDonate_Update_Clicked();" />
+            </Window>
+			
+			<!-- <Window Type="TLBB_ButtonCommon" Name="TopDonate_Next" > -->
+				<!-- <Property Name="UnifiedSize" Value="{{0.000000,64.000000},{0.000000,24.000000}}"/> -->
+				<!-- <Property Name="UnifiedPosition" Value="{{1.000000,-73.000000},{1.000000,-25.0000}}"/> -->
+				<!-- <Property Name="Text" Value="Sau" /> -->
+				<!-- <Event Name="Clicked" Function="" /> -->
+            <!-- </Window> -->
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+	<Imageset Name="CommonFrame14" Imagefile="Common/CommonFrame14.tga" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="false">
+    <Image Name="Subarea_2_3" XPos="0" YPos="0" Width="173" Height="23" />
+    <Image Name="Subarea_2_4" XPos="0" YPos="23" Width="173" Height="23" />
+    <Image Name="Subarea_2_5" XPos="0" YPos="46" Width="173" Height="23" />
+    <Image Name="Subarea_1_1" XPos="0" YPos="69" Width="173" Height="23" />
+    <Image Name="Subarea_1_2" XPos="0" YPos="92" Width="173" Height="23" />
+    <Image Name="Subarea_1_3" XPos="0" YPos="115" Width="173" Height="23" />
+    <Image Name="Subarea_1_4" XPos="0" YPos="138" Width="173" Height="23" />
+    <Image Name="Subarea_1_5" XPos="0" YPos="161" Width="173" Height="23" />
+	</Imageset>

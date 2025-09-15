@@ -1,0 +1,50 @@
+--MisDescBegin
+x600039_g_ScriptId = 600039
+x600039_g_MissionId = 1111
+x600039_g_Name = "Tr¸nh Vô Danh"
+x600039_g_MissionLevel = 10000
+x600039_g_MissionKind = 50
+x600039_g_IfMissionElite = 0
+x600039_g_IsMissionOkFail			=0	--0 ÈÎÎñÍê³É±ê¼Ç
+x600039_g_MissionParam_SubId		=1	--1 ×ÓÈÎÎñ½Å±¾ºÅ´æ·ÅÎ»ÖÃ
+x600039_g_Param_sceneid				=2	--2 µ±Ç°¸±±¾ÈÎÎñµÄ³¡¾°ºÅ
+x600039_g_MissionParam_BossIndex	=3	--3 Ä³ Boss µÄÃû×ÖË÷Òı
+x600039_g_Param_Killed				=4	--4 ÒÑÉ±ËÀµÄÊıÁ¿
+x600039_g_Param_Needed				=5	--5 ĞèÉ±ËÀµÄÊıÁ¿
+x600039_g_MissionRound = 59
+x600039_g_MissionName = "Xây dñng nhi®m vø"
+x600039_g_MissionInfo = ""													--ÈÎÎñÃèÊö
+x600039_g_MissionTarget = "    Tìm thü lînh mà giang h° xßng là %s và cùng v¾i ti¬u b¯i mà ông ta dçn ğªn và giªt chúng.#r#{BHRW_091224_1}"	--ÈÎÎñÄ¿±ê
+x600039_g_ContinueInfo = "    Nhi®m vø cüa các hÕ vçn chßa hoàn thành à?"						--Î´Íê³ÉÈÎÎñµÄnpc¶Ô»°
+x600039_g_SubmitInfo = "    Sñ tình tiªn tri¬n nhß thª nào r°i?"								--Íê³ÉÎ´Ìá½»Ê±µÄnpc¶Ô»°
+x600039_g_MissionComplete = "    R¤t t¯t r¤t t¯t, tiªn ğµ xây dñng lÕi tång nhanh r°i. "			--Íê³ÉÈÎÎñnpcËµ»°µÄ»°
+x600039_g_Parameter_Kill_CountRandom = { { id = 300471, numNeeded = 5, numKilled = 4 } }
+x600039_g_StrForePart = 3
+x600039_g_StrList = {
+[0 ] = "",
+[1 ] = "Ti¬u Thái Tuª",
+[2 ] = "Hàn Thái Tuª",
+[3 ] = "HoÕt Thái Tuª",
+[4 ] = "B®nh Thái Tuª",
+[5 ] = "Ğang Trñc Thái tuª",
+[6 ] = "Thanh Di®n Thái Tuª",
+[7 ] = "Huyªt Thü Thái Tuª",
+[8 ] = "Bát Di®n Thái Tuª",
+[9 ] = "Ác Thü Diêm La",
+[10] = "Ti¬u Diêm La",
+[11] = "Hàn Diêm La",
+[12] = "HoÕt Diêm La",
+[13] = "B®nh Diêm La",
+[14] = "CØu Ğ¥u Diêm La",
+[15] = "Kim Nhãn Diêm La",
+[16] = "Kim chß·ng Diêm La",
+[17] = "Thiªt Quy«n Bá Vß½ng",
+[18] = "Bát Bá Vß½ng",
+[19] = "B®nh Bá Vß½ng",
+[20] = "Ti¬u Bá Vß½ng",
+[21] = "TrÕi Bá Vß½ng",
+[22] = "HoÕt Bá Vß½ng",
+}
+x600039_g_CityMissionScript = 600001
+x600039_g_ConstructionScript = 600035
+--MisDescEnd

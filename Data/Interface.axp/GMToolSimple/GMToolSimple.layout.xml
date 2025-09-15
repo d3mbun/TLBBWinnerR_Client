@@ -1,0 +1,994 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<!--Show ra mot cai khung Rong-->
+	<Window Type="TLBB_MainFrameNULL" Name="GMToolSimple_Frame">
+		<Property Name="UnifiedSize" Value="{{0,700},{0,540}}"/> <!--Day la chieu rong va chieu cao cua khung-->
+		<Property Name="UnifiedPosition" Value="{{0,0},{0.12,0}}"/>
+		<!--Khai bao thanh tieu de-->
+		<Window Type="TLBB_MainFrame1" Name="GMToolSimple_Client">
+			<Property Name="UnifiedSize" Value="{{0,700},{0,540}}"/>
+			<Property Name="UnifiedPosition" Value="{{0,0},{0,0}}"/>
+			<Event Name="Hidden" Function="this:Hide()"/>
+			<!--Show ra Title cua khung-->
+			<Window Type="TLBB_DragTitle" Name="GMToolSimple_DragTitle">
+				<Property Name="UnifiedSize" Value="{{1,-146},{0,20}}"/>
+				<Property Name="UnifiedPosition" Value="{{0,85},{0,11}}"/>
+				<Property Name="DragTarget" Value="GMToolSimple_Frame"/>
+				<!--Show ra mot cai Text-->
+				<Window Type="TLBB_SimpleText" Name="GMToolSimple_PageHeader">
+					<Property Name="Position" Value="x:0 y:0"/>
+					<Property Name="Size" Value="w:1 h:1"/>
+					<Property Name="Font" Value="YouYuan11.25"/>
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="RiseOnClick" Value="False"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+			</Window>
+			<!--Show ra Button close    !!!reloadscript =GMToolSimple      -->
+			<Window Type="TLBB_ButtonClose" Name="GMToolSimple_Close">
+                <Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}" />
+				<Property Name="AbsoluteSize" Value="w:14 h:14"/>
+				<Event Name="Clicked" Function="this:Hide()"/>
+			</Window>
+			<Window Type="TLBB_ButtonHelp" Name="GMToolSimple_Helps">
+                <Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}" />
+				<Property Name="AbsoluteSize" Value="w:14 h:14"/>
+			</Window>
+			<!--Khai bao phan than khung-->
+			 <Window Type="DefaultWindow" Name="GMToolSimple_Frame1_Client">
+				<Property Name="AbsolutePosition" Value="x:7 y:36" />
+                <Property Name="UnifiedSize" Value="{{1,-13},{1,-55}" />
+				<!--Show ra mot cai Text-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_PlayerTextArea">
+					<Property Name="AbsolutePosition" Value="x:5 y:0" />
+                    <Property Name="AbsoluteSize" Value="w:290 h:100" />
+					<Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="RiseOnClick" Value="False"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddYuanBao_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:105" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddYuanBao_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:105" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddYuanBao_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:105" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddYuanBao_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddZengDian_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:137" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddZengDian_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:137" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddZengDian_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:137" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddZengDian_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddMoney_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:169" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddMoney_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:169" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddMoney_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:169" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddMoney_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddExp_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:201" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddExp_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:201" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddExp_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:201" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddExp_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddExpDark_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:233" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddExpDark_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:233" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddExpDark_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:233" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddExpDark_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				<!--ADD Point-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddCuongLuc_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:105" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Cường Lực"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddCuongLuc_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:105" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddCuongLuc_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:105" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(1)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddNoiLuc_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:137" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Nội Lực"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddNoiLuc_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:137" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddNoiLuc_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:137" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(2)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddTheLuc_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:169" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Thể Lực"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddTheLuc_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:169" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddTheLuc_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:169" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(3)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddTriLuc_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:201" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Trí Lực"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddTriLuc_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:201" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddTriLuc_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:201" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(4)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddThanPhap_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:233" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Thân Pháp"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddThanPhap_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:233" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddThanPhap_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:233" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(5)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_CongPoint_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:265" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Point"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_CongPoint_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:265" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="20"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_CongPoint_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:265" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Cộng" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CharArtt_Clicked(6)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				
+				
+				
+				<!--Show ra mot cai Text Field Thông Tin Người Chơi-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_PlayerInfo_Text">
+					<Property Name="AbsolutePosition" Value="x:300 y:0" />
+					<Property Name="AbsoluteSize" Value="w:385 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field ID Nhân Vật-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ObjID_Text">
+					<Property Name="AbsolutePosition" Value="x:300 y:35" />
+					<Property Name="AbsoluteSize" Value="w:230 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="Tooltip" Value="Thông tin ID nhân vật ở tab Nhân"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao OBJ ID -->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_ObjID_Input">
+					<Property Name="AbsolutePosition" Value="x:530 y:35" />
+					<Property Name="AbsoluteSize" Value="w:100 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="8"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_ObjID_Btn">
+                    <Property Name="AbsolutePosition" Value="x:635 y:35" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="OK" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_FindPlayer_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ObjID_Output_Text">
+					<Property Name="AbsolutePosition" Value="x:300 y:70" />
+					<Property Name="AbsoluteSize" Value="w:70 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ObjID_Output_Screen">
+					<Property Name="AbsolutePosition" Value="x:370 y:70" />
+					<Property Name="AbsoluteSize" Value="w:60 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_Name_Output_Text">
+					<Property Name="AbsolutePosition" Value="x:430 y:70" />
+					<Property Name="AbsoluteSize" Value="w:100 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_Name_Output_Screen">
+					<Property Name="AbsolutePosition" Value="x:530 y:70" />
+					<Property Name="AbsoluteSize" Value="w:155 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_Boss_Create_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:265" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_BossID_Text">
+<!-- 					<Property Name="AbsolutePosition" Value="x:110 y:265" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_BossID_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:265" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_BossCreate_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:265" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CreateBoss_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_Goto_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:361" />
+					<Property Name="AbsoluteSize" Value="w:231 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_PosX_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:393" />
+					<Property Name="AbsoluteSize" Value="w:70 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_PosX_Input">
+					<Property Name="AbsolutePosition" Value="x:315 y:393" />
+					<Property Name="AbsoluteSize" Value="w:40 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="3"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_PosY_Text">
+					<Property Name="AbsolutePosition" Value="x:360 y:393" />
+					<Property Name="AbsoluteSize" Value="w:70 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_PosY_Input">
+					<Property Name="AbsolutePosition" Value="x:432 y:393" />
+					<Property Name="AbsoluteSize" Value="w:40 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="3"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_SceneID_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:425" />
+					<Property Name="AbsoluteSize" Value="w:70 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_SceneID_Input">
+					<Property Name="AbsolutePosition" Value="x:315 y:425" />
+					<Property Name="AbsoluteSize" Value="w:40 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="3"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_Goto_Btn">
+                    <Property Name="AbsolutePosition" Value="x:360 y:425" />
+                    <Property Name="AbsoluteSize" Value="w:113 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_Transfer_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_SetMissionData_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:361" />
+					<Property Name="AbsoluteSize" Value="w:237 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_MissionData_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:393" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_MissionData_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:393" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="3"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_MissionDataValue_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:425" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_MissionDataValue_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:425" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_SetMissionData_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:408" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_SetMD_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_CreatePet_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:297" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_PetID_Text">
+<!-- 					<Property Name="AbsolutePosition" Value="x:210 y:455" />
+					<Property Name="AbsoluteSize" Value="w:100 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_PetID_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:297" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_CreatePet_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:297" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_CreatePet_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddDMP_Text">
+					<Property Name="AbsolutePosition" Value="x:5 y:329" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Điểm Môn Phái"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_AddDMP_Input">
+					<Property Name="AbsolutePosition" Value="x:110 y:329" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddDMP_Btn">
+                    <Property Name="AbsolutePosition" Value="x:192 y:329" />
+                    <Property Name="AbsoluteSize" Value="w:50 h:30" />
+                    <Property Name="Text" Value="Duyệt" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddDMP_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				<!--Show ra mot cai Text-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ItemTextArea">
+<!-- 					<Property Name="AbsolutePosition" Value="x:475 y:0" />
+                    <Property Name="AbsoluteSize" Value="w:205 h:135" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="RiseOnClick" Value="False"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->				</Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ItemChanal_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:105" />
+					<Property Name="AbsoluteSize" Value="w:210 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Các tính năng trang bị"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ItemPos_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:137" />
+					<Property Name="AbsoluteSize" Value="w:175 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_ItemPos_Input">
+					<Property Name="AbsolutePosition" Value="x:652 y:137" />
+					<Property Name="AbsoluteSize" Value="w:30 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="2"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_JudgeApt_Btn">
+                    <Property Name="AbsolutePosition" Value="x:475 y:169" />
+                    <Property Name="AbsoluteSize" Value="w:110 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipJudgeApt_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_StrengThen_Btn">
+                    <Property Name="AbsolutePosition" Value="x:590 y:169" />
+                    <Property Name="AbsoluteSize" Value="w:90 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipStrengThen_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_Stileto_Btn">
+                    <Property Name="AbsolutePosition" Value="x:475 y:201" />
+                    <Property Name="AbsoluteSize" Value="w:110 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipAddSocket_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_Bind_Btn">
+                    <Property Name="AbsolutePosition" Value="x:590 y:201" />
+                    <Property Name="AbsoluteSize" Value="w:90 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipBind_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Text Field-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_GemPos_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:233" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_GemPos_Input">
+					<Property Name="AbsolutePosition" Value="x:555 y:233" />
+					<Property Name="AbsoluteSize" Value="w:30 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="2"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_GemEnchase_Btn">
+                    <Property Name="AbsolutePosition" Value="x:590 y:233" />
+                    <Property Name="AbsoluteSize" Value="w:90 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipEnchaseGem_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_DiaoWen_Btn">
+<!--                     <Property Name="AbsolutePosition" Value="x:475 y:280" />
+                    <Property Name="AbsoluteSize" Value="w:100 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipDiaoWen_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_XingZong_Btn">
+<!--                     <Property Name="AbsolutePosition" Value="x:580 y:280" />
+                    <Property Name="AbsoluteSize" Value="w:100 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_EquipXingZong_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->                </Window>
+				<!--Show ra mot cai Text-->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_Other_Text">
+<!-- 					<Property Name="AbsolutePosition" Value="x:475 y:315" />
+                    <Property Name="AbsoluteSize" Value="w:205 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="RiseOnClick" Value="False"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_XiuLian_Btn">
+<!--                     <Property Name="AbsolutePosition" Value="x:475 y:350" />
+                    <Property Name="AbsoluteSize" Value="w:205 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_XiuLian_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->                </Window>
+				
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_SendImpact_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:297" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Buff Impact"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>					
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_SendImpact_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:297" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_SendImpact_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:297" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_Impact_Clicked(1)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_CancalImpact_Text">
+					<Property Name="AbsolutePosition" Value="x:243 y:329" />
+					<Property Name="AbsoluteSize" Value="w:90 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Xóa Impact"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>					
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_CancalImpact_Input">
+					<Property Name="AbsolutePosition" Value="x:335 y:329" />
+					<Property Name="AbsoluteSize" Value="w:80 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="10"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_CancalImpact_Btn">
+                    <Property Name="AbsolutePosition" Value="x:417 y:329" />
+                    <Property Name="AbsoluteSize" Value="w:57 h:30" />
+                    <Property Name="Text" Value="Duyệt" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_Impact_Clicked(2)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				<!-- Add Vat Pham New -->
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_AddItemNew_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:361" />
+					<Property Name="AbsoluteSize" Value="w:210 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Tạo Vật Phẩm"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>					
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ItemID_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:393" />
+					<Property Name="AbsoluteSize" Value="w:105 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="ID Vật Phẩm"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_ItemID_Input">
+					<Property Name="AbsolutePosition" Value="x:580 y:393" />
+					<Property Name="AbsoluteSize" Value="w:104 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="GMToolSimple_ItemQuality_Text">
+					<Property Name="AbsolutePosition" Value="x:475 y:425" />
+					<Property Name="AbsoluteSize" Value="w:70 h:30" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="Text" Value="Số Lượng"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+				</Window>
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_ItemQuality_Input">
+					<Property Name="AbsolutePosition" Value="x:547 y:425" />
+					<Property Name="AbsoluteSize" Value="w:50 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="3"/>
+					<Property Name="Text" Value=""/>
+				</Window>
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_AddItemNew_Btn">
+                    <Property Name="AbsolutePosition" Value="x:600 y:425" />
+                    <Property Name="AbsoluteSize" Value="w:85 h:30" />
+                    <Property Name="Text" Value="Đồng ý" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddItemNew_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+				
+				
+				
+				
+				
+			
+				
+				
+				<!--Show ra mot cai Text Edit de nguoi choi nhap vao-->
+				<Window Type="TLBB_EditBoxNormal" Name="GMToolSimple_YuanXing_Input">
+<!-- 					<Property Name="AbsolutePosition" Value="x:475 y:420" />
+					<Property Name="AbsoluteSize" Value="w:100 h:30" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Property Name="MaxTextLength" Value="9"/>
+					<Property Name="Text" Value=""/>
+ -->				</Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_YuanXing_Btn">
+<!--                     <Property Name="AbsolutePosition" Value="x:580 y:420" />
+                    <Property Name="AbsoluteSize" Value="w:100 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_AddYuanXing_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+ -->                </Window>
+				<!--Show ra mot cai Button-->
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_TargetID">
+                    <Property Name="AbsolutePosition" Value="x:475 y:269" />
+                    <Property Name="AbsoluteSize" Value="w:210 h:30" />
+                    <Property Name="Text" Value="#GLấy ID Nhân Vật" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_TargetID_Clicked()"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_GMBuff_Btn">
+                    <Property Name="AbsolutePosition" Value="x:475 y:329" />
+                    <Property Name="AbsoluteSize" Value="w:210 h:30" />
+                    <Property Name="Text" Value="" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_GMBuff_Clicked(1)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>
+                <Window Type="TLBB_ButtonCommon" Name="GMToolSimple_Skillrecovery_Btn">
+                    <Property Name="AbsolutePosition" Value="x:475 y:299" />
+                    <Property Name="AbsoluteSize" Value="w:210 h:30" />
+                    <Property Name="Text" Value="#GHồi Phục Toàn Bộ" />
+                    <Property Name="Tooltip" Value="#YHồi phục toàn bộ bao gồm kỹ năng máu ,mana và nộ khí" />
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+					<Event Name="Clicked" Function="GMToolSimple_GMBuff_Clicked(2)"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+                </Window>	
+				<Window Type="TLBB_ScrollInfoFixedFrame" Name="GMToolSimple_ScrollInfo">
+					<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,463.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,25.000000}}"/>
+					<Property Name="MouseHollow" Value="True"/>
+					<Property Name="MouseMoveHollow" Value="True"/>
+				<Window Type="TLBB_ScrollInfoFixed" Name="GMToolSimple_ScrollInfo_Frame">
+					<Property Name="UnifiedPosition" Value="{{0.000000,26.000000},{0.000000,6.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,-52.000000},{1.000000,-10.000000}}"/>
+					<Property Name="CoolDown" Value="1.5"/>
+					<Property Name="MouseHollow" Value="True"/>
+					<Property Name="MouseMoveHollow" Value="True"/>
+					<Property Name="MoveSpeed" Value="32"/>
+					<Property Name="ScrollTime" Value="0"/>
+				</Window>
+			</Window>				
+			</Window>	
+		</Window>
+	</Window>
+</GUILayout>

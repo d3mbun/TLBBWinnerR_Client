@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<GUILayout>
+	<Window Type="TLBB_MainFrame0" Name="ShopCustom_Frame">
+		<Property Name="UnifiedPosition" Value="{{0.500000,-400.000000},{0.50000,-230.000000}}"/>
+		<Property Name="AbsoluteSize" Value="w:800.000000 h:460.000000"/>
+		<Event Name="Hidden" Function="ShopCustom_Hidden();"/>
+		<Window Type="TLBB_DragTitle" Name="ShopCustom_DragTitle">
+			<Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000"/>
+			<Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}}"/>
+			<Property Name="DragTarget" Value="ShopCustom_Frame"/>
+			<Window Type="TLBB_SimpleText" Name="ShopCustom_Text">
+				<Property Name="RelativePosition" Value="x:0.000000 y:0.000000"/>
+				<Property Name="RelativeSize" Value="w:1.000000 h:1.000000"/>
+				<Property Name="Font" Value="YouYuan11.25"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="VertFormatting" Value="TopAligned"/>
+				<Property Name="RiseOnClick" Value="False"/>
+				<Property Name="Text" Value="#YNguyên Bảo Thương Tiệm"/>
+			</Window>
+		</Window>
+		<Window Type="TLBB_ButtonHelp" Name="ShopCustom_Help">
+			<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}"/>
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000"/>
+			<Event Name="Clicked" Function="Helper:GotoHelper(&quot;*YuanbaoShop&quot;);"/>
+		</Window>
+		<Window Type="TLBB_ButtonClose" Name="ShopCustom_Close">
+			<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}"/>
+			<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000"/>
+			<Event Name="Clicked" Function="ShopCustom_Hidden();"/>
+		</Window>
+		<Window Type="DefaultWindow" Name="ShopCustom_Background_Frame1">
+			<Property Name="AbsolutePosition" Value="x:5.000000 y:36.000000"/>
+			<Property Name="UnifiedSize" Value="{{1.000000,-10.000000},{1.000000,-55.000000}}"/>
+
+			<Window Type="TLBB_Frame_Lace2" Name="ShopCustom_Bk1">
+				<Property Name="UnifiedPosition" Value="{{0.000000,1.000000},{0.000000,0.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{1.000000,-3.000000},{0.000000,77.000000}}"/>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button01">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,3.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 1"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(1);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button02">
+					<Property Name="UnifiedPosition" Value="{{0.000000,168.000000},{0.000000,3.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 2"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(2);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button03">
+					<Property Name="UnifiedPosition" Value="{{0.000000,333.000000},{0.000000,3.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 3"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(3);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button04">
+					<Property Name="UnifiedPosition" Value="{{0.000000,498.000000},{0.000000,3.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 4"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(4);"/>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button05">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,28.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 5"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(5);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button06">
+					<Property Name="UnifiedPosition" Value="{{0.000000,168.000000},{0.000000,28.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 6"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(6);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button07">
+					<Property Name="UnifiedPosition" Value="{{0.000000,333.000000},{0.000000,28.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 7"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(7);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button08">
+					<Property Name="UnifiedPosition" Value="{{0.000000,498.000000},{0.000000,28.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 8"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(8);"/>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button09">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,53.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 9"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(9);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button10">
+					<Property Name="UnifiedPosition" Value="{{0.000000,168.000000},{0.000000,53.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 10"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(10);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button11">
+					<Property Name="UnifiedPosition" Value="{{0.000000,333.000000},{0.000000,53.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 11"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(11);"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Button12">
+					<Property Name="UnifiedPosition" Value="{{0.000000,498.000000},{0.000000,53.000000}}" />
+					<Property Name="UnifiedSize" Value="{{0.000000,160.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Tiệm 12"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_KeySelected(12);"/>
+				</Window>
+				
+				<Window Type="TLBB_SimpleText" Name="ShopCustom_FunnyText">
+					<Property Name="AbsolutePosition" Value="x:700.000000 y:20.000000"/>
+					<Property Name="AbsoluteSize" Value="w:40.000000 h:40.000000"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="Text" Value=""/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+				</Window>
+				
+				<!-- <Window Type="TLBB_ButtonCommon2" Name="ShopCustom_Fitting"> -->
+					<!-- <Property Name="AbsolutePosition" Value="x:700.000000 y:20.000000"/> -->
+					<!-- <Property Name="AbsoluteSize" Value="w:40.000000 h:40.000000"/> -->
+					<!-- <Property Name="Text" Value="Thử"/> -->
+					<!-- <Event Name="Clicked" Function="ShopCustom_FittingEQ()"/> -->
+				<!-- </Window> -->
+			</Window>
+			
+			<Window Type="TLBB_ScrollInfoFixedFrame" Name="ShopCustom_ScrollInfo">
+				<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,78.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,25.000000}}"/>
+				<Property Name="MouseHollow" Value="True"/>
+				<Property Name="MouseMoveHollow" Value="True"/>
+				<Window Type="TLBB_ScrollInfoFixed" Name="ShopCustom_ScrollInfo_Frame">
+					<Property Name="UnifiedPosition" Value="{{0.000000,26.000000},{0.000000,6.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{1.000000,-52.000000},{1.000000,-10.000000}}"/>
+					<Property Name="CoolDown" Value="1.5"/>
+					<Property Name="MouseHollow" Value="True"/>
+					<Property Name="MouseMoveHollow" Value="True"/>
+					<Property Name="MoveSpeed" Value="32"/>
+					<Property Name="ScrollTime" Value="0"/>
+				</Window>
+			</Window>
+
+			<Window Type="TLBB_Frame_Lace2" Name="ShopCustom_Bk2">
+				<Property Name="UnifiedPosition" Value="{{0.000000,1.000000},{0.000000,103.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,180.000000},{0.000000,252.000000}}"/>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail01">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,3.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 01"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(1)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail02">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,28.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 02"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(2)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail03">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,53.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 03"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(3)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail04">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,78.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 04"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(4)"/>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail05">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,103.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 05"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(5)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail06">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,128.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 06"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(6)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail07">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,153.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 07"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(7)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail08">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,178.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 08"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(8)"/>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail09">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,203.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 09"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(9)"/>
+				</Window>
+				<Window Type="TLBB_ButtonCheckForRMBShop" Name="ShopCustom_Detail10">
+					<Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,228.000000}}"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,175.000000},{0.000000,22.000000}}"/>
+					<Property Name="CheckMode" Value="1"/>
+					<Property Name="Text" Value="Shop Detail 10"/>
+					<Event Name="MouseLButtonDown" Function="ShopCustom_DetailSelected(10)"/>
+				</Window>
+			</Window>
+			
+			<Window Type="TLBB_Frame_Lace3" Name="ShopCustom_SelfDetail">
+				<Property Name="UnifiedPosition" Value="{{0.000000,1.000000},{0.000000,359.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,181.000000},{0.000000,46.000000}}"/>
+				<Window Type="TLBB_SimpleText" Name="ShopCustom_ZengdianText">
+					<Property Name="AbsolutePosition" Value="x:8.000000 y:4.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:16.000000"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="Text" Value="Điểm tặng: 999999"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+				</Window>
+				
+				<Window Type="TLBB_SimpleText" Name="ShopCustom_YuanbaoText">
+					<Property Name="AbsolutePosition" Value="x:8.000000 y:23.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:16.000000"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="Text" Value="Nguyên bảo: 999999"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+				</Window>
+			</Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="ShopCustom_Web">
+				<Property Name="AlwaysOnTop" Value="true" />
+				<Property Name="UnifiedPosition" Value="{{0.000000,185.000000},{0.000000,378.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,101.000000},{0.000000,26.000000}}"/>
+				<Property Name="Text" Value="#YNạp Bạc Nhanh"/>
+				<Event Name="Clicked" Function="ShopCustom_OpenWeb()"/>
+				<Property Name="Tooltip" Value="#{YBSD_081225_081}" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="ShopCustom_Dis">
+				<Property Name="UnifiedPosition" Value="{{0.000000,287.000000},{0.000000,378.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,130.000000},{0.000000,26.000000}}"/>
+				<Property Name="Text" Value="Quy Đổi Nguyên Bảo"/>
+				<Event Name="Clicked" Function="ShopCustom_TradeKNB()"/>
+			</Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="ShopCustom_Dis1">
+				<Property Name="UnifiedPosition" Value="{{0.000000,418.000000},{0.000000,378.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,140.000000},{0.000000,26.000000}}"/>
+				<Property Name="Text" Value="Đổi Phiếu Nguyên Bảo"/>
+				<Event Name="Clicked" Function="ShopCustom_CardKNB()"/>
+			</Window>
+			
+			<Window Type="TLBB_ButtonCommon" Name="ShopCustom_Dis2">
+				<Property Name="UnifiedPosition" Value="{{0.000000,559.000000},{0.000000,378.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,230.000000},{0.000000,26.000000}}"/>
+				<Property Name="Text" Value="Hướng Dẫn Sử Dụng Thương Tiệm"/>
+				<Event Name="Clicked" Function=""/>
+				<Property Name="Tooltip" Value="#{YBSD_081225_097}" />
+			</Window>
+			
+			<Window Type="TLBB_Frame_Lace2" Name="ShopCustom_Bk3">
+				<Property Name="UnifiedPosition" Value="{{0.000000,185.000000},{0.000000,103.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.000000,603.000000},{0.000000,271.000000}}"/>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item01">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:5.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(1);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(01)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item01_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item01_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo01">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:4.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo01_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo01_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item02">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:43.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(2);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(02)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item02_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item02_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo02">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:42.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo02_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo02_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item03">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:81.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(3);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(03)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item03_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item03_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo03">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:80.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo03_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo03_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item04">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:119.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(4);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(04)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item04_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item04_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo04">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:118.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo04_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo04_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item05">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:157.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(5);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(05)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item05_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item05_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo05">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:156.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo05_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo05_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item06">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:195.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(6);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(06)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item06_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item06_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo06">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:194.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo06_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo06_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item07">
+					<Property Name="AbsolutePosition" Value="x:5.000000 y:233.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(7);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(07)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item07_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item07_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo07">
+					<Property Name="AbsolutePosition" Value="x:40.000000 y:232.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo07_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo07_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item08">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:5.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(8);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(08)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item08_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item08_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo08">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:4.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo08_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo08_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item09">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:43.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(9);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(09)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item09_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item09_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo09">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:42.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo09_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo09_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item10">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:81.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(10);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(10)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item10_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item10_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo10">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:80.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo10_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo10_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item11">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:119.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(11);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(11)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item11_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item11_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo11">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:118.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo11_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo11_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item12">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:157.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(12);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(12)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item12_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item12_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo12">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:156.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo12_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo12_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item13">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:195.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(13);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(13)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item13_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item13_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo13">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:194.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo13_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo13_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item14">
+					<Property Name="AbsolutePosition" Value="x:205.000000 y:233.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(14);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(14)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item14_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item14_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo14">
+					<Property Name="AbsolutePosition" Value="x:240.000000 y:232.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo14_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo14_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item15">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:5.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(15);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(15)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item15_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item15_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo15">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:4.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo15_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo15_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item16">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:43.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(16);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(16)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item16_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item16_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo16">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:42.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo16_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo16_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item17">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:81.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(17);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(17)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item17_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item17_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo17">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:80.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo17_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo17_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item18">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:119.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(18);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(18)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item18_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item18_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo18">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:118.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo18_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo18_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item19">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:157.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(19);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(19)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item19_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item19_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo19">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:156.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo19_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo19_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ActionButton" Name="ShopCustom_Item20">
+					<Property Name="AbsolutePosition" Value="x:405.000000 y:195.000000"/>
+					<Property Name="AbsoluteSize" Value="w:34.000000 h:34.000000"/>
+					<Event Name="MouseEnter" Function="ShopCustom_Item_Hover(20);" />
+					<Event Name="MouseLeave" Function="ShopCustom_Item_Leave();" />
+					<Event Name="Clicked" Function="ShopCustom_Item_Clicked(20)"/>
+					<Window Type="TLBB_StaticImageNULL" Name="ShopCustom_Item20_Mask">
+                      <Property Name="Position" Value="x:0 y:0" />
+                      <Property Name="Size" Value="w:1 h:1" />
+                      <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+                    </Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_Item20_Num">
+						<Property Name="UnifiedPosition" Value="{{0.0,1.000000},{0.0,18.000000}" />
+						<Property Name="UnifiedSize" Value="{{0.0,30.000000},{0.000000,15.000000}" />
+						<Property Name="HorzFormatting" Value="RightAligned" />
+						<Property Name="Text" Value="" />
+						<Property Name="RiseOnClick" Value="False" />
+						<Property Name="MouseMoveHollow" Value="True" />
+						<Property Name="MouseHollow" Value="True" />
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_ItemInfo20">
+					<Property Name="AbsolutePosition" Value="x:440.000000 y:194.000000"/>
+					<Property Name="AbsoluteSize" Value="w:160.000000 h:36.000000"/>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo20_Text">
+						<Property Name="AbsolutePosition" Value="x:4.000000 y:2.000000"/>
+						<Property Name="AbsoluteSize" Value="w:156.000000 h:18.000000"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+					<Window Type="TLBB_SimpleText" Name="ShopCustom_ItemInfo20_GB">
+						<Property Name="AbsolutePosition" Value="x:2.000000 y:18.000000"/>
+						<Property Name="AbsoluteSize" Value="w:154.000000 h:18.000000"/>
+						<Property Name="HorzFormatting" Value="RightAligned"/>
+						<Property Name="TextColor" Value="FFFFF263"/>
+					</Window>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCommon2" Name="ShopCustom_UpPage">
+					<Property Name="AbsolutePosition" Value="x:418.000000 y:238.000000"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,50.000000},{0.000000,26.000000}}"/>
+					<Property Name="Text" Value="#{YBSD_081225_078}"/>
+					<Event Name="Clicked" Function="ShopCustom_Up()"/>
+				</Window>
+				
+				<Window Type="TLBB_SimpleMulitiTextFrame" Name="ShopCustom_CurrentlyPage">
+					<Property Name="AbsolutePosition" Value="x:473.000000 y:238.000000"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,60.000000},{0.000000,26.000000}}"/>
+					<Property Name="HorzFormatting" Value="HorzCentred"/>
+					<Property Name="RiseOnClick" Value="False"/>
+					<Property Name="Text" Value="0"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+				</Window>
+				
+				<Window Type="TLBB_ButtonCommon2" Name="ShopCustom_DownPage">
+					<Property Name="AbsolutePosition" Value="x:538.000000 y:238.000000"/>
+					<Property Name="UnifiedSize" Value="{{0.000000,50.000000},{0.000000,26.000000}}"/>
+					<Property Name="Text" Value="#{YBSD_081225_079}"/>
+					<Event Name="Clicked" Function="ShopCustom_Down()"/>
+				</Window>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>

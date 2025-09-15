@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="ChatFrame_NEW_Frame">
+		<Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{1.000000,-114.000000}" />
+		<Property Name="UnifiedSize" Value="{{0.0,320},{0.0,45}}" />
+
+		<Window Type="TLBB_Frame2" Name="ChatFrame_NEW_Button_ChatFrame">
+			<Property Name="AbsolutePosition" Value="x:0.000000 y:0.000000" />
+			<Property Name="UnifiedSize" Value="{{1.0,0},{0.0,45}}" />
+
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_ChannelSelecter">
+				<Property Name="AbsolutePosition" Value="x:4.000000 y:4.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnNearBy_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnNearBy_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnNearBy_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnNearBy_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_491}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_ChannelSelect();" />
+			</Window>
+			
+			<Window Type="TLBB_EditBoxInput" Name="MainMenuBar_EditBox">
+				<Property Name="UnifiedSize" Value="{{1.0,-44},{0.0,19}}" />
+				<Property Name="UnifiedPosition" Value="{{0.000000,22.000000},{0.000000,3.000000}" />
+				<Property Name="MaxTextLength" Value="255" />
+                <Event Name="TextAccepted" Function="ChatFrame_NEW_TextAccepted();" />
+                <Event Name="ItemelementJoinFailure" Function="ChatFrame_NEW_JoinItemElementFailure();" />
+                <Event Name="ItemElementFull" Function="ChatFrame_NEW_ItemElementFull();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_EditEnter">
+				<Property Name="UnifiedPosition" Value="{{1.000000,-21.000000},{0.000000,4.000000}" />
+				
+				<!-- <Property Name="AbsolutePosition" Value="x:299.000000 y:4.000000" /> -->
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="DefaultEditBox" Value="True" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnBack_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnBack_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnBack_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnBack_Disable" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_TextAccepted()" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_IME">
+				<Property Name="AbsolutePosition" Value="x:4.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnE_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnE_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnE_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnE_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_656}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_extendRegionTest();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_LetterColor">
+				<Property Name="AbsolutePosition" Value="x:23.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnA_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnA_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnA_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnA_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_714}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_SelectTextColor();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Face">
+				<Property Name="AbsolutePosition" Value="x:42.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnFace_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnFace_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnFace_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnFace_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_144}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_SelectFaceMotion();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Action">
+				<Property Name="AbsolutePosition" Value="x:61.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnRun_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnRun_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnRun_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnRun_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_254}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_ChatMood();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_SpeakerBtn">
+				<Property Name="AbsolutePosition" Value="x:80.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:CommonFrame6 image:Xiaolaba_Normal" />
+				<Property Name="HoverImage" Value="set:CommonFrame6 image:Xiaolaba_Hover" />
+				<Property Name="PushedImage" Value="set:CommonFrame6 image:Xiaolaba_Pushed" />
+				<Property Name="DisabledImage" Value="set:CommonFrame6 image:Xiaolaba_Normal" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_1038}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_OpenSpeakerBox();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Save_Reduce">
+				<Property Name="AbsolutePosition" Value="x:99.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnSave_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnSave_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnSave_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnSave_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_140}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_SaveTabTalkHistory();" />
+			</Window>
+
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Screen">
+				<Property Name="AbsolutePosition" Value="x:118.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnClose_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnClose_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnClose_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnClose_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_492}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_PingBi();" />
+			</Window>
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_User">
+				<Property Name="AbsolutePosition" Value="x:137.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnEdit_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnEdit_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnEdit_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnEdit_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_884}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_CreateTab();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Config">
+				<Property Name="AbsolutePosition" Value="x:156.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnRepair_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnRepair_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnRepair_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnRepair_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_488}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_ConfigTab();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Extend">
+				<Property Name="AbsolutePosition" Value="x:175.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnAdd_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnAdd_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnAdd_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnAdd_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_416}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_AskFrameSizeUP();" />
+			</Window>
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_Reduce">
+				<Property Name="AbsolutePosition" Value="x:194.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button2 image:BtnSub_Normal" />
+				<Property Name="HoverImage" Value="set:Button2 image:BtnSub_Hover" />
+				<Property Name="PushedImage" Value="set:Button2 image:BtnSub_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button2 image:BtnSub_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_670}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_AskFrameSizeDown();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_AddWidth">
+				<Property Name="AbsolutePosition" Value="x:213.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button7 image:BtnAddWidth_Normal" />
+				<Property Name="HoverImage" Value="set:Button7 image:BtnAddWidth_Hover" />
+				<Property Name="PushedImage" Value="set:Button7 image:BtnAddWidth_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button7 image:BtnAddWidth_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_1051}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_AskFrameWidthUP();" />
+			</Window>
+			
+			<Window Type="TLBB_ButtonNULL" Name="ChatFrame_NEW_Chat_SubWidth">
+				<Property Name="AbsolutePosition" Value="x:232.000000 y:24.000000" />
+				<Property Name="AbsoluteSize" Value="w:17.000000 h:17.000000" />
+				<Property Name="NormalImage" Value="set:Button7 image:BtnSubWidth_Normal" />
+				<Property Name="HoverImage" Value="set:Button7 image:BtnSubWidth_Hover" />
+				<Property Name="PushedImage" Value="set:Button7 image:BtnSubWidth_Pushed" />
+				<Property Name="DisabledImage" Value="set:Button7 image:BtnSubWidth_Disable" />
+				<Property Name="Tooltip" Value="#{INTERFACE_XML_1052}" />
+				<Event Name="Clicked" Function="ChatFrame_NEW_AskFrameWidthDown();" />
+			</Window>
+			
+		</Window>
+	</Window>
+</GUILayout>
+

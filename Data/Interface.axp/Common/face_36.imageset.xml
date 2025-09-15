@@ -1,0 +1,49 @@
+<Imageset Name="Face_36" Imagefile="Common/tga_36.dds" AutoScaled="true">
+
+  <Image Name="260.gif_00" XPos="0" YPos="0" Width="48" Height="48" />
+
+  <Image Name="260.gif_01" XPos="52" YPos="0" Width="48" Height="48" />
+
+  <Image Name="260.gif_02" XPos="104" YPos="0" Width="48" Height="48" />
+
+  <Image Name="260.gif_03" XPos="156" YPos="0" Width="48" Height="48" />
+
+  <Image Name="260.gif_04" XPos="208" YPos="0" Width="48" Height="48" />
+
+
+
+  <Image Name="260.gif_05" XPos="0" YPos="52" Width="48" Height="48" />
+
+  <Image Name="260.gif_06" XPos="52" YPos="52" Width="48" Height="48" />
+
+  <Image Name="260.gif_07" XPos="104" YPos="52" Width="48" Height="48" />
+
+  <Image Name="260.gif_08" XPos="156" YPos="52" Width="48" Height="48" />
+
+  <Image Name="260.gif_09" XPos="208" YPos="52" Width="48" Height="48" />
+
+
+
+  <Image Name="260.gif_10" XPos="0" YPos="104" Width="48" Height="48" />
+
+  <Image Name="260.gif_11" XPos="52" YPos="104" Width="48" Height="48" />
+
+  <Image Name="260.gif_12" XPos="104" YPos="104" Width="48" Height="48" />
+
+  <Image Name="260.gif_13" XPos="156" YPos="104" Width="48" Height="48" />
+
+  <Image Name="260.gif_14" XPos="208" YPos="104" Width="48" Height="48" />
+
+
+
+  <Image Name="260.gif_15" XPos="0" YPos="156" Width="48" Height="48" />
+
+  <Image Name="260.gif_16" XPos="52" YPos="156" Width="48" Height="48" />
+
+  <Image Name="260.gif_17" XPos="104" YPos="156" Width="48" Height="48" />
+
+  <Image Name="260.gif_18" XPos="156" YPos="156" Width="48" Height="48" />
+
+  <Image Name="260.gif_19" XPos="208" YPos="156" Width="48" Height="48" />
+
+</Imageset>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<Imageset Name="Createshowname" Imagefile="Common/Createshowname.tga" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true">
+  <Image Name="Cs_shaolin_Normal" XPos="0" YPos="57" Width="41" Height="11" />
+  <Image Name="Cs_shaolin_Hover" XPos="44" YPos="57" Width="41" Height="11" />
+  <Image Name="Cs_shaolin_Pushed" XPos="88" YPos="57" Width="41" Height="11" />
+
+  <Image Name="Cs_mingjiao_Normal" XPos="0" YPos="32" Width="44" Height="12" />
+  <Image Name="Cs_mingjiao_Hover" XPos="44" YPos="32" Width="44" Height="12" />
+  <Image Name="Cs_mingjiao_Pushed" XPos="88" YPos="32" Width="44" Height="12" />
+
+  <Image Name="Cs_wudang_Normal" XPos="0" YPos="78" Width="41" Height="12" />
+  <Image Name="Cs_wudang_Hover" XPos="44" YPos="78" Width="41" Height="12" />
+  <Image Name="Cs_wudang_Pushed" XPos="88" YPos="78" Width="41" Height="12" />
+
+  <Image Name="Cs_emei_Normal" XPos="0" YPos="8" Width="33" Height="12" />
+  <Image Name="Cs_emei_Hover" XPos="44" YPos="8" Width="33" Height="12" />
+  <Image Name="Cs_emei_Pushed" XPos="88" YPos="8" Width="33" Height="12" />
+
+  <Image Name="Cs_tianshan_Normal" XPos="0" YPos="68" Width="42" Height="11" />
+  <Image Name="Cs_tianshan_Hover" XPos="44" YPos="68" Width="42" Height="11" />
+  <Image Name="Cs_tianshan_Pushed" XPos="88" YPos="68" Width="42" Height="11" />
+
+  <Image Name="Cs_gaibang_Normal" XPos="0" YPos="20" Width="40" Height="12" />
+  <Image Name="Cs_gaibang_Hover" XPos="44" YPos="20" Width="40" Height="12" />
+  <Image Name="Cs_gaibang_Pushed" XPos="88" YPos="20" Width="40" Height="12" />
+
+  <Image Name="Cs_xingxiu_Normal" XPos="0" YPos="115" Width="38" Height="12" />
+  <Image Name="Cs_xingxiu_Hover" XPos="44" YPos="115" Width="38" Height="12" />
+  <Image Name="Cs_xingxiu_Pushed" XPos="88" YPos="115" Width="38" Height="12" />
+
+  <Image Name="Cs_tianlong_Normal" XPos="0" YPos="90" Width="39" Height="12" />
+  <Image Name="Cs_tianlong_Hover" XPos="44" YPos="90" Width="39" Height="12" />
+  <Image Name="Cs_tianlong_Pushed" XPos="88" YPos="90" Width="39" Height="12" />
+
+  <Image Name="Cs_xiaoyao_Normal" XPos="0" YPos="103" Width="40" Height="12" />
+  <Image Name="Cs_xiaoyao_Hover" XPos="44" YPos="103" Width="40" Height="12" />
+  <Image Name="Cs_xiaoyao_Pushed" XPos="88" YPos="103" Width="40" Height="12" />
+
+  <Image Name="Cs_murong_Normal" XPos="0" YPos="45" Width="40" Height="12" />
+  <Image Name="Cs_murong_Hover" XPos="44" YPos="45" Width="40" Height="12" />
+  <Image Name="Cs_murong_Pushed" XPos="88" YPos="45" Width="40" Height="12" />
+</Imageset>

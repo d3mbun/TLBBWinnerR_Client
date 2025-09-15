@@ -1,0 +1,207 @@
+<?xml version="1.0" ?>
+<GUILayout>
+  <Window Type="TLBB_MainFrame1" Name="EquipLingPai_Update_Frame">
+    <Property Name="UnifiedSize" Value="{{0.000000,438.000000},{0.000000,400.000000}}"/>
+		<Property Name="UnifiedPosition" Value="{{0.500000,-220.000000},{0.500000,-211.000000}}"/>
+    <Event Name="Hidden" Function="EquipLingPai_Update_OnHiden();" />
+    <Window Type="TLBB_DragTitle" Name="EquipLingPai_Update_DragTitle">
+		<Property Name="AbsolutePosition" Value="x:25.000000 y:11.000000" />
+		<Property Name="UnifiedSize" Value="{{1.000000,-50.000000},{0.000000,20.000000}}" />
+      <Property Name="DragTarget" Value="EquipLingPai_Update_Frame" />
+      <Property Name="Font" Value="YouYuan11.25" />
+      <Property Name="HorzFormatting" Value="HorzCentred" />
+      <Property Name="Text" Value="#{BHZB_140521_98}" />
+      <Property Name="VertFormatting" Value="VertCentred" />
+    </Window>
+	<Window Type="TLBB_ButtonHelp" Name="EquipLingPai_Update_Help">
+		<Property Name="UnifiedPosition" Value="{{0.000000,5.000000},{0.000000,14.000000}}" />
+		<Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+		<Property Name="Text" Value="TLBB_ButtonHelp" />
+      <Event Name="Clicked" Function="EquipLingPai_Update_OnClosed();"/>
+	</Window>
+    <Window Type="TLBB_ButtonClose" Name="EquipLingPai_Update_Close">
+	<Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}}" />
+      <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+      <Property Name="Text" Value="TLBB_ButtonClose" />
+      <Event Name="Clicked" Function="EquipLingPai_Update_OnClosed();"/>
+    </Window>
+    <Window Type="DefaultWindow" Name="EquipLingPai_Update_Frame_Client">
+      <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-64.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{0.000000,7.000000},{0.000000,30.000000}}"/>
+      <Property Name="RiseOnClick" Value="False" />
+      <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_Info">
+        <Property Name="Position" Value="x:0.0 y:0.0" />
+        <Property Name="UnifiedSize" Value="{{1.000000,0.000000},{0.000000,98.000000}}"/>
+        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_InfoText">
+          <Property Name="UnifiedSize" Value="{{0.000000,418.000000},{0.000000,90.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,3.000000},{0.000000,5.000000}}"/>
+          <Property Name="Text" Value="#{BHZB_140521_99}" />
+          <Property Name="VertFormatting" Value="VertCentred"/>
+          <Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+        </Window>
+      </Window>
+      <Window Type="DefaultWindow" Name="EquipLingPai_Update_Input">
+        <Property Name="UnifiedSize" Value="{{0.800000,20.000000},{0.000000,34.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.100000,-11.000000},{0.000000,110.000000}}"/>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_InputText">
+          <Property Name="UnifiedSize" Value="{{0.000000,151.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.000000,7.000000}}"/>
+          <Property Name="HorzFormatting" Value="LeftAligned" />
+          <Property Name="Text" Value="#{BHZB_140521_100}" />
+        </Window>
+        <Window Type="TLBB_ActionButton" Name="EquipLingPai_Update_InputIcon">
+          <Property Name="UnifiedPosition" Value="{{1.000000,-34.000000},{0.000000,0.000000}" />
+          <Property Name="UnifiedSize" Value="{{0.000000,34.000000},{0.000000,34.000000}" />
+          <Property Name="DragAcceptName" Value="W5" />
+          <Property Name="DraggingEnabled" Value="True" />
+          <Event Name="RBClicked" Function="EquipLingPai_Update_Resume_Equip();" />
+        </Window>
+      </Window>
+      <Window Type="DefaultWindow" Name="EquipLingPai_Update_Attr">
+        <Property Name="UnifiedSize" Value="{{0.800000,50.000000},{0.000000,80.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.100000,-25.000000},{0.000000,150.000000}}"/>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_AttrText">
+          <Property Name="UnifiedSize" Value="{{0.000000,200.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{0.000000,0.000000}}"/>
+          <Property Name="HorzFormatting" Value="LeftAligned" />
+          <Property Name="Text" Value="#{BHZB_140521_101}" />
+        </Window>
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_AttrFirst">
+          <Property Name="UnifiedSize" Value="{{1.000000,-75.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{0.000000,20.000000}}"/>
+        </Window>
+        <Window Type="TLBB_ButtonCheck" Name="EquipLingPai_Update_SuoFirst">
+          <Property Name="UnifiedSize" Value="{{0.000000,12.000000},{0.000000,12.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,340.000000},{0.000000,24.000000}}"/>
+          <Property Name="Tooltip" Value=""/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+		  <Event Name="MouseLButtonDown" Function="EquipLingPai_Update_Clicked(1);"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_SuoFirstText">
+          <Property Name="UnifiedSize" Value="{{0.000000,30.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,362.000000},{0.000000,20.000000}}"/>
+          <Property Name="HorzFormatting" Value="LeftAligned" />
+          <Property Name="AlwaysOnTop" Value="True"/>
+          <Property Name="Text" Value="#{BHZB_140521_251}" />
+        </Window>
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_AttrSecond">
+          <Property Name="UnifiedSize" Value="{{1.000000,-75.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{0.000000,40.000000}}"/>
+        </Window>
+        <Window Type="TLBB_ButtonCheck" Name="EquipLingPai_Update_SuoSecond">
+          <Property Name="UnifiedSize" Value="{{0.000000,12.000000},{0.000000,12.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,340.000000},{0.000000,44.000000}}"/>
+          <Property Name="Tooltip" Value=""/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+		  <Event Name="MouseLButtonDown" Function="EquipLingPai_Update_Clicked(2);"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_SuoSecondText">
+          <Property Name="UnifiedSize" Value="{{0.000000,30.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,362.000000},{0.000000,40.000000}}"/>
+          <Property Name="HorzFormatting" Value="LeftAligned" />
+          <Property Name="AlwaysOnTop" Value="True"/>
+          <Property Name="Text" Value="#{BHZB_140521_251}" />
+        </Window>
+        <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_AttrThird">
+          <Property Name="UnifiedSize" Value="{{1.000000,-75.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,14.000000},{0.000000,60.000000}}"/>
+        </Window>
+        <Window Type="TLBB_ButtonCheck" Name="EquipLingPai_Update_SuoThird">
+          <Property Name="UnifiedSize" Value="{{0.000000,12.000000},{0.000000,12.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,340.000000},{0.000000,64.000000}}"/>
+          <Property Name="Tooltip" Value=""/>
+          <Property Name="AlwaysOnTop" Value="True"/>
+		  <Event Name="MouseLButtonDown" Function="EquipLingPai_Update_Clicked(3);"/>
+        </Window>
+        <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_SuoThirdText">
+          <Property Name="UnifiedSize" Value="{{0.000000,30.000000},{0.000000,20.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,362.000000},{0.000000,60.000000}}"/>
+          <Property Name="HorzFormatting" Value="LeftAligned" />
+          <Property Name="AlwaysOnTop" Value="True"/>
+          <Property Name="Text" Value="#{BHZB_140521_251}" />
+        </Window>
+      </Window>
+        <Window Type="TLBB_Frame_Lace1" Name="EquipLingPai_Update_Text4">
+          <Property Name="UnifiedSize" Value="{{1.000000,-32.000000},{0.000000,25.000000}}"/>
+          <Property Name="UnifiedPosition" Value="{{0.000000,16.000000},{1.000000,-100.000000}}"/>
+          <Window Type="TLBB_SimpleText" Name="EquipLingPai_Update_Amount">
+            <Property Name="UnifiedSize" Value="{{0.000000,376.000000},{1.000000,-8.000000}}"/>
+            <Property Name="UnifiedPosition" Value="{{0.000000,6.000000},{0.000000,5.000000}}"/>
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned"/>
+            <Property Name="Text" Value="#{BHZB_140521_252}"/>
+          </Window>
+        </Window>
+      <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_Text">
+        <Property Name="UnifiedSize" Value="{{1.000000,-12.000000},{0.000000,22.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.000000,6.000000},{1.000000,-74.000000}}"/>
+        <Property Name="TextColor" Value="FFFFF263" />
+        <Property Name="Text" Value="#{INTERFACE_XML_789}" />
+        <Property Name="HorzFormatting" Value="LeftAligned" />
+        <Property Name="VertFormatting" Value="VertCentred" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Window Type="TLBB_Money" Name="EquipLingPai_Update_Money">
+          <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+          <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+          <Property Name="MoneyNumber" Value="0" />
+          <Property Name="HorzFormatting" Value="RightAligned" />
+          <Property Name="AlignFix" Value="True" />
+          <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+          <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+          <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+        </Window>
+      </Window>
+      <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_Text1">
+        <Property Name="UnifiedSize" Value="{{1.000000,-12.000000},{0.000000,22.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.000000,6.000000},{1.000000,-51.000000}}"/>
+        <Property Name="TextColor" Value="FFFFF263" />
+        <Property Name="Text" Value="#{BDJB_051210_1}" />
+        <Property Name="HorzFormatting" Value="LeftAligned" />
+        <Property Name="VertFormatting" Value="VertCentred" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Window Type="TLBB_Money" Name="EquipLingPai_Update_Jiaozi">
+          <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+          <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+          <Property Name="MoneyNumber" Value="0" />
+          <Property Name="HorzFormatting" Value="RightAligned" />
+          <Property Name="AlignFix" Value="True" />
+          <Property Name="GoldIcon" Value = "set:Button6 image:Lace_JiaoziJin" />
+          <Property Name="SilverIcon" Value = "set:Button6 image:Lace_JiaoziYin" />
+          <Property Name="CopperIcon" Value = "set:Button6 image:Lace_JiaoziTong" />
+        </Window>
+      </Window>
+      <Window Type="TLBB_SimpleMulitiTextFrame" Name="EquipLingPai_Update_Text2">
+        <Property Name="UnifiedSize" Value="{{1.000000,-12.000000},{0.000000,22.000000}}"/>
+        <Property Name="UnifiedPosition" Value="{{0.000000,6.000000},{1.000000,-27.000000}}"/>
+        <Property Name="TextColor" Value="FFFFF263" />
+        <Property Name="Text" Value="#{INTERFACE_XML_834}" />
+        <Property Name="HorzFormatting" Value="LeftAligned" />
+        <Property Name="VertFormatting" Value="VertCentred" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Window Type="TLBB_Money" Name="EquipLingPai_Update_SelfMoney">
+          <Property Name="UnifiedPosition" Value="{{0.0,0.000000},{0.000000,0.000000}" />
+          <Property Name="UnifiedSize" Value="{{1.0,0.000000},{0.000000,20.000000}" />
+          <Property Name="HorzFormatting" Value="RightAligned" />
+          <Property Name="MoneyNumber" Value="0" />
+        </Window>
+      </Window>
+    </Window>
+    <Window Type="TLBB_Frame_Lace5" Name="EquipLingPai_Update_Blank">
+      <Property Name="UnifiedSize" Value="{{1.000000,-100.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{0.000000,10.000000},{1.000000,-40.000000}}"/>
+    </Window>
+    <Window Type="TLBB_ButtonCommon" Name="EquipLingPai_Update_OK">
+      <Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{1.000000,-89.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{BHZB_140521_108}" />
+      <Event Name="Clicked" Function="EquipLingPai_Update_OnOK();"/>
+    </Window>
+    <Window Type="TLBB_ButtonCommon" Name="EquipLingPai_Update_Cancel">
+      <Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,20.000000}}"/>
+      <Property Name="UnifiedPosition" Value="{{1.000000,-49.000000},{1.000000,-40.000000}}"/>
+      <Property Name="Text" Value="#{INTERFACE_XML_542}" />
+      <Event Name="Clicked" Function="EquipLingPai_Update_OnClosed();"/>
+    </Window>
+  </Window>
+</GUILayout>

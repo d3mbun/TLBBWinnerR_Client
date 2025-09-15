@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+	<Imageset Name="CommonStaticImage6" Imagefile="Common/tga_CommonStaticImage6.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="false">
+  
+    <Image Name="MainMenuBar_LeftBlock" XPos="0" YPos="0" Width="80" Height="73" />
+    <Image Name="MainMenuBar_RightBlock" XPos="82" YPos="0" Width="80" Height="73" />
+
+	</Imageset>

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Fonts>
+<Font Name="YouYuan7.75" Filename="Schema/0_FIREFOX_2.bin|Schema/1_FIREFOX_2.bin" Type="Dynamic" Size="12" NativeHorzRes="1024" NativeVertRes="768" TextureSize="256" CodePage="936" NeedCode="true"  />
+<Font Name="YouYuan7.75" Filename="Schema/tahoma.ttf" Type="FreeType" Size="10" NativeHorzRes="1024" NativeVertRes="768" TextureSize="256" CodePage="1258" />
+
+</Fonts>
