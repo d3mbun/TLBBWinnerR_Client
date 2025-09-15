@@ -1,3 +1,4 @@
 Data/Sound.axp filter=lfs diff=lfs merge=lfs -text
 Data/Scene.axp filter=lfs diff=lfs merge=lfs -text
 Data/Material.axp filter=lfs diff=lfs merge=lfs -text
+Data/Model.axp filter=lfs diff=lfs merge=lfs -text
