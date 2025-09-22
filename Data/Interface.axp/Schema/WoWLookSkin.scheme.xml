@@ -1157,6 +1157,7 @@
   <Imageset Name="PetHeader10" Filename="Icons/PetHeader10.imageset.xml" />
   <Imageset Name="PetHeader11" Filename="Icons/PetHeader11.imageset.xml" />
   <Imageset Name="PetHeader12" Filename="Icons/PetHeader12.imageset.xml" />
+  <Imageset Name="PetHeader13" Filename="Icons/PetHeader13.imageset.xml" />
   <Imageset Name="PetHeader14" Filename="Icons/PetHeader14.imageset.xml" />
   <Imageset Name="RideHeader5" Filename="Icons/RideHeader5.imageset.xml" />
   <Imageset Name="RideHeader6" Filename="Icons/RideHeader6.imageset.xml" />   

@@ -1,0 +1,13347 @@
+////PET13_9_LinhVuNguyetThan////
+
+cw_2025月神_攻击1B01
+{
+	quota 1
+
+	material cw_2025月神_攻击1B01
+
+	particle_width 130
+
+	particle_height 3
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 -100 0
+
+	velocity 1500
+
+	velocity_min 1500
+
+	velocity_max 1500
+
+	time_to_live 0.3
+
+	time_to_live_min 0.3
+
+	time_to_live_max 0.3
+
+	duration 0.15
+
+	duration_min 0.15
+
+	duration_max 0.15
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+	height 1
+	depth 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.772549 0.243137 1
+
+		time1 0.2
+
+		colour2 0.815686 0.490196 0.007843 1
+
+		time2 1
+		colour3 0.392157 0.321569 0.156863 1
+
+		time3 1
+		colour4 0.572549 0.572549 0.572549 1
+
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 2 1 1
+
+		time0 0
+		scale1 3 10 1
+
+		time1 0.1
+
+		scale2 1 12 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击1B02
+{
+	quota 1
+
+	material cw_2025月神_攻击1B02
+
+	particle_width 30
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 1000
+
+	velocity_min 1000
+
+	velocity_max 1000
+
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.15
+
+	duration_min 0.15
+
+	duration_max 0.15
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+	height 1
+	depth 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.815686 0.392157 1
+
+		time1 0.2
+
+		colour2 0.690196 0.509804 0.133333 1
+
+		time2 1
+		colour3 0.392157 0.321569 0.156863 1
+
+		time3 1
+		colour4 0.572549 0.572549 0.572549 1
+
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 3 1 1
+
+		time0 0
+		scale1 5 10 1
+
+		time1 0.1
+
+		scale2 0.1 12 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击1B03
+{
+	quota 1
+
+	material cw_2025月神_攻击1B03
+
+	particle_width 40
+
+	particle_height 2.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 -200 0
+
+	velocity 2000
+
+	velocity_min 2000
+
+	velocity_max 2000
+
+	time_to_live 0.2
+
+	time_to_live_min 0.2
+
+	time_to_live_max 0.2
+
+	duration 0.15
+
+	duration_min 0.15
+
+	duration_max 0.15
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+	height 1
+	depth 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.843137 0.466667 1
+
+		time1 0.4
+
+		colour2 0.690196 0.419608 0.12549 1
+
+		time2 1
+		colour3 0.392157 0.321569 0.156863 1
+
+		time3 1
+		colour4 0.572549 0.572549 0.572549 1
+
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 3 1 1
+
+		time0 0
+		scale1 7 10 1
+
+		time1 0.1
+
+		scale2 1 12 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击1B04
+{
+	quota 15
+
+	material cw_2025月神_攻击1B04
+
+	particle_width 1.3
+
+	particle_height 1.3
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter PolarEmitter
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+
+	emission_rate 70
+
+	position 0 20 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.65
+
+	time_to_live_min 0.75
+
+	time_to_live_max 0.65
+
+	duration 0.35
+
+	duration_min 0.35
+
+	duration_max 0.35
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	radius_start 1
+	radius_step 37
+
+	radius_end 1
+	theta_start 0
+	theta_step 10
+	theta_end 0
+	phi_start 0
+	phi_step 5
+
+	phi_end 0
+	use_polar_step true
+	flip_yz_axis true
+
+	reset_radius_count 0
+	reset_radius false
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.776471 0.4 1
+
+		time1 0.2
+
+		colour2 0.627451 0.517647 0.121569 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 1
+
+		time0 0
+		scale1 30 30 1
+
+		time1 0.2
+
+		scale2 10 10 1
+
+		time2 0.4
+
+		scale3 30 30 1
+
+		time3 0.6
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 30 30 30
+
+		start_velocity_max -30 -30 -30
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神_攻击1B05
+{
+	quota 10
+
+	material cw_2025月神_攻击1B05
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 35
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 45
+
+	position 0 330 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0.35
+
+	duration_min 0.35
+
+	duration_max 0.35
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 500
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.894118 0.615686 1
+
+		time1 0.33
+
+		colour2 0.745098 0.505882 0.105882 1
+
+		time2 0.66
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 10
+
+		width_range_end 30
+
+		height_range_start 10
+
+		height_range_end 30
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 3 3 1
+
+		time0 0
+		scale1 10 10 1
+
+		time1 0.4
+
+		scale2 15 15 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 20
+
+		rotation_speed_range_end -20
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+
+}
+
+cw_2025月神_攻击1B06
+{
+	quota 20
+
+	material cw_2025月神_攻击1B06
+
+	particle_width 0.06
+
+	particle_height 0.1
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 20
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 300 0
+
+	velocity 100
+
+	velocity_min 200
+
+	velocity_max 100
+
+	time_to_live 2
+
+	time_to_live_min 0.6
+
+	time_to_live_max 2
+
+	duration 0.6
+
+	duration_min 0.6
+
+	duration_max 0.6
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 5
+
+	height 5
+
+	depth 500
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.929412 0.8 1
+
+		time0 0
+		colour1 0.560784 0.458824 0.188235 1
+
+		time1 0.2
+
+		colour2 0.545098 0.45098 0.203922 1
+
+		time2 0.6
+
+		colour3 1 0.952941 0.8 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 2
+
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 2
+
+
+	}
+
+}
+
+cw_2025月神_攻击1B07
+{
+	quota 1
+
+	material cw_2025月神_攻击1B07
+
+	particle_width 0.3
+
+	particle_height 0.3
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 99
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0.1
+
+	duration_min 0.1
+
+	duration_max 0.1
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.7
+
+	height 0.7
+
+	depth 0
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.870588 0.435294 1
+
+		time1 0.25
+
+		colour2 0.619608 0.462745 0.270588 1
+
+		time2 0.75
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 700 700 1
+
+		time0 0.15
+
+		scale1 300 300 1
+
+		time1 0.3
+
+		scale2 300 300 1
+
+		time2 1
+		scale3 300 300 1
+
+		time3 1
+		scale4  300 300 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 100
+
+		rotation_speed_range_end 100
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神_攻击1B08
+{
+	quota 1
+
+	material cw_2025月神_攻击1B08
+
+	particle_width 0.7
+
+	particle_height 0.7
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter PolarEmitter
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.2
+
+	time_to_live_min 0.2
+
+	time_to_live_max 0.2
+
+	duration 0.15
+
+	duration_min 0.15
+
+	duration_max 0.15
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	radius_start 1
+	radius_step 0
+	radius_end 1
+	theta_start 0
+	theta_step 10
+	theta_end 0
+	phi_start 0
+	phi_step 0
+	phi_end 0
+	use_polar_step true
+	flip_yz_axis true
+
+	reset_radius_count 0
+	reset_radius false
+	}
+	affector ColourFading
+	{
+		colour0 1 0.941176 0.533333 1
+
+		time0 0.05
+
+		colour1 0.717647 0.52549 0.2 1
+
+		time1 0.15
+
+		colour2 0.713726 0.521569 0.2 1
+
+		time2 1
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 0
+		scale1 300 300 1
+
+		time1 0.25
+
+		scale2 50 50 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4  0 0 0
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 90
+
+		rotation_range_end 90
+
+
+	}
+
+}
+
+cw_2025月神_攻击1B09
+{
+	quota 1
+
+	material cw_2025月神_攻击1B09
+
+	particle_width 2.9
+
+	particle_height 2.9
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.45
+
+	time_to_live_min 0.35
+
+	time_to_live_max 0.45
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.854902 0.466667 1
+
+		time1 0.2
+
+		colour2 0.901961 0.701961 0.333333 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 0.5
+
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 15 15 1
+
+		time0 0
+		scale1 30 30 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -10
+
+		rotation_speed_range_end -10
+
+		rotation_range_start -120
+
+		rotation_range_end -120
+
+
+	}
+
+}
+
+cw_2025月神_攻击1C01
+{
+	quota 1
+
+	material cw_2025月神_攻击1C01
+
+	particle_width 0.3
+
+	particle_height 0.3
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 99
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.5
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.5
+
+	duration 0.1
+
+	duration_min 0.1
+
+	duration_max 0.1
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.7
+
+	height 0.7
+
+	depth 0
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.847059 0.376471 1
+
+		time1 0.3
+
+		colour2 0.917647 0.72549 0.282353 1
+
+		time2 0.8
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 700 700 1
+
+		time0 0
+		scale1 333 333 1
+
+		time1 0.16
+
+		scale2 300 300 1
+
+		time2 0.2
+
+		scale3 300 300 1
+
+		time3 0.7
+
+		scale4  700 700 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -100
+
+		rotation_speed_range_end -150
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神_攻击2A01
+{
+	quota 1
+
+	material cw_2025月神_攻击2A01
+
+	particle_width 5
+
+	particle_height 3.3
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效2024天狼啸月mesh01.mesh
+
+
+	emitter Point
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 400
+
+	velocity_min 400
+
+	velocity_max 400
+
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	}
+	affector ColourFading
+	{
+		colour0 1 0.909804 0.6 1
+
+		time0 0
+		colour1 1 0.909804 0.6 1
+
+		time1 0.1
+
+		colour2 1 0.909804 0.6 1
+
+		time2 0.8
+
+		colour3 1 0.909804 0.6 1
+
+		time3 1
+		colour4 1 1 1 1
+
+		time4 1
+		colour5 1 1 1 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.5 0.5 0.5
+
+		time0 0
+		scale1 1 1 1
+		time1 0.15
+
+		scale2 1 1 1
+		time2 0.9
+
+		scale3 2.5 2.5 2.5
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start -240
+
+		yaw_rotation_speed_range_end -240
+
+		yaw_rotation_range_start 150
+
+		yaw_rotation_range_end 150
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_攻击2A02
+{
+	quota 1
+
+	material cw_2025月神_攻击2A02
+
+	particle_width 5
+
+	particle_height 3.3
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效2024天狼啸月mesh01.mesh
+
+
+	emitter Point
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 400
+
+	velocity_min 400
+
+	velocity_max 400
+
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	}
+	affector ColourFading
+	{
+		colour0 1 0.878431 0.556863 1
+
+		time0 0
+		colour1 1 0.847059 0.435294 1
+
+		time1 0.1
+
+		colour2 1 0.847059 0.431373 1
+
+		time2 0.8
+
+		colour3 1 0.847059 0.431373 1
+
+		time3 1
+		colour4 1 1 1 1
+
+		time4 1
+		colour5 1 1 1 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.5 0.5 0.5
+
+		time0 0
+		scale1 1 1 1
+		time1 0.15
+
+		scale2 1 1 1
+		time2 0.9
+
+		scale3 2.5 2.5 2.5
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start -240
+
+		yaw_rotation_speed_range_end -240
+
+		yaw_rotation_range_start 150
+
+		yaw_rotation_range_end 150
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_攻击2A03
+{
+	quota 3
+
+	material cw_2025月神_攻击2A03
+
+	particle_width 60
+
+	particle_height 60
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.5
+
+
+	emitter PolarEmitter
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 7
+
+	position 0 0 20
+
+	velocity 50
+
+	velocity_min 50
+
+	velocity_max 50
+
+	time_to_live 1
+	time_to_live_min 0.7
+
+	time_to_live_max 1
+	duration 0.5
+
+	duration_min 0.5
+
+	duration_max 0.5
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	radius_start 1
+	radius_step 140
+
+	radius_end 1
+	theta_start 0
+	theta_step 10
+	theta_end 0
+	phi_start 0
+	phi_step 20
+
+	phi_end 0
+	use_polar_step true
+	flip_yz_axis false
+	reset_radius_count 0
+	reset_radius false
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.905882 0.568627 1
+
+		time1 0.3
+
+		colour2 0.419608 0.321569 0.219608 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 200
+
+		width_range_end 200
+
+		height_range_start 200
+
+		height_range_end 200
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 2 2 1
+
+		time0 0
+		scale1 4 4 1
+
+		time1 1
+		scale2 3 3 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 360
+
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神_攻击2A04
+{
+	quota 3
+
+	material cw_2025月神_攻击2A04
+
+	particle_width 200
+
+	particle_height 200
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.5
+
+
+	emitter PolarEmitter
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 7
+
+	position 0 0 20
+
+	velocity 50
+
+	velocity_min 50
+
+	velocity_max 50
+
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.5
+
+	duration_min 0.5
+
+	duration_max 0.5
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	radius_start 1
+	radius_step 180
+
+	radius_end 1
+	theta_start 0
+	theta_step 10
+	theta_end 0
+	phi_start 0
+	phi_step 20
+
+	phi_end 0
+	use_polar_step true
+	flip_yz_axis false
+	reset_radius_count 0
+	reset_radius false
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.905882 0.568627 1
+
+		time1 0.3
+
+		colour2 0.419608 0.321569 0.219608 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.7
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 200
+
+		width_range_end 200
+
+		height_range_start 200
+
+		height_range_end 200
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 3 3 1
+
+		time1 1
+		scale2 3 3 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神_攻击2A05
+{
+	quota 1
+
+	material cw_2025月神_攻击2A05
+
+	particle_width 2.1
+
+	particle_height 1
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 主角_参悟_mesh01.mesh
+
+
+	emitter Point
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 400
+
+	velocity_min 400
+
+	velocity_max 400
+
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	}
+	affector ColourFading
+	{
+		colour0 1 0.878431 0.556863 1
+
+		time0 0
+		colour1 1 0.87451 0.556863 1
+
+		time1 0.1
+
+		colour2 1 0.733333 0.407843 1
+
+		time2 0.8
+
+		colour3 1 0.729412 0.403922 1
+
+		time3 1
+		colour4 1 1 1 1
+
+		time4 1
+		colour5 1 1 1 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.5 0.5 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.15
+
+		scale2 1 1 1
+		time2 0.9
+
+		scale3 2.5 2.5 1
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start -240
+
+		yaw_rotation_speed_range_end -240
+
+		yaw_rotation_range_start 150
+
+		yaw_rotation_range_end 150
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_攻击2A07
+{
+	quota 1
+
+	material cw_2025月神_攻击2A07
+
+	particle_width 0.7
+
+	particle_height 1
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效恶人谷拘魂mesh05.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 -440 0
+
+	velocity 0.1
+
+	velocity_min 0.1
+
+	velocity_max 0.1
+
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+	height 1
+	depth 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.854902 0.466667 1
+
+		time1 0.5
+
+		colour2 0.772549 0.603922 0.294118 1
+
+		time2 0.7
+
+		colour3 0.768627 0.603922 0.294118 1
+
+		time3 1
+		colour4 1 0.854902 0.466667 1
+
+		time4 1
+		colour5 0 0.094118 0.2 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.5 1 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 1.5 1 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 360
+
+		yaw_rotation_range_end 0
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_攻击2B01
+{
+	quota 1
+
+	material cw_2025月神_攻击2B01
+
+	particle_width 0.7
+
+	particle_height 0.7
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.2
+
+	time_to_live_min 0.2
+
+	time_to_live_max 0.2
+
+	duration 0.11
+
+	duration_min 0.11
+
+	duration_max 0.11
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.7
+
+	height 0.7
+
+	depth 0
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.92549 0.733333 1
+
+		time1 0.15
+
+		colour2 0.14902 0.117647 0.05098 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 0
+		scale1 500 500 1
+
+		time1 0.15
+
+		scale2 999 999 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4  0 0 0
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -30
+
+		rotation_range_end -30
+
+
+	}
+
+}
+
+cw_2025月神_攻击2B02
+{
+	quota 1
+
+	material cw_2025月神_攻击2B02
+
+	particle_width 3
+
+	particle_height 3
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效圆形扩散竖mesh.mesh
+
+
+	emitter Point
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.901961 0.501961 1
+
+		time1 0.2
+
+		colour2 0.643137 0.443137 0.215686 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.5 0.5 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 1.5 1.5 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 0
+		yaw_rotation_range_end 0
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 360
+
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_攻击2B03
+{
+	quota 1
+
+	material cw_2025月神_攻击2B03
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.3
+
+	time_to_live_min 0.3
+
+	time_to_live_max 0.3
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.976471 0.752941 0 1
+
+		time1 0.2
+
+		colour2 0.858824 0.541176 0.117647 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 0
+		scale1 100 100 1
+
+		time1 1
+		scale2 62 62 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击2C_1
+{
+	quota 1
+
+	material cw_2025月神_攻击2C_1
+
+	particle_width 0.5
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.22
+
+	time_to_live_min 0.22
+
+	time_to_live_max 0.22
+
+	duration 0.11
+
+	duration_min 0.11
+
+	duration_max 0.11
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.7
+
+	height 0.7
+
+	depth 0
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.913725 0.733333 1
+
+		time1 0.15
+
+		colour2 0.333333 0.254902 0.133333 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 0
+		scale1 500 500 1
+
+		time1 0.15
+
+		scale2 999 999 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4  0 0 0
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -30
+
+		rotation_range_end -30
+
+
+	}
+
+}
+
+cw_2025月神_攻击2C_2
+{
+	quota 3
+
+	material cw_2025月神_攻击2C_2
+
+	particle_width 15
+
+	particle_height 15
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 1.2
+
+	time_to_live_max 0.8
+
+	duration 0.5
+
+	duration_min 0.5
+
+	duration_max 0.5
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+
+	height 1
+
+	depth 150
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.968627 0.866667 1
+
+		time0 0
+		colour1 1 0.968627 0.866667 1
+
+		time1 0.2
+
+		colour2 1 0.901961 0.717647 1
+
+		time2 0.5
+
+		colour3 1 0.92549 0.776471 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 15 15 15
+
+		time1 0.3
+
+		scale2 20 20 20
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 30
+
+		rotation_speed_range_end -30
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+
+}
+
+cw_2025月神_攻击2C_3
+{
+	quota 20
+
+	material cw_2025月神_攻击2C_3
+
+	particle_width 0.07
+
+	particle_height 0.15
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 180
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.6
+
+	time_to_live_max 1.2
+
+	duration 0.6
+
+	duration_min 0.6
+
+	duration_max 0.6
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 100
+
+	height 100
+
+	depth 100
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.976471 0.8 1
+
+		time0 0
+		colour1 0.65098 0.447059 0.101961 1
+
+		time1 0.2
+
+		colour2 0.647059 0.447059 0.101961 1
+
+		time2 0.6
+
+		colour3 1 0.976471 0.8 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 2
+
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 2
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 150 150 150
+
+		start_velocity_max -150 -150 -150
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神_攻击2C_4
+{
+	quota 1
+
+	material cw_2025月神_攻击2C_4
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效圆形扩散竖mesh.mesh
+
+
+	emitter Point
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.5
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.5
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.882353 0.482353 1
+
+		time1 0.2
+
+		colour2 0.278431 0.211765 0.027451 1
+
+		time2 0.5
+
+		colour3 0.105882 0.05098 0.003922 1
+
+		time3 0.7
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 4 4 1
+
+		use_interpolated_scale true
+		scale0 0.3 0.3 1
+
+		time0 0
+		scale1 0.6 0.6 1
+
+		time1 0.13
+
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击2C_5
+{
+	quota 1
+
+	material cw_2025月神_攻击2C_5
+
+	particle_width 6
+
+	particle_height 6
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.3
+
+	time_to_live_min 0.3
+
+	time_to_live_max 0.3
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.976471 0.752941 0 1
+
+		time1 0.2
+
+		colour2 0.858824 0.541176 0.117647 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 0
+		scale1 100 100 1
+
+		time1 1
+		scale2 62 62 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_攻击2C_6
+{
+	quota 3
+
+	material cw_2025月神_攻击2C_6
+
+	particle_width 2.5
+
+	particle_height 2.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 0.7
+
+	time_to_live_max 1
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 200
+
+	depth 200
+
+	inner_width 0.2
+
+	inner_height 0.2
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.776471 0.4 1
+
+		time1 0.2
+
+		colour2 0.627451 0.517647 0.121569 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 0.6
+
+		scale4  50 50 1
+
+		time4 0.8
+
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_远程攻击A_1
+{
+	quota 1
+
+	material cw_2025月神_远程攻击A_1
+
+	particle_width 1
+	particle_height 1
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效mesh_HJ_npc人类首领2武器.mesh
+
+
+	emitter PolarEmitter
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 1500
+
+	velocity_min 1500
+
+	velocity_max 1500
+
+	time_to_live 0.5
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.5
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	radius_start 1
+	radius_step 0
+	radius_end 1
+	theta_start 0
+	theta_step 10
+	theta_end 0
+	phi_start 0
+	phi_step 0
+	phi_end 0
+	use_polar_step true
+	flip_yz_axis false
+	reset_radius_count 0
+	reset_radius false
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0 0 0 1
+		time2 1
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_远程攻击A_3
+{
+	quota 20
+
+	material cw_2025月神_远程攻击A_3
+
+	particle_width 0.07
+
+	particle_height 0.14
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 50
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 300 0
+
+	velocity -100
+
+	velocity_min -200
+
+	velocity_max -100
+
+	time_to_live 1.5
+
+	time_to_live_min 0.6
+
+	time_to_live_max 1.5
+
+	duration 0.6
+
+	duration_min 0.6
+
+	duration_max 0.6
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 300
+
+	height 50
+
+	depth 500
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.929412 0.8 1
+
+		time0 0
+		colour1 0.560784 0.458824 0.188235 1
+
+		time1 0.2
+
+		colour2 0.545098 0.45098 0.203922 1
+
+		time2 0.6
+
+		colour3 1 0.952941 0.8 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 2
+
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 2
+
+
+	}
+
+}
+
+cw_2025月神_远程攻击A子粒子_1
+{
+	quota 3
+
+	material cw_2025月神_远程攻击A子粒子_1
+
+	particle_width 1.5
+
+	particle_height 7
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效半球01mesh.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.929412 0.776471 1
+
+		time1 0.3
+
+		colour2 0.933333 0.839216 0.615686 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 0.6 1 1
+
+		time0 0
+		scale1 1.3 1 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神_远程攻击A子粒子_2
+{
+	quota 1
+
+	material cw_2025月神_远程攻击A子粒子_2
+
+	particle_width 3
+
+	particle_height 13
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效半球03mesh.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.709804 0.682353 0.6 1
+
+		time1 0.3
+
+		colour2 0.72549 0.658824 0.584314 1
+
+		time2 0.7
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 75
+
+		yaw_rotation_range_end 75
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神_远程攻击A子粒子_3
+{
+	quota 1
+
+	material cw_2025月神_远程攻击A子粒子_3
+
+	particle_width 8
+
+	particle_height 7
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.4
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.4
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.803922 0.207843 1
+
+		time1 0.25
+
+		colour2 0.980392 0.647059 0.239216 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 60 60 1
+
+		time0 1
+
+		scale1 30 30 1
+
+		time1 0.3
+
+		scale2 60 60 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 190
+
+		rotation_range_end 190
+
+
+	}
+
+}
+
+cw_2025月神_远程攻击A子粒子_5
+{
+	quota 1
+
+	material cw_2025月神_远程攻击A子粒子_5
+
+	particle_width 3
+
+	particle_height 10
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效半球01mesh.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 0 1
+
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.44
+
+	time_to_live_min 0.44
+
+	time_to_live_max 0.44
+
+	duration 0.2
+
+	duration_min 0.2
+
+	duration_max 0.2
+
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.780392 0.505882 0.254902 1
+
+		time0 1
+
+		colour1 0.313726 0.137255 0.992157 1
+
+		time1 0.3
+
+		colour2 0.137255 0.003922 0.686275 1
+
+		time2 0.7
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.313726 0.137255 0.992157 1
+
+		time4 1
+		colour5 0.137255 0.003922 0.686275 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神一级_自身A_1
+{
+	quota 1
+
+	material cw_2025月神一级_自身A_1
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.839216 0.34902 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神一级_自身A_2
+{
+	quota 1
+
+	material cw_2025月神一级_自身A_2
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.729412 0.435294 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神一级_自身A_4
+{
+	quota 3
+
+	material cw_2025月神一级_自身A_4
+
+	particle_width 1
+	particle_height 1
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 0.7
+
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 20
+
+	depth 200
+
+	inner_width 0.2
+
+	inner_height 0.2
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.803922 0.133333 1
+
+		time1 0.2
+
+		colour2 0.639216 0.113725 0.639216 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 0.6
+
+		scale4  50 50 1
+
+		time4 0.8
+
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神一级_自身A_6
+{
+	quota 1
+
+	material cw_2025月神一级_自身A_6
+
+	particle_width 2
+
+	particle_height 2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_神器蝴蝶01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 3
+
+	time_to_live_min 3
+
+	time_to_live_max 3
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 1
+	height 1
+	depth 0
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.909804 0.47451 1
+
+		time1 0.2
+
+		colour2 0.823529 0.72549 0.415686 1
+
+		time2 0.5
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 3
+
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1.5
+
+		height_range_start 1
+		height_range_end 1.5
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale false
+
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -90
+
+		yaw_rotation_range_end -90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 180
+
+		pitch_rotation_range_end 180
+
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 90
+
+		roll_rotation_range_end 90
+
+
+	}
+	affector MeshAnimationAffector
+	{
+		animation_name 站立
+
+		animation_loop true
+
+		animation_speed 0 0 0
+
+	}
+
+}
+
+cw_2025月神一级_自身B_1
+{
+	quota 1
+
+	material cw_2025月神一级_自身B_1
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.92549 0.733333 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神三级01_自身A_2
+{
+	quota 1
+
+	material cw_2025月神三级01_自身A_2
+
+	particle_width 3.9
+
+	particle_height 3.9
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.717647 0.968627 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神三级01_自身A_3
+{
+	quota 1
+
+	material cw_2025月神三级01_自身A_3
+
+	particle_width 0.3
+
+	particle_height 1
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效子弹波浪边mesh.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.74902 1 0.972549 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.1
+
+		colour2 0.07451 0.537255 1 1
+
+		time2 0.2
+
+		colour3 1 1 1 1
+
+		time3 0.35
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.7
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 0
+		yaw_rotation_range_end 0
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神三级01_自身A_4
+{
+	quota 1
+
+	material cw_2025月神三级01_自身A_4
+
+	particle_width 2.4
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.807843 1 0.945098 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.85
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -50
+
+		yaw_rotation_range_end -50
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神三级01_自身A_5
+{
+	quota 60
+
+	material cw_2025月神三级01_自身A_5
+
+	particle_width 0.2
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.02
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 40
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.8
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 200
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.65098 1 0.815686 1
+
+		time1 0.2
+
+		colour2 0.137255 0.529412 0.529412 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+}
+
+cw_2025月神三级01_自身B_1
+{
+	quota 1
+
+	material cw_2025月神三级01_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.333333 1 0.74902 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神三级_自身A_2
+{
+	quota 1
+
+	material cw_2025月神三级_自身A_2
+
+	particle_width 3.9
+
+	particle_height 3.9
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.94902 0.717647 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神三级_自身A_3
+{
+	quota 1
+
+	material cw_2025月神三级_自身A_3
+
+	particle_width 0.3
+
+	particle_height 1
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效子弹波浪边mesh.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.956863 0.74902 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.1
+
+		colour2 0.07451 0.537255 1 1
+
+		time2 0.2
+
+		colour3 1 1 1 1
+
+		time3 0.35
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.7
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 0
+		yaw_rotation_range_end 0
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神三级_自身A_6
+{
+	quota 1
+
+	material cw_2025月神三级_自身A_6
+
+	particle_width 2.4
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.952941 0.815686 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.85
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -50
+
+		yaw_rotation_range_end -50
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神三级_自身A_7
+{
+	quota 60
+
+	material cw_2025月神三级_自身A_7
+
+	particle_width 0.2
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.02
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 40
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.8
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 200
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.929412 0.65098 1
+
+		time1 0.2
+
+		colour2 0.521569 0.407843 0.145098 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+}
+
+cw_2025月神三级_自身B_1
+{
+	quota 1
+
+	material cw_2025月神三级_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.886275 0.584314 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神二级01_自身A_1
+{
+	quota 1
+
+	material cw_2025月神二级01_自身A_1
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.67451 0.701961 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神二级01_自身A_2
+{
+	quota 15
+
+	material cw_2025月神二级01_自身A_2
+
+	particle_width 0.7
+
+	particle_height 0.7
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 6
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.6
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 260
+
+	height 100
+
+	depth 100
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 1 0.858824 0.568627 1
+
+		time0 0
+		colour1 1 0.858824 0.564706 1
+
+		time1 0.5
+
+		colour2 0.458824 0.368627 0.082353 1
+
+		time2 0.7
+
+		colour3 0.4 0.337255 0.14902 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 10 10 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神二级01_自身A_3
+{
+	quota 8
+
+	material cw_2025月神二级01_自身A_3
+
+	particle_width 10
+
+	particle_height 10
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 180
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 3
+
+	position 0 0 0
+	velocity 10
+
+	velocity_min 10
+
+	velocity_max 10
+
+	time_to_live 3
+
+	time_to_live_min 1.5
+
+	time_to_live_max 3
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 200
+
+	inner_width 0.9
+
+	inner_height 0.9
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.890196 0.568627 1
+
+		time0 0
+		colour1 1 0.886275 0.564706 1
+
+		time1 0.2
+
+		colour2 0.207843 0.207843 0.207843 1
+
+		time2 0.45
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 25
+
+		width_range_end 15
+
+		height_range_start 25
+
+		height_range_end 15
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale false
+
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -130
+
+		rotation_speed_range_end 130
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 10 10 10
+
+		start_velocity_max -10 -30 -10
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神二级01_自身A_4
+{
+	quota 1
+
+	material cw_2025月神二级01_自身A_4
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.65098 0.482353 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神二级01_自身A_5
+{
+	quota 15
+
+	material cw_2025月神二级01_自身A_5
+
+	particle_width 5
+
+	particle_height 2
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.07
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 0 0
+	velocity -50
+
+	velocity_min -50
+
+	velocity_max -50
+
+	time_to_live 1.33
+
+	time_to_live_min 0.66
+
+	time_to_live_max 1.33
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 0
+	inner_width 0.8
+
+	inner_height 0.8
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.772549 0.34902 1
+
+		time1 0.2
+
+		colour2 0.772549 0.529412 0.160784 1
+
+		time2 0.6
+
+		colour3 0.623529 0.447059 0.109804 1
+
+		time3 1
+		colour4 0 0.023529 0.109804 1
+
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 3 0.5 1
+
+		time0 0
+		scale1 4 2 1
+
+		time1 0.2
+
+		scale2 1 0.1 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 180
+
+		rotation_range_end 180
+
+
+	}
+
+}
+
+cw_2025月神二级01_自身C_1
+{
+	quota 1
+
+	material cw_2025月神二级01_自身C_1
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.827451 0.376471 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.3
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神二级_自身A01
+{
+	quota 1
+
+	material cw_2025月神二级_自身A01
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 1 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神二级_自身A02
+{
+	quota 15
+
+	material cw_2025月神二级_自身A02
+
+	particle_width 0.7
+
+	particle_height 0.7
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 6
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.6
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 260
+
+	height 100
+
+	depth 100
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0.67451 0.984314 1 1
+
+		time0 0
+		colour1 0.537255 0.976471 1 1
+
+		time1 0.5
+
+		colour2 0.086275 0.462745 0.415686 1
+
+		time2 0.7
+
+		colour3 0.14902 0.384314 0.4 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 10 10 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神二级_自身A03
+{
+	quota 8
+
+	material cw_2025月神二级_自身A03
+
+	particle_width 10
+
+	particle_height 10
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 180
+
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 3
+
+	position 0 0 0
+	velocity 10
+
+	velocity_min 10
+
+	velocity_max 10
+
+	time_to_live 3
+
+	time_to_live_min 1.5
+
+	time_to_live_max 3
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 200
+
+	inner_width 0.9
+
+	inner_height 0.9
+
+	}
+	affector ColourFading
+	{
+		colour0 0.568627 1 0.980392 1
+
+		time0 0
+		colour1 0.313726 0.796078 0.772549 1
+
+		time1 0.2
+
+		colour2 0.207843 0.207843 0.207843 1
+
+		time2 0.45
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 25
+
+		width_range_end 15
+
+		height_range_start 25
+
+		height_range_end 15
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale false
+
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start -130
+
+		rotation_speed_range_end 130
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 10 10 10
+
+		start_velocity_max -10 -30 -10
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神二级_自身A05
+{
+	quota 1
+
+	material cw_2025月神二级_自身A05
+
+	particle_width 3.86
+
+	particle_height 3.86
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.65098 1 0.85098 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神二级_自身A06
+{
+	quota 15
+
+	material cw_2025月神二级_自身A06
+
+	particle_width 5
+
+	particle_height 2
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type texcoord
+
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.07
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 0 0
+	velocity -50
+
+	velocity_min -50
+
+	velocity_max -50
+
+	time_to_live 1.33
+
+	time_to_live_min 0.66
+
+	time_to_live_max 1.33
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 50
+
+	depth 0
+	inner_width 0.8
+
+	inner_height 0.8
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.466667 0.466667 0.466667 1
+
+		time2 0.6
+
+		colour3 0.364706 0.364706 0.364706 1
+
+		time3 1
+		colour4 0 0.023529 0.109804 1
+
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 3 0.5 1
+
+		time0 0
+		scale1 4 2 1
+
+		time1 0.2
+
+		scale2 1 0.1 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 180
+
+		rotation_range_end 180
+
+
+	}
+
+}
+
+cw_2025月神二级_自身C01
+{
+	quota 1
+
+	material cw_2025月神二级_自身C01
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.376471 1 0.984314 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.3
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_1
+{
+	quota 1
+
+	material cw_2025月神五级01_自身A_1
+
+	particle_width 3
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.843137 0 0.27451 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.3
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -60
+
+		yaw_rotation_range_end -60
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_10
+{
+	quota 20
+
+	material cw_2025月神五级01_自身A_10
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 1 0.717647 0.929412 1
+
+		time0 0
+		colour1 1 0.47451 0.792157 1
+
+		time1 0.2
+
+		colour2 0.627451 0.113725 0.384314 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_2
+{
+	quota 1
+
+	material cw_2025月神五级01_自身A_2
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.807843 0.309804 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_3
+{
+	quota 20
+
+	material cw_2025月神五级01_自身A_3
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.929412 0.415686 1 1
+
+		time1 0.2
+
+		colour2 0.721569 0.011765 0.152941 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 100
+
+		rotation_speed_range_end 150
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_4
+{
+	quota 7
+
+	material cw_2025月神五级01_自身A_4
+
+	particle_width 0.2
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name HJ_主线补充乔峰txmoxing01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 1 0 0
+
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 2
+
+	time_to_live_min 2
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.1
+
+	height 0.1
+
+	depth 0.1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.741176 0.952941 1
+
+		time1 0.33
+
+		colour2 1 0.066667 0.27451 1
+
+		time2 0.55
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1.5 1.5 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 90
+
+		yaw_rotation_range_end 90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start -20
+
+		roll_rotation_range_end 20
+
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_5
+{
+	quota 20
+
+	material cw_2025月神五级01_自身A_5
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.258824 0.462745 1
+
+		time0 0.5
+
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_6
+{
+	quota 20
+
+	material cw_2025月神五级01_自身A_6
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.407843 0.894118 1
+
+		time0 0.5
+
+		colour1 0.396078 0.121569 0.266667 1
+
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_8
+{
+	quota 10
+
+	material cw_2025月神五级01_自身A_8
+
+	particle_width 1
+	particle_height 1
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 5
+
+	position 0 0 0
+	velocity -15
+
+	velocity_min -7
+
+	velocity_max -15
+
+	time_to_live 2
+
+	time_to_live_min 2.5
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 240
+
+	height 80
+
+	depth 240
+
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.576471 0.905882 1
+
+		time1 0.33
+
+		colour2 0.709804 0.043137 0.176471 1
+
+		time2 0.66
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 3
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 20 20 1
+
+		time1 0.5
+
+		scale2 30 30 1
+
+		time2 1
+		scale3 4 4 4
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 99
+
+		rotation_speed_range_end -99
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 15 -50 15
+
+		start_velocity_max -20 -30 -20
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神五级01_自身A_9
+{
+	quota 60
+
+	material cw_2025月神五级01_自身A_9
+
+	particle_width 0.04
+
+	particle_height 0.08
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.02
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 50
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.8
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 222
+
+	height 50
+
+	depth 222
+
+	inner_width 0.8
+
+	inner_height 0.8
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.415686 0.72549 1
+
+		time1 0.2
+
+		colour2 0.607843 0.05098 0.215686 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+}
+
+cw_2025月神五级01_自身B_1
+{
+	quota 1
+
+	material cw_2025月神五级01_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.890196 0.368627 0.576471 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_1
+{
+	quota 1
+
+	material cw_2025月神五级02_自身A_1
+
+	particle_width 3
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.211765 0.133333 0.933333 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -60
+
+		yaw_rotation_range_end -60
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_10
+{
+	quota 20
+
+	material cw_2025月神五级02_自身A_10
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0.552941 0.47451 1 1
+
+		time0 0
+		colour1 0.52549 0.537255 0.94902 1
+
+		time1 0.2
+
+		colour2 0.219608 0.094118 0.647059 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 1.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_2
+{
+	quota 1
+
+	material cw_2025月神五级02_自身A_2
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.458824 0.619608 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_3
+{
+	quota 20
+
+	material cw_2025月神五级02_自身A_3
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.47451 0.552941 1 1
+
+		time1 0.2
+
+		colour2 0.329412 0.090196 0.65098 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 100
+
+		rotation_speed_range_end 150
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_4
+{
+	quota 7
+
+	material cw_2025月神五级02_自身A_4
+
+	particle_width 0.2
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name HJ_主线补充乔峰txmoxing01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 1 0 0
+
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 2
+
+	time_to_live_min 2
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.1
+
+	height 0.1
+
+	depth 0.1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.584314 0.54902 1 1
+
+		time1 0.33
+
+		colour2 0.239216 0.254902 0.827451 1
+
+		time2 0.55
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1.5 1.5 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 90
+
+		yaw_rotation_range_end 90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start -20
+
+		roll_rotation_range_end 20
+
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_5
+{
+	quota 20
+
+	material cw_2025月神五级02_自身A_5
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.462745 0.435294 1 1
+
+		time0 0.5
+
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_6
+{
+	quota 20
+
+	material cw_2025月神五级02_自身A_6
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.407843 0.423529 1 1
+
+		time0 0.5
+
+		colour1 0.152941 0.101961 0.415686 1
+
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_8
+{
+	quota 10
+
+	material cw_2025月神五级02_自身A_8
+
+	particle_width 1
+	particle_height 1
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 5
+
+	position 0 0 0
+	velocity -15
+
+	velocity_min -7
+
+	velocity_max -15
+
+	time_to_live 2
+
+	time_to_live_min 2.5
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 240
+
+	height 80
+
+	depth 240
+
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.576471 0.588235 1 1
+
+		time1 0.33
+
+		colour2 0.25098 0.101961 0.65098 1
+
+		time2 0.66
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 3
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 20 20 1
+
+		time1 0.5
+
+		scale2 30 30 1
+
+		time2 1
+		scale3 4 4 4
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 99
+
+		rotation_speed_range_end -99
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 15 -50 15
+
+		start_velocity_max -20 -30 -20
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神五级02_自身A_9
+{
+	quota 60
+
+	material cw_2025月神五级02_自身A_9
+
+	particle_width 0.04
+
+	particle_height 0.08
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.02
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 50
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.8
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 222
+
+	height 50
+
+	depth 222
+
+	inner_width 0.8
+
+	inner_height 0.8
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.4 0.415686 1 1
+
+		time1 0.2
+
+		colour2 0.2 0.062745 0.603922 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+}
+
+cw_2025月神五级02_自身B_1
+{
+	quota 1
+
+	material cw_2025月神五级02_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.458824 0.32549 0.92549 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级_自身A_1
+{
+	quota 1
+
+	material cw_2025月神五级_自身A_1
+
+	particle_width 3
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.741176 0.066667 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 0.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -60
+
+		yaw_rotation_range_end -60
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神五级_自身A_10
+{
+	quota 60
+
+	material cw_2025月神五级_自身A_10
+
+	particle_width 0.04
+
+	particle_height 0.08
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.02
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 50
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.8
+
+	time_to_live_min 0.4
+
+	time_to_live_max 0.8
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 222
+
+	height 50
+
+	depth 222
+
+	inner_width 0.8
+
+	inner_height 0.8
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.878431 0.4 1
+
+		time1 0.2
+
+		colour2 0.576471 0.25098 0.090196 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 100 100 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+}
+
+cw_2025月神五级_自身A_11
+{
+	quota 20
+
+	material cw_2025月神五级_自身A_11
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 1 0.854902 0.47451 1
+
+		time0 0
+		colour1 1 0.854902 0.47451 1
+
+		time1 0.2
+
+		colour2 0.647059 0.443137 0.094118 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 1.5
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级_自身A_2
+{
+	quota 1
+
+	material cw_2025月神五级_自身A_2
+
+	particle_width 4
+
+	particle_height 4
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.905882 0.458824 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级_自身A_4
+{
+	quota 20
+
+	material cw_2025月神五级_自身A_4
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 9
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.792157 0.243137 1
+
+		time1 0.2
+
+		colour2 0.647059 0.443137 0.094118 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 100
+
+		rotation_speed_range_end 150
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神五级_自身A_5
+{
+	quota 7
+
+	material cw_2025月神五级_自身A_5
+
+	particle_width 0.2
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name HJ_主线补充乔峰txmoxing01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 1 0 0
+
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 2
+
+	time_to_live_min 2
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.1
+
+	height 0.1
+
+	depth 0.1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.866667 0.54902 1
+
+		time1 0.33
+
+		colour2 0.807843 0.619608 0.266667 1
+
+		time2 0.55
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1.5 1.5 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 90
+
+		yaw_rotation_range_end 90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start -20
+
+		roll_rotation_range_end 20
+
+
+	}
+
+}
+
+cw_2025月神五级_自身A_6
+{
+	quota 20
+
+	material cw_2025月神五级_自身A_6
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.929412 0.717647 1
+
+		time0 0.5
+
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级_自身A_7
+{
+	quota 20
+
+	material cw_2025月神五级_自身A_7
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.843137 0.415686 1
+
+		time0 0.5
+
+		colour1 0.376471 0.286275 0.141176 1
+
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神五级_自身A_9
+{
+	quota 10
+
+	material cw_2025月神五级_自身A_9
+
+	particle_width 1
+	particle_height 1
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 5
+
+	position 0 0 0
+	velocity -15
+
+	velocity_min -7
+
+	velocity_max -15
+
+	time_to_live 2
+
+	time_to_live_min 2.5
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 240
+
+	height 80
+
+	depth 240
+
+	inner_width 0.7
+
+	inner_height 0.7
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.882353 0.576471 1
+
+		time1 0.33
+
+		colour2 0.639216 0.490196 0.113725 1
+
+		time2 0.66
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 3
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 20 20 1
+
+		time1 0.5
+
+		scale2 30 30 1
+
+		time2 1
+		scale3 4 4 4
+
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 99
+
+		rotation_speed_range_end -99
+
+		rotation_range_start 0
+		rotation_range_end 360
+
+
+	}
+	affector Movement
+	{
+		use_start_velocity true
+		start_velocity_min 15 -50 15
+
+		start_velocity_max -20 -30 -20
+
+		acceleration 0 0 0
+		velocity_loss_min 0 0 0
+		velocity_loss_max 0 0 0
+		randomness_min 0 0 0
+		randomness_max 0 0 0
+
+	}
+
+}
+
+cw_2025月神五级_自身B_1
+{
+	quota 1
+
+	material cw_2025月神五级_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.835294 0.32549 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.25
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_1
+{
+	quota 1
+
+	material cw_2025月神四级01_自身A_1
+
+	particle_width 3
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.015686 0.015686 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -44
+
+		yaw_rotation_range_end -44
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_2
+{
+	quota 1
+
+	material cw_2025月神四级01_自身A_2
+
+	particle_width 4.3
+
+	particle_height 4.3
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.768627 0 0 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_3
+{
+	quota 1
+
+	material cw_2025月神四级01_自身A_3
+
+	particle_width 3.9
+
+	particle_height 3.9
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.301961 0.301961 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_4
+{
+	quota 10
+
+	material cw_2025月神四级01_自身A_4
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 5
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 0.607843 0.47451 1
+
+		time1 0.2
+
+		colour2 0.666667 0.07451 0.07451 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 200
+
+		rotation_speed_range_end 300
+
+		rotation_range_start 360
+
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_5
+{
+	quota 7
+
+	material cw_2025月神四级01_自身A_5
+
+	particle_width 0.2
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name HJ_主线补充乔峰txmoxing01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 1 0 0
+
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 2
+
+	time_to_live_min 2
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.1
+
+	height 0.1
+
+	depth 0.1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 1 1 1 1
+
+		time1 0.33
+
+		colour2 0.380392 0.380392 0.380392 1
+
+		time2 0.55
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1.5 1.5 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 90
+
+		yaw_rotation_range_end 90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start -20
+
+		roll_rotation_range_end 20
+
+
+	}
+
+}
+
+cw_2025月神四级01_自身A_7
+{
+	quota 20
+
+	material cw_2025月神四级01_自身A_7
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.109804 0.109804 1
+
+		time0 0.5
+
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级01_自身B_1
+{
+	quota 1
+
+	material cw_2025月神四级01_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 1 0.333333 0.258824 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.3
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级_自身A_1
+{
+	quota 1
+
+	material cw_2025月神四级_自身A_1
+
+	particle_width 3
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name 特效_宠物龙圆环mesh01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.5
+
+	time_to_live_min 1.5
+
+	time_to_live_max 1.5
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0.117647 0.776471 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.25
+
+		colour2 0.537255 0.537255 0.537255 1
+
+		time2 0.6
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0.854902 0.74902 0.47451 1
+
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start -44
+
+		yaw_rotation_range_end -44
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start 0
+		roll_rotation_range_end 0
+
+	}
+
+}
+
+cw_2025月神四级_自身A_2
+{
+	quota 1
+
+	material cw_2025月神四级_自身A_2
+
+	particle_width 4.3
+
+	particle_height 4.3
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.141176 0.101961 0.968627 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级_自身A_3
+{
+	quota 1
+
+	material cw_2025月神四级_自身A_3
+
+	particle_width 3.9
+
+	particle_height 3.9
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type perpendicular_common
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.090196 0.341176 1 1
+
+		time0 1
+
+		colour1 1 1 1 1
+
+		time1 0.2
+
+		colour2 0.615686 0.615686 0.615686 1
+
+		time2 0.5
+
+		colour3 0.564706 0.984314 1 1
+
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 100
+
+		width_range_end 100
+
+		height_range_start 100
+
+		height_range_end 100
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 50 50 1
+
+		time0 1
+
+		scale1 1 1 1
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 0
+		rotation_speed_range_end 0
+		rotation_range_start -35
+
+		rotation_range_end -35
+
+
+	}
+
+}
+
+cw_2025月神四级_自身A_5
+{
+	quota 10
+
+	material cw_2025月神四级_自身A_5
+
+	particle_width 1.5
+
+	particle_height 1.5
+
+	cull_each false
+	renderer texcoord_billboard
+
+	sorted false
+	local_space false
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 0 1
+	common_up_vector 0 1 0
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 5
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 0.7
+
+	time_to_live_min 0.5
+
+	time_to_live_max 0.7
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 200
+
+	height 40
+
+	depth 200
+
+	inner_width 1
+	inner_height 1
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.47451 0.815686 1 1
+
+		time1 0.2
+
+		colour2 0.145098 0.086275 0.662745 1
+
+		time2 1
+		colour3 0.560784 0.560784 0.560784 1
+
+		time3 1
+		colour4 0 0 0 0
+
+		time4 1
+		colour5 0 0 0 0
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 10 10 1
+
+		time0 0
+		scale1 1 1 1
+		time1 0.2
+
+		scale2 50 50 1
+
+		time2 0.4
+
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Rotator
+	{
+		rotation_speed_range_start 200
+
+		rotation_speed_range_end 300
+
+		rotation_range_start 360
+
+		rotation_range_end 360
+
+	}
+
+}
+
+cw_2025月神四级_自身A_6
+{
+	quota 7
+
+	material cw_2025月神四级_自身A_6
+
+	particle_width 0.2
+
+	particle_height 0.2
+
+	cull_each false
+	renderer mesh
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	mesh_name HJ_主线补充乔峰txmoxing01.mesh
+
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 1 0 0
+
+	emission_rate 1
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 2
+
+	time_to_live_min 2
+
+	time_to_live_max 2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0.1
+
+	height 0.1
+
+	depth 0.1
+
+	}
+	affector ColourFading
+	{
+		colour0 0 0 0 1
+		time0 0
+		colour1 0.07451 0.352941 1 1
+
+		time1 0.33
+
+		colour2 0.145098 0.168627 0.929412 1
+
+		time2 0.55
+
+		colour3 0 0 0 1
+		time3 1
+		colour4 0 0 0 1
+		time4 1
+		colour5 0 0 0 1
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 1 1 1
+		time0 0
+		scale1 1.5 1.5 1
+
+		time1 1
+		scale2 1 1 1
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector MeshRotator
+	{
+		yaw_rotation_speed_range_start 0
+		yaw_rotation_speed_range_end 0
+		yaw_rotation_range_start 90
+
+		yaw_rotation_range_end 90
+
+		pitch_rotation_speed_range_start 0
+		pitch_rotation_speed_range_end 0
+		pitch_rotation_range_start 0
+		pitch_rotation_range_end 0
+		roll_rotation_speed_range_start 0
+		roll_rotation_speed_range_end 0
+		roll_rotation_range_start -20
+
+		roll_rotation_range_end 20
+
+
+	}
+
+}
+
+cw_2025月神四级_自身A_8
+{
+	quota 20
+
+	material cw_2025月神四级_自身A_8
+
+	particle_width 0.9
+
+	particle_height 0.5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type oriented_self
+
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.1
+
+
+	emitter Ring
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 2
+
+	position 0 120 0
+
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1.2
+
+	time_to_live_min 0.8
+
+	time_to_live_max 1.2
+
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 150
+
+	height 50
+
+	depth 0
+	inner_width 1
+
+	inner_height 1
+
+	}
+	affector ColourFading
+	{
+		colour0 0.717647 0.937255 1 1
+
+		time0 0.5
+
+		colour1 0 0 0 1
+		time1 0.5
+		colour2 0.505882 0.505882 0.505882 1
+
+		time2 0.4
+
+		colour3 0.215686 0.215686 0.215686 1
+
+		time3 1
+		colour4 0.964706 0.627451 0.321569 1
+
+		time4 1
+		colour5 0.831373 0.184314 0 1
+
+		time5 1
+		repeat_times 1
+		opacity 2
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size false
+
+		width_range_start 1
+		width_range_end 1
+		height_range_start 1
+		height_range_end 1
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 5 5 5
+
+		time0 0
+		scale1 50 50 1
+
+		time1 0.2
+
+		scale2 20 20 1
+
+		time2 0.5
+
+		scale3 40 40 1
+
+		time3 0.7
+
+		scale4  0.1 0.1 1
+
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+	affector Revolution
+	{
+		rotation_speed 0
+		rotation_axis 0 1 0
+		radius_increment 40
+
+		center_offset_min 0 0 0
+		center_offset_max 0 0 0
+		radius_increment_scale0 0
+		time0 1
+		radius_increment_scale1 0
+		time1 1
+		radius_increment_scale2 0
+		time2 1
+		radius_increment_scale3 0
+		time3 1
+		radius_increment_scale4 0
+		time4 1
+		radius_increment_scale5 0
+		time5 1
+		use_radius_increment_scale false
+		repeat_times 1
+
+	}
+
+}
+
+cw_2025月神四级_自身B_1
+{
+	quota 1
+
+	material cw_2025月神四级_自身B_1
+
+	particle_width 5
+
+	particle_height 5
+
+	cull_each false
+	renderer billboard
+
+	sorted false
+	local_space true
+	iteration_interval 0
+	nonvisible_update_timeout 0
+	billboard_type point
+	billboard_origin center
+	billboard_rotation_type vertex
+	common_direction 0 1 0
+
+	common_up_vector 1 0 0
+
+	point_rendering false
+	accurate_facing false
+	speed_relatived_size_factor 0.01
+
+	emitter Box
+	{
+	angle 0
+	colour 1 1 1 1
+	colour_range_start 1 1 1 1
+	colour_range_end 1 1 1 1
+	direction 0 1 0
+	emission_rate 999
+
+	position 0 0 0
+	velocity 0
+	velocity_min 0
+	velocity_max 0
+	time_to_live 1
+	time_to_live_min 1
+	time_to_live_max 1
+	duration 0
+	duration_min 0
+	duration_max 0
+	repeat_delay 0
+	repeat_delay_min 0
+	repeat_delay_max 0
+	width 0
+
+	height 0
+
+	depth 0
+
+	}
+	affector ColourFading
+	{
+		colour0 0.258824 0.552941 1 1
+
+		time0 1
+
+		colour1 0.141176 0.015686 0.309804 1
+
+		time1 0.6
+
+		colour2 0.035294 0.003922 0.062745 1
+
+		time2 1
+		colour3 0.047059 0.019608 0.047059 1
+
+		time3 0.8
+
+		colour4 0 0 0 1
+		time4 1
+		colour5 0.5 0.5 0.5 0
+
+		time5 1
+		repeat_times 1
+		opacity 0.3
+
+		fade_in_time 0
+		fade_out_time 1
+
+	}
+	affector ScaleInterpolator
+	{
+		uniform_size true
+		width_range_start 50
+
+		width_range_end 50
+
+		height_range_start 50
+
+		height_range_end 50
+
+		use_constant_scale false
+		constant_scale 1 1 1
+		use_interpolated_scale true
+		scale0 20 20 1
+
+		time0 1
+
+		scale1 20 20 1
+
+		time1 1
+		scale2 20 20 1
+
+		time2 1
+		scale3 1 1 1
+		time3 1
+		scale4 1 1 1
+		time4 1
+		scale5 1 1 1
+		time5 1
+		repeat_times 1
+
+	}
+
+}

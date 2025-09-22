@@ -1,0 +1,742 @@
+////PET13_8_ThucCotMinhXa////
+
+effect cw_2024VIP相柳蛇_攻击
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-50 230 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 1 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	20 250 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	20 5 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_4
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	20 80 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击_8
+	}
+
+	LifeTime	2
+}
+effect cw_2024VIP相柳蛇_攻击2
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 100 0
+		Orientation	-4.37114e-008 1 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	20 120 0
+		Orientation	-4.37114e-008 1 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_2
+	}
+
+	element Particle
+	{
+		StartTime	0.05
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_3
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_5
+	}
+
+	element Particle
+	{
+		StartTime	0.15
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_攻击2_6
+	}
+
+	LifeTime	2
+}
+effect cw_2024VIP相柳蛇_远程攻击
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 -300 -100
+		Orientation	-0.173648 0.984808 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 -300 -100
+		Orientation	-0.173648 0.984808 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_4
+	}
+
+	LifeTime	2
+}
+effect cw_2024VIP相柳蛇_远程攻击B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇_远程攻击_1子
+{
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 20 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_1子_1
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_1子_2
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_1子_3
+	}
+
+	element Particle
+	{
+		StartTime	0.01
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇_远程攻击_1子_4
+	}
+
+	LifeTime	3
+}
+effect cw_2024VIP相柳蛇一级_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇一级_A_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇一级_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇一级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇一级_B_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇三级01_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级01_A_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇三级01_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-12 -15 2
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级01_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	12 -15 2
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级01_B_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级01_B_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇三级_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级_A_1
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇三级_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-12 -15 2
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	12 -15 2
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级_B_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇三级_B_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇二级01_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级01_A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级01_A_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇二级01_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级01_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级01_B_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇二级_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级_A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级_A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇二级_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	12 -15 5
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇二级_B_2
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇五级01_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇五级01_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-25 20 -30
+		Orientation	0.873535 0.454734 0.154028 0.080182
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	25 20 -30
+		Orientation	0.873535 0.454734 -0.154028 -0.0801819
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级01_B_6
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇五级_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇五级_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	25 20 -30
+		Orientation	0.873535 0.454734 -0.154028 -0.0801819
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-25 20 -30
+		Orientation	0.873535 0.454734 0.154028 0.080182
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇五级_B_6
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇四级01_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 100 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 60 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇四级01_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_B_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级01_B_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇四级_A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 100 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 60 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2024VIP相柳蛇四级_B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_B_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	10 -14 6
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_B_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024VIP相柳蛇四级_B_3
+	}
+
+	LifeTime	0
+}

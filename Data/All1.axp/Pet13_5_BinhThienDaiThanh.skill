@@ -1,0 +1,84 @@
+////PET13_5_BinhThienDaiThanh////
+
+skill cw_2024牛魔王_攻击
+{
+	Animation 攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.4
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024牛魔王_攻击
+		OffsetPos -35 120 0
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}
+skill cw_2024牛魔王_攻击2
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.5
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024牛魔王_攻击2
+		OffsetPos 0 140 100
+		OffsetRotation 0.707107 0 0 -0.707107
+		Attach true
+		DefaultShow true
+	}
+}
+skill cw_2024牛魔王_攻击2高级
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.5
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024牛魔王_攻击2高级B
+		OffsetPos 0 140 100
+		OffsetRotation 0.707107 0 0 -0.707107
+		Attach true
+		DefaultShow true
+	}
+	AnimEffect
+	{
+		AttachTime 0
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024牛魔王_攻击2高级
+		OffsetPos 0 0 100
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}
+skill cw_2024牛魔王_远程攻击
+{
+	Animation 远程攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.428571
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024牛魔王_远程攻击
+		OffsetPos 0 0 -220
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}

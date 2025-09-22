@@ -1,0 +1,66 @@
+////PET13_8_ThucCotMinhXa////
+
+skill cw_2024VIP相柳蛇_攻击
+{
+	Animation 攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.2
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024VIP相柳蛇_攻击
+		OffsetPos 0 0 0
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}
+skill cw_2024VIP相柳蛇_攻击2
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024VIP相柳蛇_攻击2
+		OffsetPos 0 0 0
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}
+skill cw_2024VIP相柳蛇_远程攻击
+{
+	Animation 远程攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.25
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2024VIP相柳蛇_远程攻击
+		OffsetPos 0 220 180
+		OffsetRotation 0.5 0.866025 0 0
+		Attach true
+		DefaultShow true
+	}
+	AnimEffect
+	{
+		AttachTime 0
+		AttachPoint 头部特效点
+		EffectTemplateName cw_2024VIP相柳蛇_远程攻击B
+		OffsetPos 0 0 0
+		OffsetRotation 1 0 0 0
+		Attach true
+		DefaultShow true
+	}
+}

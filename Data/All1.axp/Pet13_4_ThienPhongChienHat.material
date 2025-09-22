@@ -1,0 +1,3423 @@
+////PET13_4_ThienPhongChienHat////
+
+material cw_pet_2024上古蝎子_A脚下_4 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_骑乘141008古风荷花一点红.dds
+}
+
+material cw_pet_2024上古蝎子_A脚下_5 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_AFXO_01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024上古蝎子_B尾尖_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_Effect_14516.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024上古蝎子_B尾尖_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024极地蝎子01_A脚下_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_A脚下_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_cq火001.dds
+	set_texture_alias <scrollTex> tga_202311闪电15.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 1.5
+					scroll 0 0.00225
+					scroll_anim 0 -0.15
+			}
+			texture_unit scrollTex
+			{
+					scroll 0 0.997
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_A脚下_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv_013.dds
+	set_texture_alias <scrollTex> png_202311极光_黑白.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.99925 0.0015
+					scroll_anim 0.05 -0.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_B雪花_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_B雪花_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_202403雪花01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_C尾尖_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_星星序列金银色浅.dds
+}
+
+material cw_pet_2024极地蝎子01_C尾尖_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_aaay.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_C尾尖_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow011.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子01_D钳子_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_A脚下_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_A脚下_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_cq火001.dds
+	set_texture_alias <scrollTex> tga_202311闪电15.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 1.5
+					scroll 0 0.00225
+					scroll_anim 0 -0.15
+			}
+			texture_unit scrollTex
+			{
+					scroll 0 0.997
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_A脚下_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv_013.dds
+	set_texture_alias <scrollTex> png_202311极光_黑白.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.99925 0.0015
+					scroll_anim 0.05 -0.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_B雪花_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_B雪花_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_202403雪花01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_C尾尖_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_星星序列金银色浅.dds
+}
+
+material cw_pet_2024极地蝎子02_C尾尖_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_aaay.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_C尾尖_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow011.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子02_D钳子_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_A脚下_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_A脚下_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_cq火001.dds
+	set_texture_alias <scrollTex> tga_202311闪电15.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 1.5
+					scroll 0 0.17205
+					scroll_anim 0 -0.15
+			}
+			texture_unit scrollTex
+			{
+					scroll 0 0.7706
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_A脚下_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv_013.dds
+	set_texture_alias <scrollTex> png_202311极光_黑白.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.9874 0.0252
+					scroll_anim 0.05 -0.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_B雪花_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_B雪花_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_202403雪花01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_C尾尖_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_星星序列金银色浅.dds
+}
+
+material cw_pet_2024极地蝎子_C尾尖_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_aaay.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_C尾尖_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow011.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024极地蝎子_D钳子_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子01_A脚下_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0007.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one zero
+			depth_write on
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子01_A脚下_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0007.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one zero
+			depth_write on
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子01_A脚下_3 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_baise.dds
+	set_texture_alias <scrollTex> jpg_2024花车符文背景.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.953288 0.0916427
+					scroll_anim 0 -0.2
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子01_B飞镖_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024榫卯蝎子01_C灯笼_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_Effect_14516.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子01_D钳子_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_jet_as黑白_xb.dds
+	set_texture_alias <scrollTex> jpg_z_uv031.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0 0.989294
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子_A脚下_1 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_baise.dds
+	set_texture_alias <scrollTex> jpg_2024花车符文背景.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.953288 0.783647
+					scroll_anim 0 -0.2
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子_A脚下_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0007.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one zero
+			depth_write on
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子_A脚下_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_骑乘141008古风荷花一点红.dds
+}
+
+material cw_pet_2024榫卯蝎子_B飞镖_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024榫卯蝎子_C灯笼_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_Effect_14516.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024榫卯蝎子_D钳子_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_jet_as黑白_xb.dds
+	set_texture_alias <scrollTex> jpg_z_uv031.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0 0.48814
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子01_A钳子_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_骑乘仙龟泡泡cq.dds
+}
+
+material cw_pet_2024绿洲蝎子01_A钳子_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_bingxuediao02.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子01_B飞鱼_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+}
+
+material cw_pet_2024绿洲蝎子01_C鱼钩_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+}
+
+material cw_pet_2024绿洲蝎子01_C鱼钩_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0036.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子01_D身体_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_huanghe09.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子01_D身体_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effects_0027.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子01_D身体_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_彩虹.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子_A钳子_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_骑乘仙龟泡泡cq.dds
+}
+
+material cw_pet_2024绿洲蝎子_A钳子_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_bingxuediao02.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子_B飞鱼_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+}
+
+material cw_pet_2024绿洲蝎子_C鱼钩_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+}
+
+material cw_pet_2024绿洲蝎子_C鱼钩_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0036.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子_D身体_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_huanghe09.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子_D身体_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effects_0027.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024绿洲蝎子_D身体_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_彩虹.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_A脚下_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_桃花瓣03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_A脚下_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子01_A脚下_4 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_cq火001.dds
+	set_texture_alias <scrollTex> tga_202311闪电15.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 1.5
+					scroll 0 0.17205
+					scroll_anim 0 -0.15
+			}
+			texture_unit scrollTex
+			{
+					scroll 0 0.7706
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_B尾尖_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_Effect_14516.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_B尾尖_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子01_B尾尖_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_z_雪花04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1.5
+					scroll 0.726169 0.240025
+					scroll_anim 0 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_C浮花_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0213.dds
+}
+
+material cw_pet_2024荆棘蝎子01_C浮花_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子01_C浮花_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_z_雪花04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1.5
+					scroll 0.726169 0.167005
+					scroll_anim 0 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子01_C浮花_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208拖尾02水平.dds
+	set_texture_alias <scrollTex> png_effects_0024.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 1
+					scroll 0.0997991 0
+					scroll_anim -0.6 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_A脚下_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_桃花瓣03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_A脚下_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子_A脚下_5 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_cq火001.dds
+	set_texture_alias <scrollTex> tga_202311闪电15.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 1.5
+					scroll 0 0.17205
+					scroll_anim 0 -0.15
+			}
+			texture_unit scrollTex
+			{
+					scroll 0 0.7706
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_B尾尖_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_Effect_14516.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_B尾尖_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子_B尾尖_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_z_雪花04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1.5
+					scroll 0.726169 0.608458
+					scroll_anim 0 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_C浮花_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0213.dds
+}
+
+material cw_pet_2024荆棘蝎子_C浮花_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+}
+
+material cw_pet_2024荆棘蝎子_C浮花_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_z_雪花04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1.5
+					scroll 0.726169 0.0780084
+					scroll_anim 0 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024荆棘蝎子_C浮花_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208拖尾02水平.dds
+	set_texture_alias <scrollTex> png_effects_0024.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 1
+					scroll 0.0295988 0
+					scroll_anim -0.6 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_10 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_11 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_uv031.dds
+	set_texture_alias <scrollTex> jpg_z_白羽毛02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.009 0
+			}
+			texture_unit scrollTex
+			{
+					scale -1 -0.8
+					scroll 0.147 0
+					scroll_anim -3 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 2
+					scroll 0.968 1
+					scroll_anim 4 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_3 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_wqq_quan02.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 2 2
+					scroll 0.984 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_ray_a_0005.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_7 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_9 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 2
+					scroll 0.964 1
+					scroll_anim 4 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_3 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_wqq_quan02.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 2 2
+					scroll 0.982 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_ray_a_0005.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_6 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_7 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_8 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_9 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_uv031.dds
+	set_texture_alias <scrollTex> jpg_z_白羽毛02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.009 0
+			}
+			texture_unit scrollTex
+			{
+					scale -1 -0.8
+					scroll 0.147 0
+					scroll_anim -3 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_10 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_12 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_13 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_特效_重剑战士_纹理流动_8.dds
+	set_texture_alias <scrollTex> png_黑暗光晕02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.7 4
+					scroll 0 0.0213
+					scroll_anim 0 -0.5
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_14 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_15 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_2023qilin_攻击2_地裂2.dds
+	set_texture_alias <scrollTex> jpg_光晕07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_17 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_2023qilin_攻击2_地裂.dds
+	set_texture_alias <scrollTex> jpg_光晕07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_18 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_tz扩散气体.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_19 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_guangdun01.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_shitou.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scroll 0.013 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_5 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_7 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_TL_Point_002.dds
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_8 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_冷色_范围攻击_9 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_mask002.dds
+	set_texture_alias <scrollTex> jpg_石头_013.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0.0128 0.032
+					scroll_anim -0.2 -0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_10 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_12 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_13 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_特效_重剑战士_纹理流动_8.dds
+	set_texture_alias <scrollTex> png_黑暗光晕02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.7 4
+					scroll 0 0.0213
+					scroll_anim 0 -0.5
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_14 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾3.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_16 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_特效_2023qilin_攻击2_地裂2.dds
+	set_texture_alias <scrollTex> jpg_光晕07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_17 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_2023qilin_攻击2_地裂.dds
+	set_texture_alias <scrollTex> jpg_光晕07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_18 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_tz扩散气体.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_19 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_guangdun01.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 5
+					scroll 0.0130855 0.3672
+					scroll_anim 0 -0.6
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_5 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_7 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_TL_Point_002.dds
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_8 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击2_范围攻击_9 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_mask002.dds
+	set_texture_alias <scrollTex> jpg_石头_013.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0.0128 0.032
+					scroll_anim -0.2 -0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_10 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_11 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_uv031.dds
+	set_texture_alias <scrollTex> jpg_z_白羽毛02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.009 0
+			}
+			texture_unit scrollTex
+			{
+					scale -1 -0.8
+					scroll 0.147 0
+					scroll_anim -3 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_12 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 2
+					scroll 0.688 1
+					scroll_anim 4 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_3 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_wqq_quan02.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 2 2
+					scroll 0.844 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_ray_a_0005.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.976 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_7 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.012 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_8 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_9 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.725 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_10 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_11 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_uv031.dds
+	set_texture_alias <scrollTex> jpg_z_白羽毛02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.009 0
+			}
+			texture_unit scrollTex
+			{
+					scale -1 -0.8
+					scroll 0.147 0
+					scroll_anim -3 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_12 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 2
+					scroll 0.676 1
+					scroll_anim 4 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_刀光组合片内05.dds
+	set_texture_alias <scrollTex> png_特效聚气纹理贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 2 2
+					scroll 0.838 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_ray_a_0005.dds
+	set_texture_alias <scrollTex> jpg_z_uv_016.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0.503999 1
+					scroll_anim 2 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_7 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_从刃04.dds
+	set_texture_alias <scrollTex> png_z_uv035.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale -3 1
+					scroll 0.748 1
+					scroll_anim -1 0
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_8 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_9 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_受击_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_受击_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 5
+					scroll 0.0130855 0.0304004
+					scroll_anim 0 -0.6
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_受击_4 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_冷色_受击_5 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_TL_Point_002.dds
+}
+
+material cw_pet_2024蝎子_攻击_冷色_受击_6 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_受击_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_受击_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 5
+					scroll 0.0130855 0.179601
+					scroll_anim 0 -0.6
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_受击_5 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_攻击_受击_8 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_11 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_12 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_mask002.dds
+	set_texture_alias <scrollTex> jpg_石头_013.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0.0128 0.032
+					scroll_anim -0.2 -0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_13 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_14 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_15 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_5 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_6 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 5
+					scroll 0.0130855 0.4302
+					scroll_anim 0 -0.6
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_7 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_8 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_10 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_11 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_12 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0181.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_白色棋子.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_colour one_minus_src_colour
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_乾坤引进阶贴图.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 5
+					scroll 0.0130855 0.1366
+					scroll_anim 0 -0.6
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_5 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_0019.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_8 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv_005.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 2
+					scroll 0 0.0465
+					scroll_anim 0 1.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_9 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_mask002.dds
+	set_texture_alias <scrollTex> jpg_石头_013.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0.0128 0.032
+					scroll_anim -0.2 -0.5
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 2 2
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_12 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 2 2
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_13 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			texture_unit
+			{
+					scroll 0.0130855 0.714363
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_Smoke1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_4 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0326.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_7 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			texture_unit
+			{
+					scale 2 1.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_冷色_石堆_8 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			texture_unit
+			{
+					scale 2 1.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_11 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_huise.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_12 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_effect510_0326.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_16 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scale 2 1.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_19 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scale 2 1.1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_20 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_mask002.dds
+	set_texture_alias <scrollTex> jpg_石头_013.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scale 1 4
+					scroll 0.0031 0.0062
+					scroll_anim -0.1 -0.2
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_21 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_特效_重剑战士_纹理流动_8.dds
+	set_texture_alias <scrollTex> png_黑暗光晕02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.7 4
+					scroll 0 0.0234
+					scroll_anim 0 -0.3
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_22 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv_013.dds
+	set_texture_alias <scrollTex> jpg_20220318dc渐变遮罩.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scale 2 5
+					scroll 0.0130855 0.180005
+					scroll_anim 0 -0.2
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_5 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scale 2 2
+			}
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_7 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾3.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_8 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+
+material cw_pet_2024蝎子_远程攻击_石堆_9 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_20220311光柱.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+material pet_2024上古蝎子 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024上古蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024上古蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024上古蝎子半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024上古蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024上古蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子02 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024极地蝎子02半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024极地蝎子02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024极地蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024极地蝎子流光贴图.dds
+}
+
+material pet_2024榫卯蝎子 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024榫卯蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024榫卯蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024榫卯蝎子流光贴图.dds
+}
+
+material pet_2024榫卯蝎子01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024榫卯蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024榫卯蝎子01遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024榫卯蝎子流光贴图.dds
+}
+
+material pet_2024绿洲蝎子 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024绿洲蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024绿洲蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024绿洲蝎子半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024绿洲蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024绿洲蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024绿洲蝎子01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024绿洲蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024绿洲蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024绿洲蝎子01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024绿洲蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024绿洲蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024蝎子流光贴图.dds
+}
+
+material pet_2024荆棘蝎子 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024荆棘蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024荆棘蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024荆棘蝎子流光贴图.dds
+}
+
+material pet_2024荆棘蝎子半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024荆棘蝎子.dds
+	set_texture_alias <ctlTex> jpg_pet_2024荆棘蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024荆棘蝎子流光贴图.dds
+}
+
+material pet_2024荆棘蝎子01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024荆棘蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024荆棘蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024荆棘蝎子流光贴图.dds
+}
+
+material pet_2024荆棘蝎子01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 220
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 1.0 2 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024荆棘蝎子01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024荆棘蝎子遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024荆棘蝎子流光贴图.dds
+}
+

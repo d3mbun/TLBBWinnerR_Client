@@ -1,0 +1,2838 @@
+////PET13_5_BinhThienDaiThanh////
+
+effect cw_2024牛魔王一级_A手甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-15 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王一级_A手甲_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王一级_A手甲_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王一级_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王一级_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt一级龙_远程攻击_龙珠效果
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_龙珠效果_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt一级龙_远程攻击
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 160 170
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_6
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_7
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_8
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_9
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_10
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_11
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_12
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_13
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_14
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_15
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 160 200
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_16
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 150 400
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_17
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt一级龙_远程攻击_18
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	2
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王_攻击2
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.05
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_6
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_7
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_8
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2_9
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	2
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt四级龙_站立
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt四级龙_站立_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt四级龙_站立_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt四级龙_站立_6
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙01_自身A
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙01_自身A_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 120 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2023pt五级龙01_自身A_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙01_自身A_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙_后爪中心点
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙_后爪中心点_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙_前爪中心点
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙_前爪中心点_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙2_自身A
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙2_自身A02
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 120 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2023pt五级龙2_自身A03
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙2_自身A04
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙2_后爪中心点
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙2_后爪中心点_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_pet_2023pt五级龙2_前爪中心点
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2023pt五级龙2_前爪中心点_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王_远程攻击
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0 0 -0.707107
+		ParticleSystem	cw_2024牛魔王_远程攻击_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0 0 -0.707107
+		ParticleSystem	cw_2024牛魔王_远程攻击_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0 0 -0.707107
+		ParticleSystem	cw_2024牛魔王_远程攻击_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0 0 -0.707107
+		ParticleSystem	cw_2024牛魔王_远程攻击_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 100
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_远程攻击_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 100
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_远程攻击_6
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_远程攻击_7
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 1 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_远程攻击_8
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_远程攻击_9
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	2
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王_攻击
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0 0.707107 0
+		ParticleSystem	cw_2024牛魔王_攻击_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -40
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2024牛魔王_攻击_8
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击_9
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	2
+
+	use_scale	true
+}
+
+
+effect cw_2024牛魔王二级_A手甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级_A手甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	0.984808 0.173648 0 0
+		ParticleSystem	cw_2024牛魔王二级_A手甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王二级_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王二级01_A手甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级01_A手甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	0.984808 0.173648 0 0
+		ParticleSystem	cw_2024牛魔王二级01_A手甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王二级01_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级01_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王二级01_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级_D身体中心
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_D身体中心_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级_A手甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_A手甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	0.984808 0.173648 0 0
+		ParticleSystem	cw_2024牛魔王三级_A手甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 10
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2024牛魔王三级_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级01_D身体中心
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_D身体中心_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级01_A手甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_A手甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	0.984808 0.173648 0 0
+		ParticleSystem	cw_2024牛魔王三级01_A手甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级01_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 10
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2024牛魔王三级01_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王三级01_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王三级01_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级_D身体中心
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_D身体中心_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级_C头饰
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-48 -20 -7
+		Orientation	0.987672 0.0864101 0.0113761 -0.130029
+		ParticleSystem	cw_2024牛魔王四级_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	48 -20 -7
+		Orientation	0.987672 0.0864101 -0.0113761 0.130029
+		ParticleSystem	cw_2024牛魔王四级_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -5 20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2024牛魔王四级_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -10 30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_E尾巴_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级01_D身体中心
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_D身体中心_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级01_C头饰
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-48 -20 -7
+		Orientation	0.987672 0.0864101 0.0113761 -0.130029
+		ParticleSystem	cw_2024牛魔王四级01_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	48 -20 -7
+		Orientation	0.987672 0.0864101 -0.0113761 0.130029
+		ParticleSystem	cw_2024牛魔王四级01_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级01_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -5 20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2024牛魔王四级01_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -10 30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_E尾巴_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王四级01_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王四级01_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级02_G臂甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 120 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_G臂甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_G臂甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级02_C头饰
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-47 -20 -17
+		Orientation	0.976382 0.172163 0.0226657 -0.128543
+		ParticleSystem	cw_2024牛魔王五级02_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	47 -20 -17
+		Orientation	0.0226657 -0.128543 0.976382 0.172163
+		ParticleSystem	cw_2024牛魔王五级02_C头饰_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级02_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -6 14
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 19 -16
+		Orientation	0.838671 -0.544639 0 0
+		ParticleSystem	cw_2024牛魔王五级02_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级02_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.999391 -0.0348995 0 0
+		ParticleSystem	cw_2024牛魔王五级02_B武器_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级02_H腰甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 15 -1
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_H腰甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级02_H腰甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级01_G臂甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 120 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_G臂甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_G臂甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级01_C头饰
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-47 -20 -17
+		Orientation	0.976382 0.172163 0.0226657 -0.128543
+		ParticleSystem	cw_2024牛魔王五级01_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	47 -20 -17
+		Orientation	0.0226657 -0.128543 0.976382 0.172163
+		ParticleSystem	cw_2024牛魔王五级01_C头饰_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级01_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -6 14
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 19 -16
+		Orientation	0.838671 -0.544639 0 0
+		ParticleSystem	cw_2024牛魔王五级01_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级01_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.999391 -0.0348995 0 0
+		ParticleSystem	cw_2024牛魔王五级01_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_B武器_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级01_H腰甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 15 -1
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_H腰甲_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级01_H腰甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级_G臂甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 120 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_G臂甲_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_G臂甲_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级_C头饰
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	-47 -20 -17
+		Orientation	0.976382 0.172163 0.0226657 -0.128543
+		ParticleSystem	cw_2024牛魔王五级_C头饰_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	47 -20 -17
+		Orientation	0.0226657 -0.128543 0.976382 0.172163
+		ParticleSystem	cw_2024牛魔王五级_C头饰_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级_E尾巴
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 -6 14
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_E尾巴_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 19 -16
+		Orientation	0.838671 -0.544639 0 0
+		ParticleSystem	cw_2024牛魔王五级_E尾巴_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级_B武器
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_B武器_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_B武器_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_B武器_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.999391 -0.0348995 0 0
+		ParticleSystem	cw_2024牛魔王五级_B武器_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王五级_H腰甲
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 15 -1
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_H腰甲01
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王五级_H腰甲02
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王_攻击2高级
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击2高级_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2024牛魔王_攻击2高级_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	0
+
+	use_scale	true
+}
+
+effect cw_2024牛魔王_攻击2高级B
+{
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_1
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_2
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.05
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_3
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_4
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	5 -20 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_5
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_6
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_7
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_8
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	10 -5 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_9
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	element Particle
+	{
+		CreateLevel	100
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.7 0 0 0.7
+		ParticleSystem	cw_2024牛魔王_攻击2高级B_10
+		ParEffectName	NullEffect
+		use_particle_effect	false
+		legacy_pos_for_sub_effect	true
+		pass_rotation_to_sub_effect	false
+		ColEffectName	NullEffect
+		use_particle_collision	false
+		use_energy_wave	false
+	}
+
+	LifeTime	2
+
+	use_scale	true
+}

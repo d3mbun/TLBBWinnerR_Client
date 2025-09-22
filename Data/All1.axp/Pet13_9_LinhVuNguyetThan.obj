@@ -1,0 +1,511 @@
+<AllObjects>
+<!--PET13_9_LinhVuNguyetThan-->
+
+<Object name="pet_2025月神一级.obj">
+    <EntityList>
+        <Entity name="pet_2025月神一级" file="pet_2025月神一级.mesh" material="" />
+        <Entity name="pet_2025月神鸟一级" file="pet_2025月神鸟一级.mesh" material="" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神一级_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神一级_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神一级_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神三级.obj">
+    <EntityList>
+        <Entity name="pet_2025月神鸟三级" file="pet_2025月神鸟三级.mesh" material="" />
+        <Entity name="pet_2025月神三级特效片" file="pet_2025月神三级特效片.mesh" material="" />
+        <Entity name="pet_2025月神三级" file="pet_2025月神三级.mesh" material="" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神三级_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神三级_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神三级_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神三级01.obj">
+    <EntityList>
+        <Entity name="pet_2025月神鸟三级" file="pet_2025月神鸟三级.mesh" material="pet_2025月神鸟三级01;pet_2025月神鸟三级01半透" />
+        <Entity name="pet_2025月神三级特效片" file="pet_2025月神三级特效片.mesh" material="pet_2025月神三级特效片01" />
+        <Entity name="pet_2025月神三级" file="pet_2025月神三级.mesh" material="pet_2025月神三级01;pet_2025月神三级01半透" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神三级01_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神三级01_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神三级01_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神二级.obj">
+    <EntityList>
+        <Entity name="pet_2025月神鸟二级" file="pet_2025月神鸟二级.mesh" material="" />
+        <Entity name="pet_2025月神二级" file="pet_2025月神二级.mesh" material="" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神二级_自身C" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神二级_自身C" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神二级_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神二级01.obj">
+    <EntityList>
+        <Entity name="pet_2025月神鸟二级" file="pet_2025月神鸟二级.mesh" material="pet_2025月神鸟二级01;pet_2025月神鸟二级01半透" />
+        <Entity name="pet_2025月神二级" file="pet_2025月神二级.mesh" material="pet_2025月神二级01;pet_2025月神二级01半透" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神二级01_自身C" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神二级01_自身C" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神二级01_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神五级.obj">
+    <EntityList>
+        <Entity name="pet_2025月神五级" file="pet_2025月神五级.mesh" material="" />
+        <Entity name="pet_2025月神鸟五级" file="pet_2025月神鸟五级.mesh" material="" />
+        <Entity name="pet_2025月神五级特效片" file="pet_2025月神五级特效片.mesh" material="" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142197" y="12.988617" z="-21.948669" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739540" y="10.198273" z="-21.940399" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922302" y="8.890663" z="0.000008" qx="0.562817" qy="0.605370" qz="0.562818" qw="-2.052874" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神五级_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神五级_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神五级_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神五级01.obj">
+    <EntityList>
+        <Entity name="pet_2025月神五级" file="pet_2025月神五级.mesh" material="pet_2025月神五级01;pet_2025月神五级01半透" />
+        <Entity name="pet_2025月神鸟五级" file="pet_2025月神鸟五级.mesh" material="pet_2025月神鸟五级01;pet_2025月神鸟五级01半透" />
+        <Entity name="pet_2025月神五级特效片" file="pet_2025月神五级特效片.mesh" material="pet_2025月神五级特效片01" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142197" y="12.988617" z="-21.948669" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739540" y="10.198273" z="-21.940399" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922302" y="8.890663" z="0.000008" qx="0.562817" qy="0.605370" qz="0.562818" qw="-2.052874" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神五级01_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神五级01_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神五级01_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神五级02.obj">
+    <EntityList>
+        <Entity name="pet_2025月神五级" file="pet_2025月神五级.mesh" material="pet_2025月神五级02;pet_2025月神五级02半透" />
+        <Entity name="pet_2025月神鸟五级" file="pet_2025月神鸟五级.mesh" material="pet_2025月神鸟五级02;pet_2025月神鸟五级02半透" />
+        <Entity name="pet_2025月神五级特效片" file="pet_2025月神五级特效片.mesh" material="pet_2025月神五级特效片02" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142197" y="12.988617" z="-21.948669" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739540" y="10.198273" z="-21.940399" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922302" y="8.890663" z="0.000008" qx="0.562817" qy="0.605370" qz="0.562818" qw="-2.052874" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神五级02_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神五级02_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神五级02_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神四级.obj">
+    <EntityList>
+        <Entity name="pet_2025月神四级" file="pet_2025月神四级.mesh" material="" />
+        <Entity name="pet_2025月神鸟四级" file="pet_2025月神鸟四级.mesh" material="" />
+        <Entity name="pet_2025月神四级特效片" file="pet_2025月神四级特效片.mesh" material="" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神四级_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神四级_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神四级_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+<Object name="pet_2025月神四级01.obj">
+    <EntityList>
+        <Entity name="pet_2025月神四级" file="pet_2025月神四级.mesh" material="pet_2025月神四级01;pet_2025月神四级01半透" />
+        <Entity name="pet_2025月神鸟四级" file="pet_2025月神鸟四级.mesh" material="pet_2025月神鸟四级01;pet_2025月神鸟四级01半透" />
+        <Entity name="pet_2025月神四级特效片" file="pet_2025月神四级特效片.mesh" material="pet_2025月神四级特效片01" />
+    </EntityList>
+    <Locators count="16">
+        <Locator name="鸟特效点" bonename="Dummy01" x="-0.918518" y="1.156815" z="3.355133" qx="-1.000000" qy="-0.000000" qz="-0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="鸟特效点01" bonename="Dummy04" x="0.327820" y="1.156809" z="3.355133" qx="-1.000000" qy="0.000000" qz="0.000000" qw="-1.570796" translateFirst="true">
+            <Slot name="鸟特效点01" object="" attribs="" />
+        </Locator>
+        <Locator name="月亮特效点" bonename="Bone07" x="1.142242" y="12.988617" z="-21.948673" qx="0.000007" qy="-0.000007" qz="-1.000000" qw="-1.571130" translateFirst="true">
+            <Slot name="月亮特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="头顶状态点" bonename="Bone07" x="-108.739548" y="10.198273" z="-21.940392" qx="0.000006" qy="-0.000006" qz="-1.000000" qw="-1.571129" translateFirst="true">
+            <Slot name="头顶状态点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体受击点" bonename="Bip01_Spine1" x="4.922279" y="8.890667" z="-0.000008" qx="0.563262" qy="0.604542" qz="0.563263" qw="-2.054086" translateFirst="true">
+            <Slot name="身体受击点" object="" attribs="" />
+        </Locator>
+        <Locator name="身体中心点" bonename="Bip01" x="-0.075353" y="-0.000003" z="0.230820" qx="0.578271" qy="0.578272" qz="0.575503" qw="-4.186016" translateFirst="true">
+            <Slot name="身体中心点" object="" attribs="" />
+        </Locator>
+        <Locator name="悬浮物特效点" bonename="Bone96" x="4.600479" y="0.054733" z="-0.906334" qx="-0.000140" qy="-0.000139" qz="1.000000" qw="-1.570798" translateFirst="true">
+            <Slot name="悬浮物特效点" object="" attribs="" />
+        </Locator>
+        <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">
+            <Slot name="脚下光圈点" object="" attribs="" />
+        </Locator>
+    </Locators>
+    <Effects>
+        <Effect name="1" effect="cw_2025月神四级01_自身B" locator="鸟特效点" translateAll="true" />
+        <Effect name="2" effect="cw_2025月神四级01_自身B" locator="鸟特效点01" translateAll="true" />
+        <Effect name="3" effect="cw_2025月神四级01_自身A" locator="月亮特效点" translateAll="true" />
+    </Effects>
+    <Attributes>
+        <Attribute name="脚下光圈点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点" value="" hints="SlotCreate" />
+        <Attribute name="鸟特效点01" value="" hints="SlotCreate" />
+        <Attribute name="身体受击点" value="" hints="SlotCreate" />
+        <Attribute name="身体中心点" value="" hints="SlotCreate" />
+        <Attribute name="头顶状态点" value="" hints="SlotCreate" />
+        <Attribute name="悬浮物特效点" value="" hints="SlotCreate" />
+        <Attribute name="月亮特效点" value="" hints="SlotCreate" />
+        <Attribute name="Camera_Main" value="976" hints="" />
+        <Attribute name="BoundingBox" value="-89.009071 0.000000 -62.233368 89.009071 257.365265 62.233368" hints="" />
+    </Attributes>
+</Object>
+
+</AllObjects>

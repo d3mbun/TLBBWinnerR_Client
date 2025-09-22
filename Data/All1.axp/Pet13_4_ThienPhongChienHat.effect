@@ -1,0 +1,2080 @@
+////PET13_4_ThienPhongChienHat////
+
+effect cw_pet_2024ÉÏ¹ÅÐ«×Ó_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 150 -50
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÉÏ¹ÅÐ«×Ó_A½ÅÏÂ_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 -50
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÉÏ¹ÅÐ«×Ó_A½ÅÏÂ_5
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÉÏ¹ÅÐ«×Ó_BÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 30 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÉÏ¹ÅÐ«×Ó_BÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÉÏ¹ÅÐ«×Ó_BÎ²¼â_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó01_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 80 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_A½ÅÏÂ_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó01_BÑ©»¨
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_BÑ©»¨_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_BÑ©»¨_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó01_CÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_CÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_CÎ²¼â_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_CÎ²¼â_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó01_DÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	30 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó01_DÇ¯×Ó_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó02_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 80 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_A½ÅÏÂ_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó02_BÑ©»¨
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_BÑ©»¨_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_BÑ©»¨_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó02_CÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_CÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_CÎ²¼â_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_CÎ²¼â_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó02_DÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	30 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó02_DÇ¯×Ó_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 80 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 0
+		Orientation	0.996195 0.0871557 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_A½ÅÏÂ_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó_BÑ©»¨
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_BÑ©»¨_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_BÑ©»¨_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó_CÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_CÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_CÎ²¼â_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 -80
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_CÎ²¼â_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¼«µØÐ«×Ó_DÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	30 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¼«µØÐ«×Ó_DÇ¯×Ó_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó01_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 150 -50
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 150 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_A½ÅÏÂ_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó01_B·ÉïÚ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_B·ÉïÚ_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó01_CµÆÁý
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_CµÆÁý_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó01_DÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-20 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó01_DÇ¯×Ó_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 150 -30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 150 -30
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_A½ÅÏÂ_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó_B·ÉïÚ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_B·ÉïÚ_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó_CµÆÁý
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_CµÆÁý_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024é¾Ã®Ð«×Ó_DÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	-35 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024é¾Ã®Ð«×Ó_DÇ¯×Ó_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó01_AÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_AÇ¯×Ó_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_AÇ¯×Ó_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó01_B·ÉÓã
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_B·ÉÓã_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó01_CÓã¹³
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_CÓã¹³_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_CÓã¹³_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó01_DÉíÌå
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_DÉíÌå_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_DÉíÌå_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó01_DÉíÌå_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó_AÇ¯×Ó
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_AÇ¯×Ó_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_AÇ¯×Ó_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó_B·ÉÓã
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_B·ÉÓã_1
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó_CÓã¹³
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_CÓã¹³_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_CÓã¹³_2
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024ÂÌÖÞÐ«×Ó_DÉíÌå
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -20
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_DÉíÌå_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_DÉíÌå_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024ÂÌÖÞÐ«×Ó_DÉíÌå_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó01_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 -20
+		Orientation	0.999848 0.0174524 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_A½ÅÏÂ_4
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó01_BÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 20 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_BÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 30 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_BÎ²¼â_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 30 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_BÎ²¼â_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó01_C¸¡»¨
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_C¸¡»¨_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_C¸¡»¨_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_C¸¡»¨_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 20 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó01_C¸¡»¨_4
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó_A½ÅÏÂ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_A½ÅÏÂ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 130 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_A½ÅÏÂ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 50 -20
+		Orientation	0.999848 0.0174524 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_A½ÅÏÂ_5
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó_BÎ²¼â
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 20 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_BÎ²¼â_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 30 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_BÎ²¼â_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 30 -40
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_BÎ²¼â_3
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024¾£¼¬Ð«×Ó_C¸¡»¨
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_C¸¡»¨_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_C¸¡»¨_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_C¸¡»¨_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 20 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024¾£¼¬Ð«×Ó_C¸¡»¨_4
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_10
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_11
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_12
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷2
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_10
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_11
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_9
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_1
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 -200 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_3
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_6
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_7
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_8
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_9
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_10
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_12
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_13
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_14
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_15
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_17
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_18
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_ÀäÉ«_·¶Î§¹¥»÷_19
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_1
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 -200 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_3
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_6
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_7
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_8
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_9
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_10
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_12
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_13
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_14
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_16
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_17
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_18
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷2_·¶Î§¹¥»÷_19
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_10
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_11
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_12
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷_1
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷_3
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÀäÉ«_ÊÜ»÷_6
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_¹¥»÷_ÊÜ»÷
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÊÜ»÷_1
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÊÜ»÷_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÊÜ»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_¹¥»÷_ÊÜ»÷_8
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 -200 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_6
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_7
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_8
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_11
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_12
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_13
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_14
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_15
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«
+{
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 -200 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_3
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_4
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_5
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_6
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_8
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_9
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_10
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_11
+	}
+
+	element Particle
+	{
+		StartTime	0.2
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_12
+	}
+
+	LifeTime	1
+
+}
+
+effect cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 -20 100
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_12
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_ÀäÉ«_Ê¯¶Ñ_13
+	}
+
+	LifeTime	0
+
+}
+
+effect cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 40 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 -20 100
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_11
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_12
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_16
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_19
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_20
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_21
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_pet_2024Ð«×Ó_Ô¶³Ì¹¥»÷_Ê¯¶Ñ_22
+	}
+
+	LifeTime	0
+
+}

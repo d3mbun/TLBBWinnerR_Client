@@ -1,0 +1,2477 @@
+////PET13_9_LinhVuNguyetThan////
+
+material cw_2025月神_攻击1B01 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_光晕粒子01.dds
+}
+material cw_2025月神_攻击1B02 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> tga_B_ShineMap023_emis.dds
+}
+material cw_2025月神_攻击1B03 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_boss_白世镜_剑气.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神_攻击1B04 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击1B05 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_boss_裂海玄蜥_自身07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神_攻击1B06 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神_攻击1B07 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_明教高手tex05.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击1B08 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击1B09 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_烟花10.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 13.2485 13.2485
+					scroll_anim 0.2 0.2
+			}
+		}
+	}
+}
+material cw_2025月神_攻击1C01 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_erg_dilie01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击2A01 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_星空紫色2黑白.dds
+	set_texture_alias <scrollTex> jpg_z_烟花09.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			texture_unit
+			{
+					scroll 0.0058 0.9971
+					scroll_anim 0.5 0.5
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+					scroll_anim -0.3 -0.3
+			}
+		}
+	}
+}
+material W_face_2024银狼
+{
+    technique
+    {
+        pass
+        {
+            emissive 0.500000 0.500000 0.500000
+            alpha_rejection greater 128
+            texture_unit
+            {
+                texture tga_W_face_2024银狼.dds
+            }
+        }
+    }
+}
+material W_face_2024银狼半透 : Transparent/AlphaTemplate
+{
+technique
+	{		
+		pass
+		{
+		}
+		pass
+		{
+			emissive 0.5 0.5 0.5
+		}
+	}
+    set_texture_alias <baseTexture> tga_W_face_2024银狼.dds
+}
+material M_face_2024银狼
+{
+    technique
+    {
+        pass
+        {
+            emissive 0.500000 0.500000 0.500000
+            alpha_rejection greater 128
+            texture_unit
+            {
+                texture tga_M_face_2024银狼.dds
+            }
+        }
+    }
+}
+material M_face_2024银狼半透 : Transparent/AlphaTemplate
+{
+technique
+	{		
+		pass
+		{
+		}
+		pass
+		{
+			emissive 0.5 0.5 0.5
+		}
+	}
+    set_texture_alias <baseTexture> tga_M_face_2024银狼.dds
+}
+material cw_2025月神_攻击2A02 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_蒙版014.dds
+	set_texture_alias <scrollTex> jpg_z_烟花09.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 1 2
+					scroll 0 0.5
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+material cw_2025月神_攻击2A03 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_z_星辰枪星座02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击2A04 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow008.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_攻击2A05 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_蒙版014.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 2
+					scroll 0 0.5
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+material cw_2025月神_攻击2A07 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> tga_z_uv053.dds
+	set_texture_alias <scrollTex> jpg_z_menpaiboss08.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 2 1
+					scroll 0.9 0
+					scroll_anim -0.2 0
+			}
+		}
+	}
+}
+material cw_2025月神_攻击2B01 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_Ring_003.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神_攻击2B02 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_波纹.dds
+	set_texture_alias <scrollTex> jpg_蒙版011.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 3
+					scroll 0 0.75
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+material cw_2025月神_攻击2B03 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_erg_ring01.dds
+}
+material cw_2025月神_攻击2C_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_Ring_003.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神_攻击2C_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_特效_龙塔三层_龙云雾_烟雾3.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+material cw_2025月神_攻击2C_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神_攻击2C_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv_013.dds
+	set_texture_alias <scrollTex> png_202311极光_黑白.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 3
+					scroll 0 0.071
+					scroll_anim 0 -0.5
+			}
+			texture_unit scrollTex
+			{
+					scale 0.333 1
+			}
+		}
+	}
+}
+material cw_2025月神_攻击2C_5 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_effect510_0224.dds
+}
+material cw_2025月神_攻击2C_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神_远程攻击A_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_TL_daoguang_02.dds
+}
+material cw_2025月神_远程攻击A_3 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神_远程攻击A子粒子_1 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv075.dds
+	set_texture_alias <scrollTex> png_water_mask05.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			texture_unit
+			{
+					scale 0.5 2
+					scroll 0 2.78
+					scroll_anim 0 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神_远程攻击A子粒子_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_风012.dds
+	set_texture_alias <scrollTex> jpg_蒙版011.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1
+					scroll 0 4.13401
+					scroll_anim 0 2
+			}
+		}
+	}
+}
+material cw_2025月神_远程攻击A子粒子_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_wyg_特效mesh骑乘181207凤凰坐骑_座椅遮罩01.dds
+	set_texture_alias <scrollTex> jpg_m01_天山普通攻击_wyg修改12.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 0.5
+					scroll 6.43927 0
+					scroll_anim 2 0
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神_远程攻击A子粒子_5 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_z_uv024.dds
+	set_texture_alias <scrollTex> jpg_蒙版009.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 3.01001
+					scroll_anim 0 2
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神一级_自身A_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					rotate 0.5
+					scroll 23.1043 82.3209
+					scroll_anim 0 0.2
+			}
+		}
+	}
+}
+material cw_2025月神一级_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					rotate 0.5
+					scroll 23.1043 80.6695
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神一级_自身A_4 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神一级_自身A_6 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_特效时装宝石蝴蝶02.dds
+}
+material cw_2025月神一级_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_光晕03.dds
+}
+material cw_2025月神三级01_自身A_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_z_烟花10.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.333 0.333
+					scroll 0 93.5868
+					scroll_anim 0 0.3
+			}
+		}
+	}
+}
+material cw_2025月神三级01_自身A_3 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_202208二方连续04_alpha.dds
+	set_texture_alias <scrollTex> jpg_YF_pubu03_mb.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scroll 0 1.652
+					scroll_anim 0 0.4
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神三级01_自身A_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_light006.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.65 3.0553
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神三级01_自身A_5 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光3.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神三级01_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+material cw_2025月神三级_自身A_2 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> jpg_z_烟花10.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.333 0.333
+					scroll 0 93.3957
+					scroll_anim 0 0.3
+			}
+		}
+	}
+}
+material cw_2025月神三级_自身A_3 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_202208二方连续04_alpha.dds
+	set_texture_alias <scrollTex> jpg_YF_pubu03_mb.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+					scroll 0 1.652
+					scroll_anim 0 0.4
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神三级_自身A_6 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_light006.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.65 3.0553
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神三级_自身A_7 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光3.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神三级_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+material cw_2025月神二级01_自身A_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv068.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 23.1043 75.5264
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神二级01_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 20.1123 20.6023
+					scroll_anim 1 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神二级01_自身A_3 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> tga_竹叶_去色.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+material cw_2025月神二级01_自身A_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_星空紫色2.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					rotate 0.5
+					scroll 23.1043 72.9896
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神二级01_自身A_5 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_shuidi.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神二级01_自身C_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_光晕03.dds
+}
+material cw_2025月神二级_自身A01 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv068.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 23.1043 74.9602
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神二级_自身A02 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_烟花09.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 19.7017 20.1917
+					scroll_anim 1 1
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神二级_自身A03 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> tga_竹叶_去色.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+		}
+	}
+}
+material cw_2025月神二级_自身A05 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_星空紫色2.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					rotate 0.5
+					scroll 23.1043 72.5468
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神二级_自身A06 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_shuidi.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神二级_自身C01 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_光晕03.dds
+}
+material cw_2025月神五级01_自身A_1 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.229 2.229
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级01_自身A_10 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> tga_1129dc钻石星星.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级01_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_wind02.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 113.781
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神五级01_自身A_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级01_自身A_4 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 0.5
+					scroll 0.144601 0
+					scroll_anim -0.1 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+material cw_2025月神五级01_自身A_5 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 7.74135 7.35491
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级01_自身A_6 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_烟花04金色.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 14.4144 15.9711
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级01_自身A_8 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_yumao01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神五级01_自身A_9 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神五级01_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+material cw_2025月神五级02_自身A_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.229 2.229
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级02_自身A_10 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> tga_1129dc钻石星星.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级02_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_wind02.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 112.395
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神五级02_自身A_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级02_自身A_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 0.5
+					scroll 0.123801 0
+					scroll_anim -0.1 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+material cw_2025月神五级02_自身A_5 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 6.71525 6.89313
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级02_自身A_6 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_烟花04金色.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 13.1183 14.6613
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级02_自身A_8 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_yumao01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神五级02_自身A_9 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神五级02_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+material cw_2025月神五级_自身A_1 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.229 2.229
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级_自身A_10 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_erg_dot01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+material cw_2025月神五级_自身A_11 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> tga_1129dc钻石星星.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_wind02.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 112.536
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神五级_自身A_4 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神五级_自身A_5 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 0.5
+					scroll 0.123801 0
+					scroll_anim -0.1 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+material cw_2025月神五级_自身A_6 : Mtl_Particle_TwoTex
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 6.1267 6.88082
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级_自身A_7 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_烟花04金色.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 12.4697 14.5051
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神五级_自身A_9 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_yumao01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+		}
+	}
+}
+material cw_2025月神五级_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_flare.dds
+}
+material cw_2025月神四级01_自身A_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.229 2.229
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神四级01_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_wind02.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 117.154
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神四级01_自身A_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_烟花10.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.333 0.333
+					rotate 0.5
+					scroll 23.1043 88.9923
+					scroll_anim 0 0.1
+			}
+			texture_unit scrollTex
+			{
+					rotate 0.3
+			}
+		}
+	}
+}
+material cw_2025月神四级01_自身A_4 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神四级01_自身A_5 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 0.5
+					scroll 0.123801 0
+					scroll_anim -0.1 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+material cw_2025月神四级01_自身A_7 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> tga_星空紫色2黑白.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 9.21378 8.89291
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神四级01_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_光晕03.dds
+}
+material cw_2025月神四级_自身A_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_uv076.dds
+	set_texture_alias <scrollTex> jpg_蒙版018.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 2.229 2.229
+					scroll_anim 0.1 0.03
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神四级_自身A_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_wind02.dds
+	set_texture_alias <scrollTex> png_z_yueliang04.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 110.144
+					scroll_anim 0 0.1
+			}
+		}
+	}
+}
+material cw_2025月神四级_自身A_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_烟花10.dds
+	set_texture_alias <scrollTex> jpg_z_yueliang01.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.333 0.333
+					rotate 0.5
+					scroll 23.1043 86.9402
+					scroll_anim 0 0.1
+			}
+			texture_unit scrollTex
+			{
+					rotate 0.3
+			}
+		}
+	}
+}
+material cw_2025月神四级_自身A_5 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow007.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+material cw_2025月神四级_自身A_6 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_山水特效星幕纹理03.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 3 0.5
+					scroll 0.123801 0
+					scroll_anim -0.1 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+material cw_2025月神四级_自身A_8 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_YF_pubu1a.dds
+	set_texture_alias <scrollTex> png_z_glow010.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 2.69004 3.23263
+					scroll_anim 0.25 0.6
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material cw_2025月神四级_自身B_1 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_光晕03.dds
+}
+material pet_2025月神一级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神一级.dds 
+}
+material pet_2025月神一级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神一级.dds
+}
+material pet_2025月神三级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神三级.dds 
+}
+material pet_2025月神三级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神三级.dds
+}
+material pet_2025月神三级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神三级01.dds 
+}
+material pet_2025月神三级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神三级01.dds
+}
+material pet_2025月神三级特效片 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神三级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神三级特效片.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神三级特效片01 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神三级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神三级特效片01.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神二级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神二级.dds 
+}
+material pet_2025月神二级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神二级.dds
+}
+material pet_2025月神二级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神二级01.dds 
+}
+material pet_2025月神二级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神二级01.dds
+}
+material pet_2025月神五级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级.dds 
+}
+material pet_2025月神五级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级.dds
+}
+material pet_2025月神五级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级01.dds 
+}
+material pet_2025月神五级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级01.dds
+}
+material pet_2025月神五级02 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级02.dds 
+}
+material pet_2025月神五级02半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神五级02.dds
+}
+material pet_2025月神五级特效片 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神五级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神五级特效片.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神五级特效片01 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神五级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神五级特效片01.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神五级特效片02 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神五级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神五级特效片02.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神四级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神四级.dds 
+}
+material pet_2025月神四级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神四级.dds
+}
+material pet_2025月神四级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神四级01.dds 
+}
+material pet_2025月神四级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神四级01.dds
+}
+material pet_2025月神四级特效片 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神四级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神四级特效片.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend add
+			depth_write off
+			texture_unit scrollTex
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神四级特效片01 : Mtl_Model_TwoTex_Tex2_ColorX4
+
+{
+	set_texture_alias <baseTexture> jpg_pet_2025月神四级特效片蒙版.dds
+	set_texture_alias <scrollTex> png_pet_2025月神四级特效片01.dds
+	technique
+	{
+		pass
+		{
+		   emissive 0.500000 0.500000 0.500000
+                    fog_override true none
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			texture_unit scrollTex
+
+
+			{
+					scroll 0.47 0.0
+					scroll_anim 0.3 0
+			}
+			
+		}
+	}
+}
+material pet_2025月神翅膀五级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级.dds 
+}
+material pet_2025月神翅膀五级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级.dds
+}
+material pet_2025月神翅膀五级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级01.dds 
+}
+material pet_2025月神翅膀五级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级01.dds
+}
+material pet_2025月神翅膀五级02 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级02.dds 
+}
+material pet_2025月神翅膀五级02半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神翅膀五级02.dds
+}
+material pet_2025月神鸟一级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟一级.dds
+}
+material pet_2025月神鸟三级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟三级.dds 
+}
+material pet_2025月神鸟三级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟三级.dds
+}
+material pet_2025月神鸟三级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟三级01.dds 
+}
+material pet_2025月神鸟三级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟三级01.dds
+}
+material pet_2025月神鸟二级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟二级.dds 
+}
+material pet_2025月神鸟二级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟二级.dds
+}
+material pet_2025月神鸟二级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟二级01.dds 
+}
+material pet_2025月神鸟二级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟二级01.dds
+}
+material pet_2025月神鸟五级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级.dds 
+}
+material pet_2025月神鸟五级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级.dds
+}
+material pet_2025月神鸟五级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级01.dds 
+}
+material pet_2025月神鸟五级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级01.dds
+}
+material pet_2025月神鸟五级02 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级02.dds 
+}
+material pet_2025月神鸟五级02半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟五级02.dds
+}
+material pet_2025月神鸟四级 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟四级.dds 
+}
+material pet_2025月神鸟四级半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟四级.dds
+}
+material pet_2025月神鸟四级01 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟四级01.dds 
+}
+material pet_2025月神鸟四级01半透 : Mtl_Outline_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2025月神鸟四级01.dds
+}

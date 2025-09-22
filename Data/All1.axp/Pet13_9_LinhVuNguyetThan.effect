@@ -1,0 +1,1032 @@
+////PET13_9_LinhVuNguyetThan////
+
+effect cw_2025月神_攻击1B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B01
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B02
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B04
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B03
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B05
+	}
+
+	element Particle
+	{
+		StartTime	0.19
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B06
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B07
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B08
+	}
+
+	element Particle
+	{
+		StartTime	0.1
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1B09
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_攻击1C
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击1C01
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_攻击2A
+{
+	element Particle
+	{
+		StartTime	0.01
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2A01
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2A02
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2A03
+	}
+
+	element Particle
+	{
+		StartTime	0.3
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2A04
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2A05
+	}
+
+	element Particle
+	{
+		StartTime	0.3
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 -0.707107 0 0
+		ParticleSystem	cw_2025月神_攻击2A07
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_攻击2B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2B01
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2B02
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2B03
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_攻击2C
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_攻击2C_6
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_远程攻击A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_远程攻击A_1
+	}
+
+	element Particle
+	{
+		StartTime	0.3
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神_远程攻击A_3
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神_远程攻击A子粒子
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -700
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神_远程攻击A子粒子_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 -20 -1270
+		Orientation	0.7 0.7 0 0
+		ParticleSystem	cw_2025月神_远程攻击A子粒子_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -285
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神_远程攻击A子粒子_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 -1000
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神_远程攻击A子粒子_5
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神一级_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神一级_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神一级_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神一级_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	20 -20 100
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神一级_自身A_6
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神一级_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神一级_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神三级01_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级01_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	50 -50 0
+		Orientation	-1.94522e-007 -0.0436194 8.49301e-009 0.999048
+		ParticleSystem	cw_2025月神三级01_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神三级01_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级01_自身A_5
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神三级01_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级01_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神三级_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	50 -50 0
+		Orientation	-1.94522e-007 -0.0436194 8.49301e-009 0.999048
+		ParticleSystem	cw_2025月神三级_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神三级_自身A_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级_自身A_7
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神三级_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神三级_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神二级01_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身A_5
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神二级01_自身C
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级01_自身C_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神二级_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身A01
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身A02
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身A03
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身A05
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身A06
+	}
+
+	LifeTime	0
+}
+
+
+effect cw_2025月神二级_自身C
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神二级_自身C01
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神五级01_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	-0.5 -0.5 0.5 -0.5
+		ParticleSystem	cw_2025月神五级01_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级01_自身A_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级01_自身A_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身A_10
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神五级01_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级01_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神五级02_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	-0.5 -0.5 0.5 -0.5
+		ParticleSystem	cw_2025月神五级02_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级02_自身A_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级02_自身A_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_8
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身A_10
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神五级02_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级02_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神五级_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神五级_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	-0.5 -0.5 0.5 -0.5
+		ParticleSystem	cw_2025月神五级_自身A_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级_自身A_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神五级_自身A_7
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身A_9
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身A_10
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身A_11
+	}
+
+	LifeTime	0
+}
+
+effect cw_2025月神五级_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神五级_自身B_1
+	}
+
+	LifeTime	0
+}
+
+effect cw_2025月神四级01_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神四级01_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级01_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级01_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级01_自身A_4
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	-0.5 -0.5 0.5 -0.5
+		ParticleSystem	cw_2025月神四级01_自身A_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神四级01_自身A_7
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神四级01_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级01_自身B_1
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神四级_自身A
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	0.707107 0.707107 0 0
+		ParticleSystem	cw_2025月神四级_自身A_1
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级_自身A_2
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级_自身A_3
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级_自身A_5
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	-0.5 -0.5 0.5 -0.5
+		ParticleSystem	cw_2025月神四级_自身A_6
+	}
+
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	40 0 0
+		Orientation	0.707107 0 0 0.707107
+		ParticleSystem	cw_2025月神四级_自身A_8
+	}
+
+	LifeTime	0
+}
+effect cw_2025月神四级_自身B
+{
+	element Particle
+	{
+		StartTime	0
+		LifeTime	0
+		Position	0 0 0
+		Orientation	1 0 0 0
+		ParticleSystem	cw_2025月神四级_自身B_1
+	}
+
+	LifeTime	0
+}

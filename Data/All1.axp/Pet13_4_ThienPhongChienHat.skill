@@ -1,0 +1,200 @@
+////PET13_4_ThienPhongChienHat////
+
+skill cw_pet_2024蝎子_攻击
+{
+	Animation 攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.4
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击
+		OffsetPos 0 80 0
+		OffsetRotation 0.471356 -0.112104 0.86684 0.117655
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.366667
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击_受击
+		OffsetPos 30 80 200
+		OffsetRotation 0.780065 0.118087 0.240978 -0.565226
+		Attach true
+	}
+}
+
+skill cw_pet_2024蝎子_攻击2
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2
+		OffsetPos 80 90 40
+		OffsetRotation 0.198934 -0.0803468 0.955363 0.203099
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2
+		OffsetPos -80 90 40
+		OffsetRotation 0.153629 -0.959292 0.199101 0.128505
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.4
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2_范围攻击
+		OffsetPos 0 0 150
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+}
+
+skill cw_pet_2024蝎子_攻击2_冷色
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2_冷色
+		OffsetPos 80 90 40
+		OffsetRotation 0.198934 -0.0803468 0.955363 0.203099
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2_冷色
+		OffsetPos -80 90 40
+		OffsetRotation 0.153629 -0.959292 0.199101 0.128505
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.4
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击2_冷色_范围攻击
+		OffsetPos 0 0 150
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+}
+
+skill cw_pet_2024蝎子_攻击_冷色
+{
+	Animation 攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.4
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击_冷色
+		OffsetPos 0 80 0
+		OffsetRotation 0.471356 -0.112104 0.86684 0.117655
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.366667
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_攻击_冷色_受击
+		OffsetPos 30 80 200
+		OffsetRotation 0.780065 0.118087 0.240978 -0.565226
+		Attach true
+	}
+}
+
+skill cw_pet_2024蝎子_远程攻击
+{
+	Animation 远程攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.314286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击
+		OffsetPos 80 0 60
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.314286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击
+		OffsetPos -80 0 60
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.514286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击_石堆
+		OffsetPos 0 0 280
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+}
+
+skill cw_pet_2024蝎子_远程攻击_冷色
+{
+	Animation 远程攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.314286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击_冷色
+		OffsetPos 80 0 60
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.314286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击_冷色
+		OffsetPos -80 0 60
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+	AnimEffect
+	{
+		AttachTime 0.514286
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_pet_2024蝎子_远程攻击_冷色_石堆
+		OffsetPos 0 0 280
+		OffsetRotation 1 0 0 0
+		Attach true
+	}
+}
+

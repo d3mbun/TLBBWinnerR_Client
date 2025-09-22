@@ -1,0 +1,802 @@
+<AllObjects>
+<!--PET13_4_ThienPhongChienHat-->
+
+<Object name="pet_2024上古蝎子.obj">			
+  <EntityList>			
+    <Entity name="pet_2024上古蝎子" file="pet_2024上古蝎子.mesh" material="" />			
+  </EntityList>			
+  <Locators count="36">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古尾尖特效点01" bonename="Bone_Wei04" x="94.263489" y="80.425140" z="4.053242" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="上古尾尖特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古浮山特效点02" bonename="Bone_pubu02" x="11.577499" y="-3.501022" z="0.477966" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="上古浮山特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古浮山特效点03" bonename="Bone_pubu03" x="16.318802" y="-1.139893" z="1.186775" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="上古浮山特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古飞鸟特效点01" bonename="Bone_niao01" x="2.742462" y="0.044662" z="-0.467941" qx="-0.007836" qy="-0.007836" qz="0.999939" qw="-1.570857" translateFirst="true">			
+      <Slot name="上古飞鸟特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古浮山特效点04" bonename="Bone_pubu07" x="15.900429" y="0.085205" z="10.154945" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="上古浮山特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="上古浮山特效点01" bonename="Bone_pubu05" x="13.401474" y="0.000015" z="0.000000" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="上古浮山特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024上古蝎子_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024上古蝎子_B尾尖" locator="上古尾尖特效点01" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="上古飞鸟特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="上古浮山特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="上古浮山特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="上古浮山特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="上古浮山特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="上古尾尖特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024极地蝎子.obj">			
+  <EntityList>			
+    <Entity name="pet_2024极地蝎子" file="pet_2024极地蝎子.mesh" material="" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地尾尖特效点" bonename="Bone_Wei04" x="76.132660" y="104.060303" z="1.133406" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="极地尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点01" bonename="Bone_xuehua2" x="-0.000015" y="0.000015" z="0.000000" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点02" bonename="Bone_xuehua1" x="0.000000" y="0.000000" z="0.000015" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024极地蝎子_C尾尖" locator="极地尾尖特效点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024极地蝎子_B雪花" locator="极地雪花特效点01" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024极地蝎子_B雪花" locator="极地雪花特效点02" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024极地蝎子_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024极地蝎子_D钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="6" effect="cw_pet_2024极地蝎子_D钳子" locator="钳子特效点左" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="极地尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024极地蝎子01.obj">			
+  <EntityList>			
+    <Entity name="pet_2024极地蝎子" file="pet_2024极地蝎子.mesh" material="pet_2024极地蝎子01;pet_2024极地蝎子01半透" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地尾尖特效点" bonename="Bone_Wei04" x="76.132660" y="104.060303" z="1.133406" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="极地尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点01" bonename="Bone_xuehua2" x="-0.000015" y="0.000015" z="0.000000" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点02" bonename="Bone_xuehua1" x="0.000000" y="0.000000" z="0.000015" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024极地蝎子01_C尾尖" locator="极地尾尖特效点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024极地蝎子01_B雪花" locator="极地雪花特效点01" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024极地蝎子01_B雪花" locator="极地雪花特效点02" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024极地蝎子01_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024极地蝎子01_D钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="6" effect="cw_pet_2024极地蝎子01_D钳子" locator="钳子特效点左" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="极地尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024极地蝎子02.obj">			
+  <EntityList>			
+    <Entity name="pet_2024极地蝎子" file="pet_2024极地蝎子02.mesh" material="pet_2024极地蝎子02;pet_2024极地蝎子02半透" />			
+  </EntityList>			
+  <Locators count="34">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="15.064816" y="-100.339615" z="-0.000055" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="6.772186" y="2.288101" z="10.126732" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.048315" y="2.093433" z="-9.888947" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="25.630714" y="-36.357246" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="62.231602" y="-0.154503" z="0.075626" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="66.803154" y="-0.522362" z="0.188606" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="66.784119" y="0.481636" z="0.181175" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="62.173279" y="0.038864" z="0.084530" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="21.947655" y="-3.261086" z="0.000014" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="62.365429" y="0.127396" z="0.807190" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152087" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="62.392414" y="-0.178482" z="0.832466" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地尾尖特效点" bonename="Bone_Wei04" x="68.519394" y="93.654282" z="1.020067" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="极地尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点01" bonename="Bone_xuehua2" x="-0.000015" y="0.000015" z="0.000000" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="极地雪花特效点02" bonename="Bone_xuehua1" x="0.000000" y="0.000000" z="0.000014" qx="-0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="极地雪花特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="BackPoint" bonename="" x="50" y="0.000007" z="-250.415260" qx="-0.577350" qy="0.577350" qz="-0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="BackPoint" object="" attribs="" />			
+    </Locator>			
+    <Locator name="FrontPoint" bonename="" x="-50" y="0.000000" z="79.627083" qx="-0.577350" qy="0.577350" qz="-0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="FrontPoint" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024极地蝎子02_C尾尖" locator="极地尾尖特效点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024极地蝎子02_B雪花" locator="极地雪花特效点01" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024极地蝎子02_B雪花" locator="极地雪花特效点02" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024极地蝎子02_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024极地蝎子02_D钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="6" effect="cw_pet_2024极地蝎子02_D钳子" locator="钳子特效点左" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="BackPoint" value="" hints="SlotCreate" />			
+    <Attribute name="FrontPoint" value="" hints="SlotCreate" />			
+    <Attribute name="极地尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="极地雪花特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="MovementType" value="RotateX" hints="" />			
+    <Attribute name="BoundingBox" value="-202.500000 0.000000 -112.500000 202.500000 288.000000 112.500000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024榫卯蝎子.obj">			
+  <EntityList>			
+    <Entity name="pet_2024榫卯蝎子" file="pet_2024榫卯蝎子.mesh" material="" />			
+  </EntityList>			
+  <Locators count="32">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="13.390945" y="-89.190727" z="-0.000037" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="-36.149879" y="-10.478020" z="58.818207" qx="0.919252" qy="0.053520" qz="-0.390014" qw="-3.243443" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="-36.406631" y="-10.039299" z="-65.009529" qx="0.921889" qy="0.058009" qz="0.383087" qw="-3.062520" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="34.587315" y="-38.395710" z="-0.000006" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="55.317036" y="-0.137329" z="0.067234" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="59.380611" y="-0.464325" z="0.167671" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="59.363689" y="0.428131" z="0.161057" qx="-0.083254" qy="0.130592" qz="-0.987934" qw="-1.144867" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="55.265167" y="0.034546" z="0.075138" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104518" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="19.509033" y="-2.898724" z="0.000012" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="55.435925" y="0.113197" z="0.717522" qx="-0.197051" qy="0.327743" qz="-0.923989" qw="-1.152087" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="55.459938" y="-0.158653" z="0.739952" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="榫卯尾灯特效点" bonename="Bone_denglong04" x="11.680191" y="-0.988045" z="0.171143" qx="0.581659" qy="-0.562612" qz="-0.587486" qw="-2.088912" translateFirst="true">			
+      <Slot name="榫卯尾灯特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="榫卯尾尖特效点" bonename="Bone_Wei04" x="85.033867" y="73.440430" z="-1.057056" qx="0.694046" qy="0.230750" qz="0.681949" qw="-2.690276" translateFirst="true">			
+      <Slot name="榫卯尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞镖特效点02" bonename="Bone_wuqi01" x="0.226738" y="-0.000015" z="0.000000" qx="-0.577350" qy="0.577350" qz="0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="飞镖特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞镖特效点01" bonename="Bone_wuqi03" x="0.000008" y="0.000000" z="0.000000" qx="-0.577350" qy="0.577350" qz="0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="飞镖特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024榫卯蝎子_B飞镖" locator="飞镖特效点01" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024榫卯蝎子_B飞镖" locator="飞镖特效点02" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024榫卯蝎子_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024榫卯蝎子_D钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024榫卯蝎子_D钳子" locator="钳子特效点左" translateAll="true" />			
+    <Effect name="6" effect="cw_pet_2024榫卯蝎子_C灯笼" locator="榫卯尾灯特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="飞镖特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="飞镖特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="榫卯尾灯特效点" value="" hints="SlotCreate" />			
+    <Attribute name="榫卯尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-180.000000 0.000000 -100.000000 180.000000 256.000000 100.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024榫卯蝎子01.obj">			
+  <EntityList>			
+    <Entity name="pet_2024榫卯蝎子" file="pet_2024榫卯蝎子.mesh" material="pet_2024榫卯蝎子01" />			
+  </EntityList>			
+  <Locators count="32">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488434" z="-0.000046" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="-45.187351" y="-13.097530" z="73.522781" qx="0.919252" qy="0.053520" qz="-0.390014" qw="-3.243443" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="-45.508305" y="-12.549107" z="-81.261925" qx="0.921889" qy="0.058009" qz="0.383087" qw="-3.062520" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="43.234146" y="-47.994633" z="-0.000008" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146286" y="-0.171661" z="0.084045" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225754" y="-0.580399" z="0.209591" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204605" y="0.535172" z="0.201324" qx="-0.083254" qy="0.130592" qz="-0.987934" qw="-1.144867" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081451" y="0.043182" z="0.093924" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104518" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386284" y="-3.623402" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294907" y="0.141495" z="0.896927" qx="-0.197051" qy="0.327743" qz="-0.923989" qw="-1.152087" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324921" y="-0.198318" z="0.924950" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="榫卯尾灯特效点" bonename="Bone_denglong04" x="14.600250" y="-1.235054" z="0.213929" qx="0.581659" qy="-0.562612" qz="-0.587486" qw="-2.088912" translateFirst="true">			
+      <Slot name="榫卯尾灯特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="榫卯尾尖特效点" bonename="Bone_Wei04" x="106.292313" y="91.800507" z="-1.321320" qx="0.694046" qy="0.230750" qz="0.681949" qw="-2.690276" translateFirst="true">			
+      <Slot name="榫卯尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞镖特效点02" bonename="Bone_wuqi01" x="0.283424" y="-0.000031" z="0.000000" qx="-0.577350" qy="0.577350" qz="0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="飞镖特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞镖特效点01" bonename="Bone_wuqi03" x="0.000008" y="-0.000015" z="0.000000" qx="-0.577350" qy="0.577350" qz="0.577350" qw="-2.094395" translateFirst="true">			
+      <Slot name="飞镖特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024榫卯蝎子01_B飞镖" locator="飞镖特效点01" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024榫卯蝎子01_B飞镖" locator="飞镖特效点02" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024榫卯蝎子01_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024榫卯蝎子01_D钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024榫卯蝎子01_D钳子" locator="钳子特效点左" translateAll="true" />			
+    <Effect name="6" effect="cw_pet_2024榫卯蝎子01_C灯笼" locator="榫卯尾灯特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="飞镖特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="飞镖特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="榫卯尾灯特效点" value="" hints="SlotCreate" />			
+    <Attribute name="榫卯尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024绿洲蝎子.obj">			
+  <EntityList>			
+    <Entity name="pet_2024绿洲蝎子" file="pet_2024绿洲蝎子.mesh" material="" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="鱼钩特效点" bonename="Bone_YuGan06" x="9.251892" y="0.074356" z="-0.580231" qx="0.584489" qy="-0.562802" qz="-0.584488" qw="-2.116356" translateFirst="true">			
+      <Slot name="鱼钩特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="彩虹特效点" bonename="Bone_Caihong" x="6.030655" y="-0.117401" z="-0.000015" qx="-0.577352" qy="-0.577350" qz="0.577350" qw="-2.094393" translateFirst="true">			
+      <Slot name="彩虹特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞鱼特效点" bonename="Bone_Yu01" x="2.580856" y="-0.007797" z="0.366822" qx="0.000008" qy="-0.000009" qz="-1.000000" qw="-1.557978" translateFirst="true">			
+      <Slot name="飞鱼特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024绿洲蝎子_B飞鱼" locator="飞鱼特效点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024绿洲蝎子_A钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024绿洲蝎子_A钳子" locator="钳子特效点左" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024绿洲蝎子_D身体" locator="身体中心点" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024绿洲蝎子_C鱼钩" locator="鱼钩特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="彩虹特效点" value="" hints="SlotCreate" />			
+    <Attribute name="飞鱼特效点" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="鱼钩特效点" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024绿洲蝎子01.obj">			
+  <EntityList>			
+    <Entity name="pet_2024绿洲蝎子" file="pet_2024绿洲蝎子.mesh" material="pet_2024绿洲蝎子01;pet_2024绿洲蝎子01半透" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="鱼钩特效点" bonename="Bone_YuGan06" x="9.251892" y="0.074356" z="-0.580231" qx="0.584489" qy="-0.562802" qz="-0.584488" qw="-2.116356" translateFirst="true">			
+      <Slot name="鱼钩特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="彩虹特效点" bonename="Bone_Caihong" x="6.030655" y="-0.117401" z="-0.000015" qx="-0.577352" qy="-0.577350" qz="0.577350" qw="-2.094393" translateFirst="true">			
+      <Slot name="彩虹特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="飞鱼特效点" bonename="Bone_Yu01" x="2.580856" y="-0.007797" z="0.366822" qx="0.000008" qy="-0.000009" qz="-1.000000" qw="-1.557978" translateFirst="true">			
+      <Slot name="飞鱼特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024绿洲蝎子01_B飞鱼" locator="飞鱼特效点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024绿洲蝎子01_A钳子" locator="钳子特效点右" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024绿洲蝎子01_A钳子" locator="钳子特效点左" translateAll="true" />			
+    <Effect name="4" effect="cw_pet_2024绿洲蝎子01_D身体" locator="身体中心点" translateAll="true" />			
+    <Effect name="5" effect="cw_pet_2024绿洲蝎子01_C鱼钩" locator="鱼钩特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="彩虹特效点" value="" hints="SlotCreate" />			
+    <Attribute name="飞鱼特效点" value="" hints="SlotCreate" />			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="鱼钩特效点" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024荆棘蝎子.obj">			
+  <EntityList>			
+    <Entity name="pet_2024荆棘蝎子" file="pet_2024荆棘蝎子.mesh" material="" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘毒液特效点" bonename="Bone_duye02" x="-6.771027" y="-0.533638" z="-0.436691" qx="-0.590694" qy="0.549693" qz="0.590694" qw="-4.146807" translateFirst="true">			
+      <Slot name="荆棘毒液特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘尾尖特效点" bonename="Bone_Wei04" x="113.128220" y="87.854691" z="-4.902033" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="荆棘尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘浮花特效点" bonename="Bone_meiguihua1" x="13.085617" y="0.000015" z="0.000000" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="荆棘浮花特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024荆棘蝎子_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024荆棘蝎子_C浮花" locator="荆棘浮花特效点" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024荆棘蝎子_B尾尖" locator="荆棘尾尖特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘毒液特效点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘浮花特效点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+<Object name="pet_2024荆棘蝎子01.obj">			
+  <EntityList>			
+    <Entity name="pet_2024荆棘蝎子" file="pet_2024荆棘蝎子.mesh" material="pet_2024荆棘蝎子01;pet_2024荆棘蝎子01半透" />			
+  </EntityList>			
+  <Locators count="30">			
+    <Locator name="头顶状态点" bonename="Bip01_Head" x="16.738682" y="-111.488449" z="-0.000061" qx="0.707107" qy="0.000001" qz="0.707106" qw="-3.141592" translateFirst="true">			
+      <Slot name="头顶状态点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点左" bonename="Bip01_L_Hand" x="7.524643" y="2.542328" z="11.251915" qx="0.898755" qy="0.058698" qz="-0.434505" qw="-3.500478" translateFirst="true">			
+      <Slot name="钳子特效点左" object="" attribs="" />			
+    </Locator>			
+    <Locator name="钳子特效点右" bonename="Bip01_R_Hand" x="7.831463" y="2.326031" z="-10.987701" qx="0.901421" qy="0.027542" qz="0.432066" qw="-2.977939" translateFirst="true">			
+      <Slot name="钳子特效点右" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体受击点" bonename="Bip01_Spine1" x="28.478575" y="-40.396938" z="0.000000" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142157" translateFirst="true">			
+      <Slot name="身体受击点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点01" bonename="Bone16" x="69.146233" y="-0.171661" z="0.084032" qx="-0.036200" qy="0.022136" qz="-0.999099" qw="-2.039992" translateFirst="true">			
+      <Slot name="蝎爪特效点01" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点02" bonename="Bone13" x="74.225723" y="-0.580383" z="0.209564" qx="0.083754" qy="-0.053320" qz="-0.995059" qw="-2.012214" translateFirst="true">			
+      <Slot name="蝎爪特效点02" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点05" bonename="Bone10" x="74.204575" y="0.535156" z="0.201302" qx="-0.083254" qy="0.130591" qz="-0.987935" qw="-1.144866" translateFirst="true">			
+      <Slot name="蝎爪特效点05" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点06" bonename="Bone07" x="69.081406" y="0.043190" z="0.093925" qx="0.036438" qy="-0.058668" qz="-0.997612" qw="-1.104519" translateFirst="true">			
+      <Slot name="蝎爪特效点06" object="" attribs="" />			
+    </Locator>			
+    <Locator name="身体中心点" bonename="Bip01_Spine" x="24.386280" y="-3.623425" z="0.000015" qx="0.707107" qy="-0.000281" qz="0.707106" qw="-3.142156" translateFirst="true">			
+      <Slot name="身体中心点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点04" bonename="Bone04" x="69.294922" y="0.141541" z="0.896881" qx="-0.197050" qy="0.327743" qz="-0.923989" qw="-1.152086" translateFirst="true">			
+      <Slot name="蝎爪特效点04" object="" attribs="" />			
+    </Locator>			
+    <Locator name="蝎爪特效点03" bonename="Bone01" x="69.324905" y="-0.198318" z="0.924965" qx="0.206639" qy="-0.123986" qz="-0.970530" qw="-2.086658" translateFirst="true">			
+      <Slot name="蝎爪特效点03" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘毒液特效点" bonename="Bone_duye02" x="-6.771027" y="-0.533638" z="-0.436691" qx="-0.590694" qy="0.549693" qz="0.590694" qw="-4.146807" translateFirst="true">			
+      <Slot name="荆棘毒液特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘尾尖特效点" bonename="Bone_Wei04" x="113.128220" y="87.854691" z="-4.902033" qx="0.649957" qy="0.277541" qz="0.707479" qw="-2.795588" translateFirst="true">			
+      <Slot name="荆棘尾尖特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="荆棘浮花特效点" bonename="Bone_meiguihua1" x="13.085617" y="0.000015" z="0.000000" qx="0.000000" qy="-0.000000" qz="1.000000" qw="-1.570796" translateFirst="true">			
+      <Slot name="荆棘浮花特效点" object="" attribs="" />			
+    </Locator>			
+    <Locator name="脚下光圈点" bonename="" x="0.000000" y="0.000000" z="0.000000" qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000" translateFirst="true">			
+      <Slot name="脚下光圈点" object="" attribs="" />			
+    </Locator>			
+  </Locators>			
+  <Effects>			
+    <Effect name="1" effect="cw_pet_2024荆棘蝎子01_A脚下" locator="脚下光圈点" translateAll="true" />			
+    <Effect name="2" effect="cw_pet_2024荆棘蝎子01_C浮花" locator="荆棘浮花特效点" translateAll="true" />			
+    <Effect name="3" effect="cw_pet_2024荆棘蝎子01_B尾尖" locator="荆棘尾尖特效点" translateAll="true" />			
+  </Effects>			
+  <Attributes>			
+    <Attribute name="脚下光圈点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘毒液特效点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘浮花特效点" value="" hints="SlotCreate" />			
+    <Attribute name="荆棘尾尖特效点" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点右" value="" hints="SlotCreate" />			
+    <Attribute name="钳子特效点左" value="" hints="SlotCreate" />			
+    <Attribute name="身体受击点" value="" hints="SlotCreate" />			
+    <Attribute name="身体中心点" value="" hints="SlotCreate" />			
+    <Attribute name="头顶状态点" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点01" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点02" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点03" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点04" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点05" value="" hints="SlotCreate" />			
+    <Attribute name="蝎爪特效点06" value="" hints="SlotCreate" />			
+    <Attribute name="BoundingBox" value="-225.000000 0.000000 -125.000000 225.000000 320.000000 125.000000" hints="" />			
+  </Attributes>			
+</Object>			
+
+</AllObjects>

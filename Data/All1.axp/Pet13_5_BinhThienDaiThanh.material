@@ -1,0 +1,2626 @@
+////PET13_5_BinhThienDaiThanh////
+
+material pet_2024牛魔王一级 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王一级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王一级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王一级半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王一级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王一级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+
+material pet_2024牛魔王二级 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王二级半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+
+material pet_2024牛魔王三级 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+
+material pet_2024牛魔王三级半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+
+
+material pet_2024牛魔王四级 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王四级半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+
+material pet_2024牛魔王五级 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级边缘光.dds 
+}
+material pet_2024牛魔王五级半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级边缘光.dds 
+}
+
+material cw_2024牛魔王一级_A手甲_4 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王一级_A手甲_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.844
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王一级_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_1 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_menpaiboss04.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_HalfRing002.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_daoguang0001.dds
+	set_texture_alias <scrollTex> tga_z_mask001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_苦昼短蒙版04.dds
+	set_texture_alias <scrollTex> jpg_effect510_0036.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 2 1
+					scroll 0.99775 0
+					scroll_anim 0.25 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_5 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_daoguang0001.dds
+	set_texture_alias <scrollTex> bmp_远古棋魂专用03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_m01_天山普通攻击_wyg修改12.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_7 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃08.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+					scale -1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_8 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow003.dds
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2_9 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_daoguang_017.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_daoguang_07.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_2 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_m01_天山普通攻击_wyg修改08.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_20220627dc刀光cq.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_4 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_m01_天山普通攻击_wyg修改xx.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_5 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow001.dds
+	set_texture_alias <scrollTex> bmp_远古棋魂专用03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_6 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_苦昼短蒙版04.dds
+	set_texture_alias <scrollTex> png_effects_0024.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1.5 1
+					scroll 0.0546 0
+					scroll_anim -0.7 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_7 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow001.dds
+	set_texture_alias <scrollTex> bmp_远古棋魂专用03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_远程攻击_8 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_vip凤凰珍兽专用3.dds
+}
+
+
+material cw_2024牛魔王_远程攻击_9 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_水纹理高光02.dds
+	set_texture_alias <scrollTex> jpg_SkillLight_guangdian108.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.998 0.998
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv014.dds
+	set_texture_alias <scrollTex> png_z_mask002.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 0.064 0
+					scroll_anim -2 0
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击_3 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_uv_004.dds
+	set_texture_alias <scrollTex> jpg_z_menpaiboss08.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.0496 0.99865
+					scroll_anim -1.6 0
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+					scroll 0 0.01
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击_4 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_TL_Arrows_007.dds
+}
+
+
+material cw_2024牛魔王_攻击_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_tx_002副本.dds
+	set_texture_alias <scrollTex> png_刀光组合片内05.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit scrollTex
+			{
+					scroll 0 0.01
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击_8 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_扭曲cq2.dds
+	set_texture_alias <scrollTex> tga_z_mask001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0.0406 0
+					scroll_anim -0.2 0
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击_9 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_HalfRing002.dds
+}
+
+material pet_2024牛魔王二级武器 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王二级武器半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+
+material pet_2024牛魔王三级武器 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+
+
+material pet_2024牛魔王四级武器 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 0 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+
+
+material pet_2024牛魔王五级武器 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+material pet_2024牛魔王五级武器半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+
+
+
+material cw_2024牛魔王二级_A手甲_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级_A手甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.922
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级_B武器_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级01_A手甲_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级01_A手甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级01_B武器_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王二级01_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_D身体中心_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_光.dds
+}
+
+
+material cw_2024牛魔王三级_A手甲_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_A手甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_B武器_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208星光02.dds
+}
+
+
+material cw_2024牛魔王三级_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_D身体中心_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_光.dds
+}
+
+
+material cw_2024牛魔王三级01_A手甲_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_A手甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_B武器_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208星光02.dds
+}
+
+
+material cw_2024牛魔王三级01_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王三级01_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级_D身体中心_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_光.dds
+}
+
+
+material cw_2024牛魔王四级_C头饰_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_sequence-023.dds
+}
+
+
+material cw_2024牛魔王四级_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.922
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级_E尾巴_3 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_yanwu01.dds
+}
+
+
+material cw_2024牛魔王四级_B武器_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_sequence-023.dds
+}
+
+
+material cw_2024牛魔王四级_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级01_D身体中心_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_光.dds
+}
+
+
+material cw_2024牛魔王四级01_C头饰_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_eff_xulie_972修改.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级01_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级01_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级01_E尾巴_3 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_yanwu01.dds
+}
+
+
+material cw_2024牛魔王四级01_B武器_1 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_E_Glow_001.dds
+}
+
+
+material cw_2024牛魔王四级01_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王四级01_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_202209星光1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_G臂甲_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_程式丝状烟.dds
+	set_texture_alias <scrollTex> jpg_蒙版014.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 0 0.982
+					scroll_anim 0 0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_G臂甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208拖尾07.dds
+	set_texture_alias <scrollTex> jpg_蒙版001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 2
+					scroll 0 0.243
+					scroll_anim 0 -0.2
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_C头饰_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_C头饰_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_B武器_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow003.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_B武器_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_boss_通用变身放射.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_HJ_shandian_06dc去色.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_B武器_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv060.dds
+	set_texture_alias <scrollTex> jpg_SkillLight_guangdian108.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					scroll 0.0686 0.99865
+					scroll_anim -0.7 0
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+					scroll 0 0.01
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_H腰甲_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202210拖尾20.dds
+	set_texture_alias <scrollTex> jpg_z_menpaiboss10.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.938191
+					scroll_anim 0 -0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级02_H腰甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_圆形蒙版02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.0132
+					scroll_anim 0 -0.66
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_G臂甲_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_uv037_旋转去黑.dds
+	set_texture_alias <scrollTex> tga_z_mask008.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 2
+					scroll 0 0.982
+					scroll_anim 0 0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_G臂甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202208拖尾07.dds
+	set_texture_alias <scrollTex> jpg_蒙版001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 2
+					scroll 0 0.243
+					scroll_anim 0 -0.2
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_C头饰_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_C头饰_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_2023遮罩06.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one_minus_src_alpha
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.44
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_B武器_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow003.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_B武器_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_boss_通用变身放射.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_B武器_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv060.dds
+	set_texture_alias <scrollTex> jpg_SkillLight_guangdian108.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					scroll 0.0686 0.99865
+					scroll_anim -0.7 0
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+					scroll 0 0.01
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_B武器_4 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_HJ_shandian_06dc去色.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_H腰甲_1 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202210拖尾20.dds
+	set_texture_alias <scrollTex> jpg_z_menpaiboss10.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.0571998
+					scroll_anim 0 -0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级01_H腰甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_圆形蒙版02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.0132
+					scroll_anim 0 -0.66
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_G臂甲_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_程式丝状烟.dds
+	set_texture_alias <scrollTex> jpg_蒙版014.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 1
+					scroll 0 0.982
+					scroll_anim 0 0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_G臂甲_3 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> png_202208拖尾07.dds
+	set_texture_alias <scrollTex> jpg_蒙版001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 1 2
+					scroll 0 0.243
+					scroll_anim 0 -0.2
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_C头饰_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_C头饰_2 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_光点序列4X4.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_E尾巴_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_SkillLight_guangdian033_1.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_E尾巴_2 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_uv_001.dds
+	set_texture_alias <scrollTex> jpg_爆炸泡泡.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.75 1.5
+					scroll 0 0.813
+					scroll_anim 0 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_B武器_1 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_glow003.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_B武器_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_boss_通用变身放射.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one_minus_src_colour
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_B武器_3 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> png_HJ_shandian_06dc去色.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_B武器_5 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv060.dds
+	set_texture_alias <scrollTex> jpg_SkillLight_guangdian108.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 0.5 0.5
+					scroll 0.0686 0.99865
+					scroll_anim -0.7 0
+			}
+			texture_unit scrollTex
+			{
+				tex_address_mode clamp
+					scroll 0 0.01
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_H腰甲01 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> png_202210拖尾20.dds
+	set_texture_alias <scrollTex> jpg_z_menpaiboss10.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.315031
+					scroll_anim 0 -0.3
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王五级_H腰甲02 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_uv020.dds
+	set_texture_alias <scrollTex> jpg_圆形蒙版02.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scroll 0 0.0132
+					scroll_anim 0 -0.66
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级_1 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> tga_特效mesh珍兽牛魔王.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			depth_write off
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> tga_特效mesh珍兽牛魔王.dds
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			alpha_rejection greater 128
+
+			depth_write on
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_1 : Mtl_Particle_TwoTex_Tex2_ColorX2
+{
+	set_texture_alias <baseTexture> png_z_menpaiboss04.dds
+	set_texture_alias <scrollTex> jpg_baise.dds
+	technique
+	{
+		pass
+		{
+			scene_blend zero one_minus_src_colour
+			depth_write off
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_2 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_HalfRing002.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_3 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_z_daoguang0001.dds
+	set_texture_alias <scrollTex> tga_z_mask001.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_4 : Mtl_Particle_TwoTex_Tex1_ColorX4
+{
+	set_texture_alias <baseTexture> jpg_苦昼短蒙版04.dds
+	set_texture_alias <scrollTex> jpg_effect510_0036.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+					scale 2 1
+					scroll 0.99775 0
+					scroll_anim 0.25 0
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_5 : Mtl_Particle_TwoTex_Tex1_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_z_daoguang0001.dds
+	set_texture_alias <scrollTex> bmp_远古棋魂专用03.dds
+	technique
+	{
+		pass
+		{
+			scene_blend one one
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+			texture_unit scrollTex
+			{
+					scroll 1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_6 : Mtl_Particle_ColorX2
+{
+	set_texture_alias <baseTexture> jpg_m01_天山普通攻击_wyg修改12.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_7 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃08.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+					scale -1 1
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_8 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> jpg_z_glow003.dds
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_9 : Mtl_Particle
+{
+	set_texture_alias <baseTexture> png_daoguang_017.dds
+	technique
+	{
+		pass
+		{
+			scene_blend src_alpha one
+			cull_hardware none
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material cw_2024牛魔王_攻击2高级B_10 : Mtl_Particle_ColorX4
+{
+	set_texture_alias <baseTexture> png_z_从刃08.dds
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+					scale -1 1
+			}
+		}
+	}
+}
+
+
+material pet_2024牛魔王五级武器01 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+material pet_2024牛魔王五级武器01半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+material pet_2024牛魔王五级01 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级01边缘光.dds 
+}
+material pet_2024牛魔王五级01半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级01边缘光.dds 
+}
+material pet_2024牛魔王五级武器02 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+material pet_2024牛魔王五级武器02半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级武器02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级武器边缘光.dds 
+}
+
+material pet_2024牛魔王五级02 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 180
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级02边缘光.dds 
+}
+material pet_2024牛魔王五级02半透 : Mtl_OutlineCtrl_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.5000000   
+			fragment_program_ref Model_OutlineCtrl_FlowLight_PS
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+				param_named outlinePow float2 3.0 0.0
+				param_named outlineColor float4 1 1 1 1.5
+			}
+        	}
+    	}
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王五级02.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王五级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+        set_texture_alias <outlineCtrlTexture> tga_pet_2024牛魔王五级02边缘光.dds 
+}
+material pet_2024牛魔王四级01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王四级01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 0 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+material pet_2024牛魔王四级武器01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 1.0 0 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王四级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王四级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+material pet_2024牛魔王三级01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+
+material pet_2024牛魔王三级01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+material pet_2024牛魔王三级武器01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王三级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王三级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+material pet_2024牛魔王二级武器01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+
+material pet_2024牛魔王二级武器01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级武器01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级武器遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光中性.dds
+}
+material pet_2024牛魔王二级01 : Mtl_Character_FlowLight
+{
+	technique
+	{
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}
+
+material pet_2024牛魔王二级01半透 : Mtl_Char_FLTrans
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater 200
+		}
+		pass
+		{
+			emissive 0.500000 0.500000 0.500000   
+			fragment_program_ref Character_FlowLight_Transparent
+			{
+				param_named flowFactor float4 1.0 2.0 1 5
+			}
+        }
+    }
+	set_texture_alias <baseTexture> tga_pet_2024牛魔王二级01.dds
+	set_texture_alias <ctlTex> jpg_pet_2024牛魔王二级遮罩.dds 
+	set_texture_alias <_Reflection> jpg_pet_2024牛魔王流光暖.dds
+}

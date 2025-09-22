@@ -1,0 +1,98 @@
+////PET13_9_LinhVuNguyetThan////
+
+skill cw_2025月神_攻击1
+{
+	Animation 攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.3
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击1B
+		OffsetPos -143.931 124.917 -186.535
+		OffsetRotation 0.726616 0.683473 0.0416514 -0.0561997
+		Attach false
+	}
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击1B
+		OffsetPos 105.355 212.825 -294.248
+		OffsetRotation 0.679426 0.732718 -0.0311582 0.0230551
+		Attach false
+	}
+	AnimEffect
+	{
+		AttachTime 0
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击1C
+		OffsetPos -143.931 124.917 -186.535
+		OffsetRotation 0.726616 0.683473 0.0416514 -0.0561997
+		Attach false
+	}
+	AnimEffect
+	{
+		AttachTime 0.133333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击1C
+		OffsetPos 105.355 212.825 -294.248
+		OffsetRotation 0.679426 0.732718 -0.0311582 0.0230551
+		Attach false
+	}
+}
+skill cw_2025月神_攻击2
+{
+	Animation 攻击2
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.125
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击2A
+		OffsetPos 0 150 50
+		OffsetRotation 1 0 0 0
+		Attach false
+	}
+	AnimEffect
+	{
+		AttachTime 0.78125
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击2C
+		OffsetPos 0 150 410
+		OffsetRotation 1 0 0 0
+		Attach false
+	}
+	AnimEffect
+	{
+		AttachTime 0.15625
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_攻击2B
+		OffsetPos 0 150 130
+		OffsetRotation 1 0 0 0
+		Attach false
+	}
+}
+skill cw_2025月神_远程攻击
+{
+	Animation 远程攻击
+	BreakTime -1 
+	HitTime -1 
+	ShakeTime -1 
+	RepeatEffect false
+	AnimEffect
+	{
+		AttachTime 0.433333
+		AttachPoint 脚下光圈点
+		EffectTemplateName cw_2025月神_远程攻击A
+		OffsetPos 0 120 150
+		OffsetRotation 1 0 0 0
+		Attach false
+	}
+}
